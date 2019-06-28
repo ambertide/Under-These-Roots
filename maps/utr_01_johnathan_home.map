@@ -309,7 +309,7 @@
                         <Var Name="IsAffectedByDecal" Value="true" />
                     </UserVariables>
                 </Entity>
-                <Entity Active="true" FileIndex="9" Group="0" ID="137" Name="piano_1" Rotation="0 -0.523599 0" Scale="1 1 1" Tag="" WorldPos="4.25 0 -9.75">
+                <Entity Active="true" FileIndex="9" Group="0" ID="137" Name="piano_1" Rotation="0 -1.01328e-006 0" Scale="1 1 1" Tag="" WorldPos="5 0 -13.25">
                     <UserVariables>
                         <Var Name="CastShadows" Value="true" />
                         <Var Name="StaticPhysics" Value="false" />
@@ -1014,7 +1014,7 @@
                         <Var Name="UseNarration" Value="false" />
                     </UserVariables>
                 </Entity>
-                <Sound Active="true" Group="0" ID="305" MaxDistance="5" MinDistance="1" Name="Sound_1" Rotation="0 -0 0" Scale="1 1 1" SoundEntityFile="../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../sounds/07/07_amb_breath.snt" Tag="" UseDefault="true" Volume="1" WorldPos="-2.5 3.25 -0.75" />
+                <Sound Active="true" Group="0" ID="305" MaxDistance="5" MinDistance="1" Name="Sound_1" Rotation="0 -0 0" Scale="1 1 1" SoundEntityFile="../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../sounds/07/07_amb_breath.snt" Tag="" UseDefault="true" Volume="1" WorldPos="-2.5 3.25 -0.75" />
                 <Area Active="true" AreaType="PlayerStart" Group="0" ID="306" Mesh="" Name="PlayerStartArea_1" Rotation="0 1.5708 0" Scale="1 1 1" Tag="" WorldPos="-2.75 2 2">
                     <UserVariables />
                 </Area>
