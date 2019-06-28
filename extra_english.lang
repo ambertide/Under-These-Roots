@@ -1,0 +1,44 @@
+﻿<LANGUAGE>
+    <RESOURCES />
+    
+    <CATEGORY Name="CustomStoryMain">
+        <Entry Name="Description">It has been 10 years since Johnathan's childhood
+		friend mysteriously vanished, today, the village elders summon him, saying they have news.</Entry>
+    </CATEGORY>
+    
+    <CATEGORY Name="Journal">
+        <Entry Name="Note_L01_Will_Name">Letter of Will</Entry>
+        <Entry Name="Note_L01_Will_Text">Dear Mr. Murray, [br][br] I would like to inform you that, since you have entered the age of maturity, your family's estate,
+         now legeally belongs to you and only you. The state of your estate is not of the most pristine, however, it is our belief that, with proper care, it can be sold. [br]
+         You also need to come to London, as we need to discuss about the inheritence tax that will be levied on your estate, considering the worth of your estate, you should be
+         aware that the tax may be high. [br]
+         You family lawyer, [br]Henry Von Gerturd</Entry>
+         <Entry Name="Note_L01_LastNight_Name">Jonathan's Diary - Last Night (1/1)</Entry>
+         <Entry Name="Note_L01_LastNight_Text">[voice Diary_L01_LastNight_01.ogg][br]October 12th, 1884[br]Last night, I was a mess, I just looked at the letter of will that arrived recently and cried my eyes out, it has been nearly seven years since my family died, and the third anniversary of Isabel’s disappearance is just around the corner, I find myself thinking of her lately, my only friend…
+                                               [br][voice Diary_L01_LastNight_02.ogg][br]The letter was just too much, I don’t want to think about inheritence taxes and all such, I am already tired and sad enough as it is, now, I find myself thinking of darker thoughts than I am used to, things are just adding up to each other, one event after another.
+                                               [br][voice Diary_L01_LastNight_03.ogg][br]I just cried myself while drinking yesterday night, losing my aunt was hard enough, but all these stuff, I wrote my cousin in Dover, he thinks I should leave this town as soon as possible, he offered me a place to stay while mourning and also offered to help me with the inheritance as well.
+                                               [br][voice Diary_L01_LastNight_04.ogg][br]I will have to think about it, I should also probably put the damn house key to somewhere safe and not leave it on a pool of wine...
+        </Entry>
+        <Entry Name="Note_L01_OnOther_Name">Folk Stories of Barthmuth</Entry>
+        <Entry Name="Note_L01_OnOther_Text">Barthmuth is one of the oldest boroughs of England, it has existed since the 10th century and has been regarded as on of the centres of paranormal activity in Northern England, even before the arrival of the Saxon Kings, Barthmuth was well known for folk legends that remind us of the northern realms, and occassionally, legeneds that can't be traced backt o any origin with any other European mythos.[br]
+        For centuries, numerous kingdoms has sent expeditions to Barthmuth countryside to assess the legends and find if there is any truth to them, these gave rise to stories such as the Witch Children of Nythe and, of course, the story of the Other, an unknown monster said lurk in the shadows and dreams of the common folk, there are many stories about the other, but the biggest of which implies its origin from another world, outside of our knowledge.
+        It is said that the Other arrived on these lands from a continent far away, completely under snow, then, he affected the populace's mind with black magic and entered their dreams, he asked them to bring him their king, thus he could devour the Blood of the Gods in his veins, instead, the king's brother banished it from our realm, and sealed it away... [br] 
+        </Entry>
+        <Entry Name="Note_L01_EldersNote_Name">Letter From Village Elders</Entry>
+        <Entry Name="Note_L01_EldersNote_Text">Jonathan, please visit the Hall Building as soon as possible, we need to talk about  your missing friend Isabelle.</Entry>
+        <Entry Name="Quest_L01_Text">I need to get dressed</Entry>
+    </CATEGORY>
+    
+    <CATEGORY Name="Inventory">
+        <Entry Name="ItemName_MansionKey">Key to Murray Estate</Entry>
+        <Entry Name="ItemDesc_MansionKey">Key to the house of my childhood, my recently inherited estate.</Entry>
+    </CATEGORY>
+
+    <CATEGORY Name="Doors">
+        <Entry Name="L01Exit">I want to rest today, no reason to leave the house.</Entry>
+    </CATEGORY>
+
+    <CATEGORY Name="Messages">
+	<Entry Name="L01WakeUp">I should get dressed</Entry>
+    </CATEGORY>
+</LANGUAGE>

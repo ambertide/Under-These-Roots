@@ -1,0 +1,55 @@
+void KeyTaken(string &in asEntity, string &in type) {
+    if (type == "OnPickup") {
+        SetPlayerActive(false);
+        SetEntityActive("elders_letter", true);
+        StartPlayerLookAt("PlayerLookArea", 3.0f, 4.0f, "");
+        PlaySoundAtEntity("knock", "01_door_knock.ogg", "level_wood_1", 0.1f, false);
+        AddTimer("T2", 2.5f, "lookAtDoor");
+    }
+}
+
+void Dressed(string &in asEntity) {
+    PlaySoundAtEntity("zipper", "01_zipper", "Player", 0, false);
+    CompleteQuest("get_dressed", "L01");
+    FadeOut(0.5f);
+    AddTimer("T4", 0.5f, "getDressedComp");
+}
+
+void OnStart() {
+    PlayMusic("02_amb_safe.ogg", true, 0.5f, 0.9f, 1, false);
+    SetPlayerActive(false);
+    ShowPlayerCrossHairIcons(false);
+    FadeOut(0);
+    MovePlayerHeadPos(0.0f, -1.5f, 0.0f, 10.0f, 0.0f);
+    FadePlayerRollTo(-90.0f, 1000.0f, 1000.0f);
+    AddTimer("T1", 1.0f, "WakeUp");
+    SetEntityCallbackFunc("key_tower_1", "KeyTaken");
+    AddQuest("get_dressed", "L01");
+    SetEntityPlayerInteractCallback("cabinet_nice_1", "Dressed", true);
+}
+
+void WakeUp(string &in timer_name) {
+    if (timer_name == "T1") {
+        PlaySoundAtEntity("", "react_sigh.snt", "Player", 0, false);
+        FadeIn(3);
+        FadePlayerRollTo(0.0f, 100.0f, 250.0f);
+        MovePlayerHeadPos(0.0f, 0.0f, 0.0f, 1.0f, 0.3f);
+        SetPlayerActive(true);
+        ShowPlayerCrossHairIcons(true);
+        SetPlayerSanity(15);
+    }
+}
+
+void lookAtDoor(string &in timer_name) {
+    if (timer_name == "T2") {
+        StopPlayerLookAt();
+        SetPlayerActive(true);
+        SetLevelDoorLocked("level_wood_1", false);
+    }
+}
+
+void getDressedComp(string &in timer_name) {
+    if (timer_name == "T4") {
+        FadeIn(0.5f);
+    }
+}
