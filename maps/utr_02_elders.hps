@@ -1,0 +1,19 @@
+void OnStart()
+{
+    AddEntityCollideCallback("Player", "PlayerPassOut_1", "PlayerPass", true, 0);
+}
+
+void PlayerPass(string &in asParent, string &in asChild, int alState) {
+    FadeOut(1.0f);
+    AddTimer("FirstPass", 3.0f, "TimerDependant");
+}
+
+void TimerDependant(string &in asTimer) {
+    if (asTimer == "FirstPass") {
+        //Play lock opening and dragging sounds
+        TeleportPlayer("PlayerStartArea_2");
+        FadeIn(1.0f);
+    } else if (asTimer == "SecondPass") {
+        FadeOut(1.0f);
+    }
+}

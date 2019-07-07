@@ -5,7 +5,7 @@
             <Viewport CameraPosition="0 0 180" CameraTarget="0 0 0" CameraZoom="0" GridHeight="0" GridPlane="2" Preset="0" RenderMode="1" ShowAxes="true" ShowGrid="true" UsingLTCam="true" />
             <Viewport CameraPosition="180 0 0" CameraTarget="0 0 0" CameraZoom="0" GridHeight="0" GridPlane="0" Preset="1" RenderMode="1" ShowAxes="true" ShowGrid="true" UsingLTCam="true" />
             <Viewport CameraPosition="0 180 0" CameraTarget="0 0 0" CameraZoom="0" GridHeight="0" GridPlane="1" Preset="2" RenderMode="1" ShowAxes="true" ShowGrid="true" UsingLTCam="true" />
-            <Viewport CameraPosition="20.0937 14.6361 -55.7565" CameraTarget="13.8711 3.99999 -55.3359" CameraZoom="1.4" GridHeight="4" GridPlane="1" Preset="3" RenderMode="0" ShowAxes="true" ShowGrid="true" UsingLTCam="true" />
+            <Viewport CameraPosition="0.629198 10.026 -18.2881" CameraTarget="2.27231 4 -24.9529" CameraZoom="1.7" GridHeight="4" GridPlane="1" Preset="3" RenderMode="0" ShowAxes="true" ShowGrid="true" UsingLTCam="true" />
         </ViewportConfig>
         <Groups>
             <Group ID="0" Name="None" Visible="true" />
@@ -672,7 +672,7 @@
                         <Var Name="IsAffectedByDecal" Value="true" />
                     </UserVariables>
                 </Entity>
-                <Entity Active="true" FileIndex="10" Group="0" ID="398" Name="candle_floor_1" Rotation="0 -0 0" Scale="1 1 1" Tag="" WorldPos="48.3309 4 -28.3573">
+                <Entity Active="true" FileIndex="10" Group="0" ID="398" Name="candle_floor_1" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="48.3309 4 -28.3573">
                     <UserVariables>
                         <Var Name="CastShadows" Value="true" />
                         <Var Name="StaticPhysics" Value="false" />
@@ -692,7 +692,7 @@
                         <Var Name="ConnectionLightUseSpec" Value="false" />
                     </UserVariables>
                 </Entity>
-                <Entity Active="true" FileIndex="10" Group="0" ID="399" Name="candle_floor_2" Rotation="0 -0 0" Scale="1 1 1" Tag="" WorldPos="49.7623 4 -26.0896">
+                <Entity Active="true" FileIndex="10" Group="0" ID="399" Name="candle_floor_2" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="49.7623 4 -26.0896">
                     <UserVariables>
                         <Var Name="CastShadows" Value="true" />
                         <Var Name="StaticPhysics" Value="false" />
@@ -712,7 +712,7 @@
                         <Var Name="ConnectionLightUseSpec" Value="false" />
                     </UserVariables>
                 </Entity>
-                <Entity Active="true" FileIndex="10" Group="0" ID="400" Name="candle_floor_3" Rotation="0 -0 0" Scale="1 1 1" Tag="" WorldPos="47.5577 4 -26.7678">
+                <Entity Active="true" FileIndex="10" Group="0" ID="400" Name="candle_floor_3" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="47.5577 4 -26.7678">
                     <UserVariables>
                         <Var Name="CastShadows" Value="true" />
                         <Var Name="StaticPhysics" Value="false" />
@@ -732,7 +732,7 @@
                         <Var Name="ConnectionLightUseSpec" Value="false" />
                     </UserVariables>
                 </Entity>
-                <Entity Active="true" FileIndex="10" Group="0" ID="401" Name="candle_floor_4" Rotation="0 -0 0" Scale="1 1 1" Tag="" WorldPos="49.8265 4 -28.4823">
+                <Entity Active="true" FileIndex="10" Group="0" ID="401" Name="candle_floor_4" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="49.8265 4 -28.4823">
                     <UserVariables>
                         <Var Name="CastShadows" Value="true" />
                         <Var Name="StaticPhysics" Value="false" />
@@ -752,7 +752,7 @@
                         <Var Name="ConnectionLightUseSpec" Value="false" />
                     </UserVariables>
                 </Entity>
-                <Entity Active="true" FileIndex="8" Group="0" ID="424" Name="candlestick_floor_1" Rotation="0 -0 0" Scale="1 1 1" Tag="" WorldPos="46.9306 4 -19.6627">
+                <Entity Active="true" FileIndex="8" Group="0" ID="424" Name="candlestick_floor_1" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="46.9306 4 -19.6627">
                     <UserVariables>
                         <Var Name="CastShadows" Value="true" />
                         <Var Name="StaticPhysics" Value="false" />
@@ -772,7 +772,7 @@
                         <Var Name="ConnectionLightUseSpec" Value="false" />
                     </UserVariables>
                 </Entity>
-                <Entity Active="true" FileIndex="8" Group="0" ID="425" Name="candlestick_floor_2" Rotation="0 -0 0" Scale="1 1 1" Tag="" WorldPos="43.87 4 -15.6048">
+                <Entity Active="true" FileIndex="8" Group="0" ID="425" Name="candlestick_floor_2" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="43.87 4 -15.6048">
                     <UserVariables>
                         <Var Name="CastShadows" Value="true" />
                         <Var Name="StaticPhysics" Value="false" />
@@ -792,7 +792,7 @@
                         <Var Name="ConnectionLightUseSpec" Value="false" />
                     </UserVariables>
                 </Entity>
-                <Entity Active="true" FileIndex="8" Group="0" ID="426" Name="candlestick_floor_3" Rotation="0 -0 0" Scale="1 1 1" Tag="" WorldPos="43.9164 4 -23.5708">
+                <Entity Active="true" FileIndex="8" Group="0" ID="426" Name="candlestick_floor_3" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="43.9164 4 -23.5708">
                     <UserVariables>
                         <Var Name="CastShadows" Value="true" />
                         <Var Name="StaticPhysics" Value="false" />
@@ -909,11 +909,11 @@
                         <Var Name="ConnectionLightUseSpec" Value="false" />
                     </UserVariables>
                 </Entity>
-                <Area Active="true" AreaType="PlayerStart" Group="0" ID="436" Mesh="" Name="PlayerStartArea_2" Rotation="0 -0 0" Scale="1 1 1" Tag="" WorldPos="9.75 5.25 -52">
+                <Area Active="true" AreaType="PlayerStart" Group="0" ID="436" Mesh="" Name="PlayerStartArea_2" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="35.75 4.75 -27.5">
                     <UserVariables />
                 </Area>
                 <FogArea Active="true" Color="1 1 1 1" End="10" FalloffExp="1" Group="0" ID="457" Name="FogArea_1" Rotation="0 0 0" Scale="1 9.25 7.75" ShownBacksideWhenInside="true" ShownBacksideWhenOutside="false" Start="0" Tag="" WorldPos="20.5 6.25 -27.75" />
-                <Area Active="true" AreaType="Script" Group="0" ID="458" Mesh="" Name="PlayerPassOut2" Rotation="0 -0 0" Scale="0.75 6 4" Tag="" WorldPos="46.375 7 -27">
+                <Area Active="true" AreaType="Script" Group="0" ID="458" Mesh="" Name="PlayerPassOut2" Rotation="0 0 0" Scale="0.75 6 4" Tag="" WorldPos="46.375 7 -27">
                     <UserVariables>
                         <Var Name="PlayerLookAtCallback" Value="" />
                         <Var Name="PlayerLookAtCallbackAutoRemove" Value="true" />
@@ -1103,6 +1103,9 @@
                     </UserVariables>
                 </Entity>
                 <BoxLight Active="true" BlendFunc="0" CastShadows="false" DiffuseColor="1 1 1 1" FalloffMap="" FlickerActive="false" FlickerFade="false" FlickerOffColor="0 0 0 1" FlickerOffFadeMaxLength="0" FlickerOffFadeMinLength="0" FlickerOffMaxLength="0" FlickerOffMinLength="0" FlickerOffPS="" FlickerOffRadius="0" FlickerOffSound="" FlickerOnFadeMaxLength="0" FlickerOnFadeMinLength="0" FlickerOnMaxLength="0" FlickerOnMinLength="0" FlickerOnPS="" FlickerOnSound="" Gobo="" GoboAnimFrameTime="0" GoboAnimMode="None" Group="0" ID="548" Name="BoxLight_3" Radius="1" Rotation="0 -0 0" Scale="55.25 16.25 38.5" ShadowResolution="High" ShadowsAffectDynamic="true" ShadowsAffectStatic="true" Size="55.25 16.25 38.5" Tag="" WorldPos="26.25 4 -59.75" />
+                <Area Active="true" AreaType="PlayerStart" Group="0" ID="549" Mesh="" Name="PlayerStartArea_3" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="10.5 5.25 -56.5">
+                    <UserVariables />
+                </Area>
             </Entities>
             <Misc />
             <StaticObjectCombos />
