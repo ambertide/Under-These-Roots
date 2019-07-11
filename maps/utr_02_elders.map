@@ -5,7 +5,7 @@
             <Viewport CameraPosition="0 0 180" CameraTarget="0 0 0" CameraZoom="0" GridHeight="0" GridPlane="2" Preset="0" RenderMode="1" ShowAxes="true" ShowGrid="true" UsingLTCam="true" />
             <Viewport CameraPosition="180 0 0" CameraTarget="0 0 0" CameraZoom="0" GridHeight="0" GridPlane="0" Preset="1" RenderMode="1" ShowAxes="true" ShowGrid="true" UsingLTCam="true" />
             <Viewport CameraPosition="0 180 0" CameraTarget="0 0 0" CameraZoom="0" GridHeight="0" GridPlane="1" Preset="2" RenderMode="1" ShowAxes="true" ShowGrid="true" UsingLTCam="true" />
-            <Viewport CameraPosition="0.629198 10.026 -18.2881" CameraTarget="2.27231 4 -24.9529" CameraZoom="1.7" GridHeight="4" GridPlane="1" Preset="3" RenderMode="0" ShowAxes="true" ShowGrid="true" UsingLTCam="true" />
+            <Viewport CameraPosition="32.163 11.6114 -27.6116" CameraTarget="34.4663 4 -29.8633" CameraZoom="1.80001" GridHeight="4" GridPlane="1" Preset="3" RenderMode="0" ShowAxes="true" ShowGrid="true" UsingLTCam="true" />
         </ViewportConfig>
         <Groups>
             <Group ID="0" Name="None" Visible="true" />
@@ -909,7 +909,7 @@
                         <Var Name="ConnectionLightUseSpec" Value="false" />
                     </UserVariables>
                 </Entity>
-                <Area Active="true" AreaType="PlayerStart" Group="0" ID="436" Mesh="" Name="PlayerStartArea_2" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="35.75 4.75 -27.5">
+                <Area Active="true" AreaType="PlayerStart" Group="0" ID="436" Mesh="" Name="PlayerStartArea_2" Rotation="0 -1.5708 0" Scale="1 1 1" Tag="" WorldPos="35.75 4.75 -27.5">
                     <UserVariables />
                 </Area>
                 <FogArea Active="true" Color="1 1 1 1" End="10" FalloffExp="1" Group="0" ID="457" Name="FogArea_1" Rotation="0 0 0" Scale="1 9.25 7.75" ShownBacksideWhenInside="true" ShownBacksideWhenOutside="false" Start="0" Tag="" WorldPos="20.5 6.25 -27.75" />

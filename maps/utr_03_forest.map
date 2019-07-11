@@ -1,11 +1,11 @@
 <Level>
     <EditorSession>
         <Performance CamClipPlanes="0.05 1000" LightsActive="true" PSActive="true" ShowFog="true" ShowSkybox="true" WorldReflection="true" />
-        <ViewportConfig BGColor="0.2 0.2 0.2 1" GAmbientLight="true" GPointLight="true" GridSnap="true" GridSnapSeparation="0.25" SelectedViewport="3" UsingEnlargedViewport="true">
+        <ViewportConfig BGColor="0.2 0.2 0.2 1" GAmbientLight="false" GPointLight="false" GridSnap="true" GridSnapSeparation="0.25" SelectedViewport="3" UsingEnlargedViewport="true">
             <Viewport CameraPosition="0 0 180" CameraTarget="0 0 0" CameraZoom="0" GridHeight="0" GridPlane="2" Preset="0" RenderMode="1" ShowAxes="true" ShowGrid="true" UsingLTCam="true" />
             <Viewport CameraPosition="180 0 0" CameraTarget="0 0 0" CameraZoom="0" GridHeight="0" GridPlane="0" Preset="1" RenderMode="1" ShowAxes="true" ShowGrid="true" UsingLTCam="true" />
             <Viewport CameraPosition="0 180 0" CameraTarget="0 0 0" CameraZoom="0" GridHeight="0" GridPlane="1" Preset="2" RenderMode="1" ShowAxes="true" ShowGrid="true" UsingLTCam="true" />
-            <Viewport CameraPosition="-25.9777 44.5712 12.4619" CameraTarget="-15.9266 6.92393e-008 -7.84528" CameraZoom="0" GridHeight="0" GridPlane="1" Preset="3" RenderMode="0" ShowAxes="true" ShowGrid="true" UsingLTCam="true" />
+            <Viewport CameraPosition="-8.31849 32.3216 4.40345" CameraTarget="5.56952 1.28522e-005 -7.19287" CameraZoom="0.299998" GridHeight="0" GridPlane="1" Preset="3" RenderMode="0" ShowAxes="true" ShowGrid="true" UsingLTCam="true" />
         </ViewportConfig>
         <Groups>
             <Group ID="0" Name="None" Visible="true" />
@@ -13,102 +13,109 @@
     </EditorSession>
     <MapData FogActive="false" FogColor="1 1 1 1" FogCulling="true" FogEnd="20" FogFalloffExp="1" FogStart="0" GlobalDecalMaxTris="300" Name="" SkyBoxActive="false" SkyBoxColor="1 1 1 1" SkyBoxTexture="../../../../../../">
         <MapContents>
-            <FileIndex_StaticObjects NumOfFiles="1">
+            <FileIndex_StaticObjects NumOfFiles="4">
                 <File Id="0" Path="static_objects/outside/tree/pine.dae" />
+                <File Id="1" Path="static_objects/outside/foliage/grass02_brown.dae" />
+                <File Id="2" Path="static_objects/outside/foliage/zimmarman_grass02_brown_2sided.dae" />
+                <File Id="3" Path="static_objects/outside/house/zimmarman_fence.dae" />
             </FileIndex_StaticObjects>
-            <FileIndex_Entities NumOfFiles="1">
+            <FileIndex_Entities NumOfFiles="5">
                 <File Id="0" Path="entities/door/hatch_ceiling/hatch_ceiling.ent" />
+                <File Id="1" Path="entities/lamp/candle_floor/candle_floor_small.ent" />
+                <File Id="2" Path="entities/ornament/tombstone01/tombstone01.ent" />
+                <File Id="3" Path="entities/ornament/tombstone02/tombstone02.ent" />
+                <File Id="4" Path="entities/ornament/tombstone03/tombstone03.ent" />
             </FileIndex_Entities>
             <FileIndex_Decals NumOfFiles="0" />
             <StaticObjects>
-                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="73" Name="tree_pine_18" Rotation="0 -0 0" Scale="1 1 1" Tag="" WorldPos="15.75 0 -10" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="75" Name="tree_pine_20" Rotation="0 -0 0" Scale="1 1 1" Tag="" WorldPos="12.25 0 -11.5" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="76" Name="tree_pine_21" Rotation="0 -0 0" Scale="1 1 1" Tag="" WorldPos="15 0 -12" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="77" Name="tree_pine_22" Rotation="0 -0 0" Scale="1 1 1" Tag="" WorldPos="13.75 0 -12.25" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="78" Name="tree_pine_23" Rotation="0 -0 0" Scale="1 1 1" Tag="" WorldPos="10.5 0 -12.25" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="73" Name="tree_pine_18" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="15.75 0 -10" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="75" Name="tree_pine_20" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="12.25 0 -11.5" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="76" Name="tree_pine_21" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="15 0 -12" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="77" Name="tree_pine_22" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="13.75 0 -12.25" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="78" Name="tree_pine_23" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="10.5 0 -12.25" />
                 <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="79" Name="tree_pine_24" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="10 0 -12.25" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="80" Name="tree_pine_25" Rotation="0 -0 0" Scale="1 1 1" Tag="" WorldPos="8 0 -12" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="81" Name="tree_pine_26" Rotation="0 -0 0" Scale="1 1 1" Tag="" WorldPos="7 0 -11.25" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="82" Name="tree_pine_27" Rotation="0 -0 0" Scale="1 1 1" Tag="" WorldPos="6.75 0 -11.25" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="80" Name="tree_pine_25" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="8 0 -12" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="81" Name="tree_pine_26" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="7 0 -11.25" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="82" Name="tree_pine_27" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="6.75 0 -11.25" />
                 <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="83" Name="tree_pine_28" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="5.25 0 -11.5" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="84" Name="tree_pine_29" Rotation="0 -0 0" Scale="1 1 1" Tag="" WorldPos="5.25 0 -11.75" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="85" Name="tree_pine_30" Rotation="0 -0 0" Scale="1 1 1" Tag="" WorldPos="5.5 0 -11.75" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="86" Name="tree_pine_31" Rotation="0 -0 0" Scale="1 1 1" Tag="" WorldPos="-6.5 0 -11.5" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="87" Name="tree_pine_32" Rotation="0 -0 0" Scale="1 1 1" Tag="" WorldPos="-7.5 0 -11.5" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="88" Name="tree_pine_33" Rotation="0 -0 0" Scale="1 1 1" Tag="" WorldPos="-8.75 0 -11.5" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="84" Name="tree_pine_29" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="5.25 0 -11.75" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="85" Name="tree_pine_30" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="5.5 0 -11.75" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="86" Name="tree_pine_31" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="-6.5 0 -11.5" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="87" Name="tree_pine_32" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="-7.5 0 -11.5" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="88" Name="tree_pine_33" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="-8.75 0 -11.5" />
                 <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="89" Name="tree_pine_34" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="-10.5 0 -11.25" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="90" Name="tree_pine_35" Rotation="0 -0 0" Scale="1 1 1" Tag="" WorldPos="-13.25 0 -11" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="90" Name="tree_pine_35" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="-13.25 0 -11" />
                 <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="91" Name="tree_pine_36" Rotation="0 -0 0" Scale="1 1 1" Tag="" WorldPos="-13.25 0 -11" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="92" Name="tree_pine_37" Rotation="0 -0 0" Scale="1 1 1" Tag="" WorldPos="-13.75 0 -10.75" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="93" Name="tree_pine_38" Rotation="0 -0 0" Scale="1 1 1" Tag="" WorldPos="-13.75 0 -9.25" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="92" Name="tree_pine_37" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="-13.75 0 -10.75" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="93" Name="tree_pine_38" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="-13.75 0 -9.25" />
                 <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="94" Name="tree_pine_39" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="-13.5 0 -8" />
                 <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="95" Name="tree_pine_40" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="-13.75 0 -6.5" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="96" Name="tree_pine_41" Rotation="0 -0 0" Scale="1 1 1" Tag="" WorldPos="-13.75 0 -5.75" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="96" Name="tree_pine_41" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="-13.75 0 -5.75" />
                 <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="97" Name="tree_pine_42" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="-13.75 0 -4" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="98" Name="tree_pine_43" Rotation="0 -0 0" Scale="1 1 1" Tag="" WorldPos="-13.75 0 -2.75" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="99" Name="tree_pine_44" Rotation="0 -0 0" Scale="1 1 1" Tag="" WorldPos="-11.5 0 -13.5" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="98" Name="tree_pine_43" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="-13.75 0 -2.75" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="99" Name="tree_pine_44" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="-11.5 0 -13.5" />
                 <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="100" Name="tree_pine_45" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="-9 0 -10.25" />
                 <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="101" Name="tree_pine_46" Rotation="0 -0 0" Scale="1 1 1" Tag="" WorldPos="-9 0 -12" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="102" Name="tree_pine_47" Rotation="0 -0 0" Scale="1 1 1" Tag="" WorldPos="-6.5 0 -12.5" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="102" Name="tree_pine_47" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="-6.5 0 -12.5" />
                 <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="103" Name="tree_pine_48" Rotation="0 -0 0" Scale="1 1 1" Tag="" WorldPos="-5 0 -13.5" />
                 <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="104" Name="tree_pine_49" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="-4.75 0 -13.75" />
                 <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="105" Name="tree_pine_50" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="-4.5 0 -15.75" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="106" Name="tree_pine_51" Rotation="0 -0 0" Scale="1 1 1" Tag="" WorldPos="-3.5 0 -17.25" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="106" Name="tree_pine_51" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="-3.5 0 -17.25" />
                 <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="107" Name="tree_pine_52" Rotation="0 -0 0" Scale="1 1 1" Tag="" WorldPos="-3 0 -17.75" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="108" Name="tree_pine_53" Rotation="0 -0 0" Scale="1 1 1" Tag="" WorldPos="-2.25 0 -19" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="108" Name="tree_pine_53" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="-2.25 0 -19" />
                 <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="109" Name="tree_pine_54" Rotation="0 -0 0" Scale="1 1 1" Tag="" WorldPos="6 0 -12.25" />
                 <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="110" Name="tree_pine_55" Rotation="0 -0 0" Scale="1 1 1" Tag="" WorldPos="6.75 0 -12.5" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="111" Name="tree_pine_56" Rotation="0 -0 0" Scale="1 1 1" Tag="" WorldPos="7.75 0 -13.75" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="112" Name="tree_pine_57" Rotation="0 -0 0" Scale="1 1 1" Tag="" WorldPos="9.25 0 -15" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="113" Name="tree_pine_58" Rotation="0 -0 0" Scale="1 1 1" Tag="" WorldPos="10.25 0 -15.75" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="111" Name="tree_pine_56" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="7.75 0 -13.75" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="112" Name="tree_pine_57" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="9.25 0 -15" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="113" Name="tree_pine_58" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="10.25 0 -15.75" />
                 <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="114" Name="tree_pine_59" Rotation="0 -0 0" Scale="1 1 1" Tag="" WorldPos="11.5 0 -16.75" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="115" Name="tree_pine_60" Rotation="0 -0 0" Scale="1 1 1" Tag="" WorldPos="13.5 0 -17.75" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="116" Name="tree_pine_61" Rotation="0 -0 0" Scale="1 1 1" Tag="" WorldPos="14.75 0 -18.5" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="117" Name="tree_pine_62" Rotation="0 -0 0" Scale="1 1 1" Tag="" WorldPos="15 0 -18.5" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="118" Name="tree_pine_63" Rotation="0 -0 0" Scale="1 1 1" Tag="" WorldPos="-4.25 0 -18.25" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="119" Name="tree_pine_64" Rotation="0 -0 0" Scale="1 1 1" Tag="" WorldPos="-2.25 0 -19.75" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="120" Name="tree_pine_65" Rotation="0 -0 0" Scale="1 1 1" Tag="" WorldPos="-1 0 -20.25" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="121" Name="tree_pine_66" Rotation="0 -0 0" Scale="1 1 1" Tag="" WorldPos="0.75 0 -22" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="122" Name="tree_pine_67" Rotation="0 -0 0" Scale="1 1 1" Tag="" WorldPos="-2.75 0 -23.75" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="123" Name="tree_pine_68" Rotation="0 -0 0" Scale="1 1 1" Tag="" WorldPos="-4.75 0 -23.25" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="124" Name="tree_pine_69" Rotation="0 -0 0" Scale="1 1 1" Tag="" WorldPos="-6.5 0 -22.75" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="125" Name="tree_pine_70" Rotation="0 -0 0" Scale="1 1 1" Tag="" WorldPos="-8.75 0 -21.75" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="126" Name="tree_pine_71" Rotation="0 -0 0" Scale="1 1 1" Tag="" WorldPos="-11.5 0 -20.25" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="127" Name="tree_pine_72" Rotation="0 -0 0" Scale="1 1 1" Tag="" WorldPos="-11.75 0 -20.25" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="128" Name="tree_pine_73" Rotation="0 -0 0" Scale="1 1 1" Tag="" WorldPos="-13.5 0 -20.5" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="129" Name="tree_pine_74" Rotation="0 -0 0" Scale="1 1 1" Tag="" WorldPos="-14.5 0 -20.75" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="130" Name="tree_pine_75" Rotation="0 -0 0" Scale="1 1 1" Tag="" WorldPos="-12.25 0 -17.75" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="131" Name="tree_pine_76" Rotation="0 -0 0" Scale="1 1 1" Tag="" WorldPos="-9 0 -19.75" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="132" Name="tree_pine_77" Rotation="0 -0 0" Scale="1 1 1" Tag="" WorldPos="-8.5 0 -17.75" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="133" Name="tree_pine_78" Rotation="0 -0 0" Scale="1 1 1" Tag="" WorldPos="-9.5 0 -17.75" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="134" Name="tree_pine_79" Rotation="0 -0 0" Scale="1 1 1" Tag="" WorldPos="-4.75 0 -20" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="135" Name="tree_pine_80" Rotation="0 -0 0" Scale="1 1 1" Tag="" WorldPos="15.75 0 -17.25" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="136" Name="tree_pine_81" Rotation="0 -0 0" Scale="1 1 1" Tag="" WorldPos="13.5 0 -13.75" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="137" Name="tree_pine_82" Rotation="0 -0 0" Scale="1 1 1" Tag="" WorldPos="14.75 0 -14.25" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="138" Name="tree_pine_83" Rotation="0 -0 0" Scale="1 1 1" Tag="" WorldPos="19.25 0 -17.25" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="139" Name="tree_pine_84" Rotation="0 -0 0" Scale="1 1 1" Tag="" WorldPos="18 0 -19.75" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="140" Name="tree_pine_85" Rotation="0 -0 0" Scale="1 1 1" Tag="" WorldPos="19.25 0 -21.25" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="141" Name="tree_pine_86" Rotation="0 -0 0" Scale="1 1 1" Tag="" WorldPos="20.25 0 -22.75" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="142" Name="tree_pine_87" Rotation="0 -0 0" Scale="1 1 1" Tag="" WorldPos="11.25 0 -30" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="143" Name="tree_pine_88" Rotation="0 -0 0" Scale="1 1 1" Tag="" WorldPos="9.75 0 -29.75" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="144" Name="tree_pine_89" Rotation="0 -0 0" Scale="1 1 1" Tag="" WorldPos="9.25 0 -30.5" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="145" Name="tree_pine_90" Rotation="0 -0 0" Scale="1 1 1" Tag="" WorldPos="8.25 0 -31.25" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="146" Name="tree_pine_91" Rotation="0 -0 0" Scale="1 1 1" Tag="" WorldPos="7 0 -31.75" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="115" Name="tree_pine_60" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="13.5 0 -17.75" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="116" Name="tree_pine_61" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="14.75 0 -18.5" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="117" Name="tree_pine_62" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="15 0 -18.5" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="118" Name="tree_pine_63" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="-4.25 0 -18.25" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="119" Name="tree_pine_64" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="-2.25 0 -19.75" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="120" Name="tree_pine_65" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="-1 0 -20.25" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="121" Name="tree_pine_66" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="0.75 0 -22" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="122" Name="tree_pine_67" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="-2.75 0 -23.75" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="123" Name="tree_pine_68" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="-4.75 0 -23.25" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="124" Name="tree_pine_69" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="-6.5 0 -22.75" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="125" Name="tree_pine_70" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="-8.75 0 -21.75" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="126" Name="tree_pine_71" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="-11.5 0 -20.25" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="127" Name="tree_pine_72" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="-11.75 0 -20.25" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="128" Name="tree_pine_73" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="-13.5 0 -20.5" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="129" Name="tree_pine_74" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="-14.5 0 -20.75" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="130" Name="tree_pine_75" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="-12.25 0 -17.75" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="131" Name="tree_pine_76" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="-9 0 -19.75" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="132" Name="tree_pine_77" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="-8.5 0 -17.75" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="133" Name="tree_pine_78" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="-9.5 0 -17.75" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="134" Name="tree_pine_79" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="-4.75 0 -20" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="135" Name="tree_pine_80" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="15.75 0 -17.25" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="136" Name="tree_pine_81" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="13.5 0 -13.75" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="137" Name="tree_pine_82" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="14.75 0 -14.25" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="138" Name="tree_pine_83" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="19.25 0 -17.25" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="139" Name="tree_pine_84" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="18 0 -19.75" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="140" Name="tree_pine_85" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="19.25 0 -21.25" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="141" Name="tree_pine_86" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="20.25 0 -22.75" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="142" Name="tree_pine_87" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="11.25 0 -30" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="143" Name="tree_pine_88" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="9.75 0 -29.75" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="144" Name="tree_pine_89" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="9.25 0 -30.5" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="145" Name="tree_pine_90" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="8.25 0 -31.25" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="146" Name="tree_pine_91" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="7 0 -31.75" />
                 <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="147" Name="tree_pine_92" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="5 0 -32.75" />
                 <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="148" Name="tree_pine_93" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="3 0 -32.5" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="149" Name="tree_pine_94" Rotation="0 -0 0" Scale="1 1 1" Tag="" WorldPos="1.5 0 -32.25" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="149" Name="tree_pine_94" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="1.5 0 -32.25" />
                 <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="150" Name="tree_pine_95" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="0.75 0 -32.5" />
                 <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="151" Name="tree_pine_96" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="-0.75 0 -33" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="152" Name="tree_pine_97" Rotation="0 -0 0" Scale="1 1 1" Tag="" WorldPos="-2.75 0 -33.5" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="153" Name="tree_pine_98" Rotation="0 -0 0" Scale="1 1 1" Tag="" WorldPos="-3.75 0 -34" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="152" Name="tree_pine_97" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="-2.75 0 -33.5" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="153" Name="tree_pine_98" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="-3.75 0 -34" />
                 <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="154" Name="tree_pine_99" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="-6.25 0 -34" />
                 <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="155" Name="tree_pine_100" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="-9 0 -34.5" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="156" Name="tree_pine_101" Rotation="0 -0 0" Scale="1 1 1" Tag="" WorldPos="-10.25 0 -33.25" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="156" Name="tree_pine_101" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="-10.25 0 -33.25" />
                 <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="157" Name="tree_pine_102" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="-13 0 -32" />
                 <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="158" Name="tree_pine_103" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="-15.75 0 -31.5" />
                 <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="159" Name="tree_pine_104" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="-17.5 0 -30.75" />
                 <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="160" Name="tree_pine_105" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="-19 0 -28.25" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="161" Name="tree_pine_106" Rotation="0 -0 0" Scale="1 1 1" Tag="" WorldPos="-9 0 -22.25" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="161" Name="tree_pine_106" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="-9 0 -22.25" />
                 <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="163" Name="tree_pine_107" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="-8.25 0 -38.75" />
                 <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="164" Name="tree_pine_108" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="-9.25 0 -36.5" />
                 <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="165" Name="tree_pine_109" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="-4 0 -37.5" />
@@ -139,9 +146,9 @@
                 <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="190" Name="tree_pine_134" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="8.75 0 -35.25" />
                 <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="191" Name="tree_pine_135" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="8.75 0 -35.25" />
                 <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="192" Name="tree_pine_136" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="9 0 -36" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="193" Name="tree_pine_137" Rotation="0 -0 0" Scale="1 1 1" Tag="" WorldPos="7.75 0 -36.75" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="193" Name="tree_pine_137" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="7.75 0 -36.75" />
                 <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="194" Name="tree_pine_138" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="2.5 0 -37.25" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="195" Name="tree_pine_139" Rotation="0 -0 0" Scale="1 1 1" Tag="" WorldPos="-1 0 -37.75" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="195" Name="tree_pine_139" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="-1 0 -37.75" />
                 <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="196" Name="tree_pine_140" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="-4.75 0 -37.25" />
                 <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="197" Name="tree_pine_141" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="-3.25 0 -35.25" />
                 <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="198" Name="tree_pine_142" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="-1 0 -35.5" />
@@ -194,36 +201,36 @@
                 <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="245" Name="tree_pine_189" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="31.75 0 -21.75" />
                 <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="246" Name="tree_pine_190" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="26 0 -17.5" />
                 <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="247" Name="tree_pine_191" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="24.25 0 -18.5" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="248" Name="tree_pine_192" Rotation="0 -0 0" Scale="1 1 1" Tag="" WorldPos="29.25 0 -20.25" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="248" Name="tree_pine_192" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="29.25 0 -20.25" />
                 <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="249" Name="tree_pine_193" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="33 0 -21.75" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="250" Name="tree_pine_194" Rotation="0 -0 0" Scale="1 1 1" Tag="" WorldPos="27.75 0 -16.25" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="251" Name="tree_pine_195" Rotation="0 -0 0" Scale="1 1 1" Tag="" WorldPos="27 0 -13.5" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="252" Name="tree_pine_196" Rotation="0 -0 0" Scale="1 1 1" Tag="" WorldPos="31.25 0 -18" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="253" Name="tree_pine_197" Rotation="0 -0 0" Scale="1 1 1" Tag="" WorldPos="31 0 -17.5" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="254" Name="tree_pine_198" Rotation="0 -0 0" Scale="1 1 1" Tag="" WorldPos="22.75 0 -13.75" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="250" Name="tree_pine_194" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="27.75 0 -16.25" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="251" Name="tree_pine_195" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="27 0 -13.5" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="252" Name="tree_pine_196" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="31.25 0 -18" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="253" Name="tree_pine_197" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="31 0 -17.5" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="254" Name="tree_pine_198" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="22.75 0 -13.75" />
                 <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="255" Name="tree_pine_199" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="21.75 0 -12.25" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="256" Name="tree_pine_200" Rotation="0 -0 0" Scale="1 1 1" Tag="" WorldPos="21.75 0 -12.25" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="257" Name="tree_pine_201" Rotation="0 -0 0" Scale="1 1 1" Tag="" WorldPos="24.25 0 -12.5" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="261" Name="tree_pine_205" Rotation="0 -0 0" Scale="1 1 1" Tag="" WorldPos="22.75 0 -9" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="262" Name="tree_pine_206" Rotation="0 -0 0" Scale="1 1 1" Tag="" WorldPos="27.75 0 -13" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="263" Name="tree_pine_207" Rotation="0 -0 0" Scale="1 1 1" Tag="" WorldPos="27.75 0 -13" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="264" Name="tree_pine_208" Rotation="0 -0 0" Scale="1 1 1" Tag="" WorldPos="29 0 -13.5" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="274" Name="tree_pine_218" Rotation="0 -0 0" Scale="1 1 1" Tag="" WorldPos="14 0 16.25" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="256" Name="tree_pine_200" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="21.75 0 -12.25" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="257" Name="tree_pine_201" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="24.25 0 -12.5" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="261" Name="tree_pine_205" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="22.75 0 -9" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="262" Name="tree_pine_206" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="27.75 0 -13" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="263" Name="tree_pine_207" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="27.75 0 -13" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="264" Name="tree_pine_208" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="29 0 -13.5" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="274" Name="tree_pine_218" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="14 0 16.25" />
                 <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="275" Name="tree_pine_219" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="10.75 0 17.25" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="276" Name="tree_pine_220" Rotation="0 -0 0" Scale="1 1 1" Tag="" WorldPos="9.25 0 17.25" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="277" Name="tree_pine_221" Rotation="0 -0 0" Scale="1 1 1" Tag="" WorldPos="10.25 0 16" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="278" Name="tree_pine_222" Rotation="0 -0 0" Scale="1 1 1" Tag="" WorldPos="10.5 0 15.75" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="292" Name="tree_pine_232" Rotation="0 -0 0" Scale="1 1 1" Tag="" WorldPos="-12 0 1.75" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="293" Name="tree_pine_233" Rotation="0 -0 0" Scale="1 1 1" Tag="" WorldPos="-11.75 0 4.75" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="276" Name="tree_pine_220" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="9.25 0 17.25" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="277" Name="tree_pine_221" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="10.25 0 16" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="278" Name="tree_pine_222" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="10.5 0 15.75" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="292" Name="tree_pine_232" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="-12 0 1.75" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="293" Name="tree_pine_233" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="-11.75 0 4.75" />
                 <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="294" Name="tree_pine_234" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="-11.75 0 6.75" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="295" Name="tree_pine_235" Rotation="0 -0 0" Scale="1 1 1" Tag="" WorldPos="-12.75 0 10" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="296" Name="tree_pine_236" Rotation="0 -0 0" Scale="1 1 1" Tag="" WorldPos="-12.5 0 12.25" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="297" Name="tree_pine_237" Rotation="0 -0 0" Scale="1 1 1" Tag="" WorldPos="-11.75 0 12.75" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="298" Name="tree_pine_238" Rotation="0 -0 0" Scale="1 1 1" Tag="" WorldPos="-9.5 0 13.25" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="299" Name="tree_pine_239" Rotation="0 -0 0" Scale="1 1 1" Tag="" WorldPos="-7.25 0 13.25" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="300" Name="tree_pine_240" Rotation="0 -0 0" Scale="1 1 1" Tag="" WorldPos="-2 0 14.5" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="295" Name="tree_pine_235" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="-12.75 0 10" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="296" Name="tree_pine_236" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="-12.5 0 12.25" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="297" Name="tree_pine_237" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="-11.75 0 12.75" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="298" Name="tree_pine_238" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="-9.5 0 13.25" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="299" Name="tree_pine_239" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="-7.25 0 13.25" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="300" Name="tree_pine_240" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="-2 0 14.5" />
                 <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="301" Name="tree_pine_241" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="-0.5 0 14" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="302" Name="tree_pine_242" Rotation="0 -0 0" Scale="1 1 1" Tag="" WorldPos="3.75 0 14" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="302" Name="tree_pine_242" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="3.75 0 14" />
                 <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="303" Name="tree_pine_243" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="5 0 14.25" />
                 <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="305" Name="tree_pine_245" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="-4.75 0 13.75" />
                 <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="306" Name="tree_pine_246" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="-16 0 8.5" />
@@ -258,80 +265,130 @@
                 <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="335" Name="tree_pine_17" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="29.75 0 11.5" />
                 <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="336" Name="tree_pine_19" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="29.75 0 11.75" />
                 <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="337" Name="tree_pine_202" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="26.5 0 12.25" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="338" Name="tree_pine_203" Rotation="0 -0 0" Scale="1 1 1" Tag="" WorldPos="23.75 0 12.75" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="338" Name="tree_pine_203" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="23.75 0 12.75" />
                 <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="339" Name="tree_pine_204" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="22 0 12.75" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="340" Name="tree_pine_209" Rotation="0 -0 0" Scale="1 1 1" Tag="" WorldPos="19.5 0 13" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="341" Name="tree_pine_210" Rotation="0 -0 0" Scale="1 1 1" Tag="" WorldPos="17.75 0 12.75" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="342" Name="tree_pine_211" Rotation="0 -0 0" Scale="1 1 1" Tag="" WorldPos="17.25 0 13" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="343" Name="tree_pine_212" Rotation="0 -0 0" Scale="1 1 1" Tag="" WorldPos="30.25 0 9.5" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="344" Name="tree_pine_213" Rotation="0 -0 0" Scale="1 1 1" Tag="" WorldPos="33 0 8.25" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="345" Name="tree_pine_214" Rotation="0 -0 0" Scale="1 1 1" Tag="" WorldPos="35.5 0 6.75" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="340" Name="tree_pine_209" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="19.5 0 13" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="341" Name="tree_pine_210" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="17.75 0 12.75" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="342" Name="tree_pine_211" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="17.25 0 13" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="343" Name="tree_pine_212" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="30.25 0 9.5" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="344" Name="tree_pine_213" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="33 0 8.25" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="345" Name="tree_pine_214" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="35.5 0 6.75" />
                 <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="346" Name="tree_pine_215" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="37.5 0 5.5" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="347" Name="tree_pine_216" Rotation="0 -0 0" Scale="1 1 1" Tag="" WorldPos="37.5 0 5.25" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="348" Name="tree_pine_217" Rotation="0 -0 0" Scale="1 1 1" Tag="" WorldPos="36 0 9.75" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="347" Name="tree_pine_216" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="37.5 0 5.25" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="348" Name="tree_pine_217" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="36 0 9.75" />
                 <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="349" Name="tree_pine_223" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="37.5 0 9.25" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="350" Name="tree_pine_224" Rotation="0 -0 0" Scale="1 1 1" Tag="" WorldPos="40.5 0 6.75" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="351" Name="tree_pine_225" Rotation="0 -0 0" Scale="1 1 1" Tag="" WorldPos="44.75 0 6.25" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="352" Name="tree_pine_226" Rotation="0 -0 0" Scale="1 1 1" Tag="" WorldPos="50 0 5" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="353" Name="tree_pine_227" Rotation="0 -0 0" Scale="1 1 1" Tag="" WorldPos="54 0 2.25" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="354" Name="tree_pine_228" Rotation="0 -0 0" Scale="1 1 1" Tag="" WorldPos="56.5 0 1" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="355" Name="tree_pine_229" Rotation="0 -0 0" Scale="1 1 1" Tag="" WorldPos="53.75 0 1.25" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="356" Name="tree_pine_230" Rotation="0 -0 0" Scale="1 1 1" Tag="" WorldPos="47.25 0 3.5" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="357" Name="tree_pine_231" Rotation="0 -0 0" Scale="1 1 1" Tag="" WorldPos="42.75 0 4.25" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="358" Name="tree_pine_244" Rotation="0 -0 0" Scale="1 1 1" Tag="" WorldPos="39.75 0 4.75" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="359" Name="tree_pine_259" Rotation="0 -0 0" Scale="1 1 1" Tag="" WorldPos="42.5 0 2.75" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="360" Name="tree_pine_260" Rotation="0 -0 0" Scale="1 1 1" Tag="" WorldPos="48.25 0 1" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="361" Name="tree_pine_261" Rotation="0 -0 0" Scale="1 1 1" Tag="" WorldPos="49.5 0 0.75" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="362" Name="tree_pine_262" Rotation="0 -0 0" Scale="1 1 1" Tag="" WorldPos="54 0 -1.5" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="363" Name="tree_pine_263" Rotation="0 -0 0" Scale="1 1 1" Tag="" WorldPos="55.25 0 -2.75" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="364" Name="tree_pine_264" Rotation="0 -0 0" Scale="1 1 1" Tag="" WorldPos="56 0 -4" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="350" Name="tree_pine_224" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="40.5 0 6.75" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="351" Name="tree_pine_225" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="44.75 0 6.25" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="352" Name="tree_pine_226" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="50 0 5" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="353" Name="tree_pine_227" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="54 0 2.25" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="354" Name="tree_pine_228" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="56.5 0 1" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="355" Name="tree_pine_229" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="53.75 0 1.25" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="356" Name="tree_pine_230" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="47.25 0 3.5" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="357" Name="tree_pine_231" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="42.75 0 4.25" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="358" Name="tree_pine_244" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="39.75 0 4.75" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="359" Name="tree_pine_259" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="42.5 0 2.75" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="360" Name="tree_pine_260" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="48.25 0 1" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="361" Name="tree_pine_261" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="49.5 0 0.75" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="362" Name="tree_pine_262" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="54 0 -1.5" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="363" Name="tree_pine_263" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="55.25 0 -2.75" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="364" Name="tree_pine_264" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="56 0 -4" />
                 <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="365" Name="tree_pine_265" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="56.5 0 -6" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="366" Name="tree_pine_266" Rotation="0 -0 0" Scale="1 1 1" Tag="" WorldPos="56.25 0 -7.5" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="367" Name="tree_pine_267" Rotation="0 -0 0" Scale="1 1 1" Tag="" WorldPos="56.25 0 -8.25" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="366" Name="tree_pine_266" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="56.25 0 -7.5" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="367" Name="tree_pine_267" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="56.25 0 -8.25" />
                 <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="368" Name="tree_pine_268" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="56.5 0 -8.5" />
                 <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="369" Name="tree_pine_269" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="36.75 0 -25.5" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="370" Name="tree_pine_270" Rotation="0 -0 0" Scale="1 1 1" Tag="" WorldPos="41 0 -26.75" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="371" Name="tree_pine_271" Rotation="0 -0 0" Scale="1 1 1" Tag="" WorldPos="46.75 0 -28.75" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="370" Name="tree_pine_270" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="41 0 -26.75" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="371" Name="tree_pine_271" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="46.75 0 -28.75" />
                 <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="372" Name="tree_pine_272" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="48.5 0 -28.75" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="373" Name="tree_pine_273" Rotation="0 -0 0" Scale="1 1 1" Tag="" WorldPos="52.5 0 -28.75" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="374" Name="tree_pine_274" Rotation="0 -0 0" Scale="1 1 1" Tag="" WorldPos="55.5 0 -26" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="375" Name="tree_pine_275" Rotation="0 -0 0" Scale="1 1 1" Tag="" WorldPos="57.75 0 -25" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="376" Name="tree_pine_276" Rotation="0 -0 0" Scale="1 1 1" Tag="" WorldPos="58 0 -19.25" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="377" Name="tree_pine_277" Rotation="0 -0 0" Scale="1 1 1" Tag="" WorldPos="58.25 0 -17.5" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="378" Name="tree_pine_278" Rotation="0 -0 0" Scale="1 1 1" Tag="" WorldPos="58 0 -15.75" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="379" Name="tree_pine_279" Rotation="0 -0 0" Scale="1 1 1" Tag="" WorldPos="57 0 -12.75" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="380" Name="tree_pine_280" Rotation="0 -0 0" Scale="1 1 1" Tag="" WorldPos="56.5 0 -12.75" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="381" Name="tree_pine_281" Rotation="0 -0 0" Scale="1 1 1" Tag="" WorldPos="56.5 0 -12.75" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="382" Name="tree_pine_282" Rotation="0 -0 0" Scale="1 1 1" Tag="" WorldPos="42.75 0 -27.75" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="383" Name="tree_pine_283" Rotation="0 -0 0" Scale="1 1 1" Tag="" WorldPos="44.75 0 -29.25" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="384" Name="tree_pine_284" Rotation="0 -0 0" Scale="1 1 1" Tag="" WorldPos="33.75 0 -29.25" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="385" Name="tree_pine_285" Rotation="0 -0 0" Scale="1 1 1" Tag="" WorldPos="34.25 0 -29.75" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="386" Name="tree_pine_286" Rotation="0 -0 0" Scale="1 1 1" Tag="" WorldPos="39.75 0 -32.25" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="387" Name="tree_pine_287" Rotation="0 -0 0" Scale="1 1 1" Tag="" WorldPos="41 0 -32.5" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="388" Name="tree_pine_288" Rotation="0 -0 0" Scale="1 1 1" Tag="" WorldPos="43.5 0 -33" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="389" Name="tree_pine_289" Rotation="0 -0 0" Scale="1 1 1" Tag="" WorldPos="44 0 -32.5" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="390" Name="tree_pine_290" Rotation="0 -0 0" Scale="1 1 1" Tag="" WorldPos="36.25 0 -29.5" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="391" Name="tree_pine_291" Rotation="0 -0 0" Scale="1 1 1" Tag="" WorldPos="36.25 0 -29.5" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="392" Name="tree_pine_292" Rotation="0 -0 0" Scale="1 1 1" Tag="" WorldPos="36.75 0 -29.75" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="393" Name="tree_pine_293" Rotation="0 -0 0" Scale="1 1 1" Tag="" WorldPos="55 0 -36.25" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="373" Name="tree_pine_273" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="52.5 0 -28.75" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="374" Name="tree_pine_274" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="55.5 0 -26" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="375" Name="tree_pine_275" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="57.75 0 -25" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="376" Name="tree_pine_276" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="58 0 -19.25" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="377" Name="tree_pine_277" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="58.25 0 -17.5" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="378" Name="tree_pine_278" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="58 0 -15.75" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="379" Name="tree_pine_279" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="57 0 -12.75" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="380" Name="tree_pine_280" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="56.5 0 -12.75" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="381" Name="tree_pine_281" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="56.5 0 -12.75" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="382" Name="tree_pine_282" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="42.75 0 -27.75" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="383" Name="tree_pine_283" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="44.75 0 -29.25" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="384" Name="tree_pine_284" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="33.75 0 -29.25" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="385" Name="tree_pine_285" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="34.25 0 -29.75" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="386" Name="tree_pine_286" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="39.75 0 -32.25" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="387" Name="tree_pine_287" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="41 0 -32.5" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="388" Name="tree_pine_288" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="43.5 0 -33" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="389" Name="tree_pine_289" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="44 0 -32.5" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="390" Name="tree_pine_290" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="36.25 0 -29.5" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="391" Name="tree_pine_291" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="36.25 0 -29.5" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="392" Name="tree_pine_292" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="36.75 0 -29.75" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="393" Name="tree_pine_293" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="55 0 -36.25" />
                 <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="394" Name="tree_pine_294" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="54.25 0 -35.5" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="395" Name="tree_pine_295" Rotation="0 -0 0" Scale="1 1 1" Tag="" WorldPos="48.25 0 -33.75" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="396" Name="tree_pine_296" Rotation="0 -0 0" Scale="1 1 1" Tag="" WorldPos="52.25 0 -33.5" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="397" Name="tree_pine_297" Rotation="0 -0 0" Scale="1 1 1" Tag="" WorldPos="53 0 -33.5" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="398" Name="tree_pine_298" Rotation="0 -0 0" Scale="1 1 1" Tag="" WorldPos="58.75 0 -32" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="399" Name="tree_pine_299" Rotation="0 -0 0" Scale="1 1 1" Tag="" WorldPos="58.75 0 -30.75" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="395" Name="tree_pine_295" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="48.25 0 -33.75" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="396" Name="tree_pine_296" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="52.25 0 -33.5" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="397" Name="tree_pine_297" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="53 0 -33.5" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="398" Name="tree_pine_298" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="58.75 0 -32" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="399" Name="tree_pine_299" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="58.75 0 -30.75" />
                 <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="400" Name="tree_pine_300" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="58.25 0 -30" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="401" Name="tree_pine_301" Rotation="0 -0 0" Scale="1 1 1" Tag="" WorldPos="56 0 -31.5" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="402" Name="tree_pine_302" Rotation="0 -0 0" Scale="1 1 1" Tag="" WorldPos="55.25 0 -31.25" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="403" Name="tree_pine_303" Rotation="0 -0 0" Scale="1 1 1" Tag="" WorldPos="57 0 -28" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="404" Name="tree_pine_304" Rotation="0 -0 0" Scale="1 1 1" Tag="" WorldPos="58.25 0 -24" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="405" Name="tree_pine_305" Rotation="0 -0 0" Scale="1 1 1" Tag="" WorldPos="58.25 0 -21.5" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="406" Name="tree_pine_306" Rotation="0 -0 0" Scale="1 1 1" Tag="" WorldPos="57.5 0 -21.75" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="407" Name="tree_pine_307" Rotation="0 -0 0" Scale="1 1 1" Tag="" WorldPos="51.5 0 -25" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="408" Name="tree_pine_308" Rotation="0 -0 0" Scale="1 1 1" Tag="" WorldPos="50 0 -25" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="409" Name="tree_pine_309" Rotation="0 -0 0" Scale="1 1 1" Tag="" WorldPos="47.5 0 -25" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="410" Name="tree_pine_310" Rotation="0 -0 0" Scale="1 1 1" Tag="" WorldPos="45 0 -25.25" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="411" Name="tree_pine_311" Rotation="0 -0 0" Scale="1 1 1" Tag="" WorldPos="41.5 0 -25.25" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="401" Name="tree_pine_301" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="56 0 -31.5" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="402" Name="tree_pine_302" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="55.25 0 -31.25" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="403" Name="tree_pine_303" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="57 0 -28" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="404" Name="tree_pine_304" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="58.25 0 -24" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="405" Name="tree_pine_305" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="58.25 0 -21.5" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="406" Name="tree_pine_306" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="57.5 0 -21.75" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="407" Name="tree_pine_307" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="51.5 0 -25" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="408" Name="tree_pine_308" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="50 0 -25" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="409" Name="tree_pine_309" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="47.5 0 -25" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="410" Name="tree_pine_310" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="45 0 -25.25" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="411" Name="tree_pine_311" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="41.5 0 -25.25" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="1" Group="0" ID="422" Name="foliage_grass02_brown_1" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="34.5 0 -4.5" />
+                <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="429" Name="foliage_zimmarman_grass02_brown_2sided_1" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="3.25 0 9.5" />
+                <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="430" Name="foliage_zimmarman_grass02_brown_2sided_2" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="8 0 11.25" />
+                <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="431" Name="foliage_zimmarman_grass02_brown_2sided_3" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="12.5 0 10" />
+                <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="432" Name="foliage_zimmarman_grass02_brown_2sided_4" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="16.75 0 7.5" />
+                <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="433" Name="foliage_zimmarman_grass02_brown_2sided_5" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="16 0 9.5" />
+                <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="434" Name="foliage_zimmarman_grass02_brown_2sided_6" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="22 0 7.5" />
+                <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="435" Name="foliage_zimmarman_grass02_brown_2sided_7" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="27.5 0 7.5" />
+                <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="436" Name="foliage_zimmarman_grass02_brown_2sided_8" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="32.25 0 4.5" />
+                <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="437" Name="foliage_zimmarman_grass02_brown_2sided_9" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="36.75 0 1.75" />
+                <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="438" Name="foliage_zimmarman_grass02_brown_2sided_10" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="43.25 0 -1" />
+                <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="439" Name="foliage_zimmarman_grass02_brown_2sided_11" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="39.75 0 -1" />
+                <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="440" Name="foliage_zimmarman_grass02_brown_2sided_12" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="48.75 0 -3" />
+                <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="441" Name="foliage_zimmarman_grass02_brown_2sided_13" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="52.75 0 -6" />
+                <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="442" Name="foliage_zimmarman_grass02_brown_2sided_14" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="48.75 0 -21.75" />
+                <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="443" Name="foliage_zimmarman_grass02_brown_2sided_15" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="42.75 0 -21.75" />
+                <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="444" Name="foliage_zimmarman_grass02_brown_2sided_16" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="38 0 -22" />
+                <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="445" Name="foliage_zimmarman_grass02_brown_2sided_17" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="37.25 0 -18.5" />
+                <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="446" Name="foliage_zimmarman_grass02_brown_2sided_18" Rotation="0 1.0472 0" Scale="1 1 1" Tag="" WorldPos="34 0 -14.5" />
+                <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="447" Name="foliage_zimmarman_grass02_brown_2sided_19" Rotation="0 0.523599 0" Scale="1 1 1" Tag="" WorldPos="30 0 -9.75" />
+                <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="448" Name="foliage_zimmarman_grass02_brown_2sided_20" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="25.25 0 -6.25" />
+                <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="449" Name="foliage_zimmarman_grass02_brown_2sided_21" Rotation="0 -0.261799 0" Scale="1 1 1" Tag="" WorldPos="19.5 0 -6.75" />
+                <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="450" Name="foliage_zimmarman_grass02_brown_2sided_22" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="11.75 0 -7.75" />
+                <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="451" Name="foliage_zimmarman_grass02_brown_2sided_23" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="6 0 -7.75" />
+                <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="452" Name="foliage_zimmarman_grass02_brown_2sided_24" Rotation="3.14159 -1.5708 3.14159" Scale="1 1 1" Tag="" WorldPos="2 0 -9.75" />
+                <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="453" Name="foliage_zimmarman_grass02_brown_2sided_25" Rotation="3.14159 -1.0472 3.14159" Scale="1 1 1" Tag="" WorldPos="-1.25 0 -11.25" />
+                <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="454" Name="foliage_zimmarman_grass02_brown_2sided_26" Rotation="3.14159 -1.0472 3.14159" Scale="1 1 1" Tag="" WorldPos="0.75 0 -15" />
+                <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="455" Name="foliage_zimmarman_grass02_brown_2sided_27" Rotation="3.14159 -1.0472 3.14159" Scale="1 1 1" Tag="" WorldPos="3.75 0 -16.25" />
+                <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="456" Name="foliage_zimmarman_grass02_brown_2sided_28" Rotation="3.14159 -1.0472 3.14159" Scale="1 1 1" Tag="" WorldPos="4.5 0 -20.5" />
+                <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="457" Name="foliage_zimmarman_grass02_brown_2sided_29" Rotation="3.14159 -1.0472 3.14159" Scale="1 1 1" Tag="" WorldPos="7 0 -18.5" />
+                <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="458" Name="foliage_zimmarman_grass02_brown_2sided_30" Rotation="3.14159 -1.0472 3.14159" Scale="1 1 1" Tag="" WorldPos="12.25 0 -21.25" />
+                <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="459" Name="foliage_zimmarman_grass02_brown_2sided_31" Rotation="3.14159 -0.785398 3.14159" Scale="1 1 1" Tag="" WorldPos="9.25 0 -23" />
+                <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="460" Name="foliage_zimmarman_grass02_brown_2sided_32" Rotation="3.14159 -0.785398 3.14159" Scale="1 1 1" Tag="" WorldPos="14 0 -26" />
+                <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="461" Name="foliage_zimmarman_grass02_brown_2sided_33" Rotation="3.14159 -1.0472 3.14159" Scale="1 1 1" Tag="" WorldPos="15.75 0 -23" />
+                <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="462" Name="foliage_zimmarman_grass02_brown_2sided_34" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="9.25 0 -26.5" />
+                <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="463" Name="foliage_zimmarman_grass02_brown_2sided_35" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="5.75 0 -25.25" />
+                <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="464" Name="foliage_zimmarman_grass02_brown_2sided_36" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="5 0 -28.5" />
+                <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="465" Name="foliage_zimmarman_grass02_brown_2sided_37" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="0.75 0 -26.75" />
+                <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="466" Name="foliage_zimmarman_grass02_brown_2sided_38" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="-1.5 0 -31.5" />
+                <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="467" Name="foliage_zimmarman_grass02_brown_2sided_39" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="1 0 -29.5" />
+                <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="468" Name="foliage_zimmarman_grass02_brown_2sided_40" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="-2 0 -28.25" />
+                <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="469" Name="foliage_zimmarman_grass02_brown_2sided_41" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="-3.5 0 -30.5" />
+                <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="470" Name="foliage_zimmarman_grass02_brown_2sided_42" Rotation="0 0.523599 0" Scale="1 1 1" Tag="" WorldPos="-6 0 -28" />
+                <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="471" Name="foliage_zimmarman_grass02_brown_2sided_43" Rotation="0 0.523599 0" Scale="1 1 1" Tag="" WorldPos="-8 0 -30.5" />
+                <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="472" Name="foliage_zimmarman_grass02_brown_2sided_44" Rotation="0 0.523599 0" Scale="1 1 1" Tag="" WorldPos="-12.25 0 -28.75" />
+                <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="473" Name="foliage_zimmarman_grass02_brown_2sided_45" Rotation="0 0.523599 0" Scale="1 1 1" Tag="" WorldPos="-10.25 0 -26.5" />
+                <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="474" Name="foliage_zimmarman_grass02_brown_2sided_46" Rotation="0 0.523599 0" Scale="1 1 1" Tag="" WorldPos="-16 0 -26.75" />
+                <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="475" Name="foliage_zimmarman_grass02_brown_2sided_47" Rotation="0 0.523599 0" Scale="1 1 1" Tag="" WorldPos="-14.25 0 -24" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="3" Group="0" ID="478" Name="house_zimmarman_fence_1" Rotation="3.14159 4.44253e-006 3.14159" Scale="1 1 1" Tag="" WorldPos="48.25 0 -8.25" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="505" Name="tree_pine_312" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="37 0 -10" />
             </StaticObjects>
             <Primitives>
                 <Plane Active="true" AlignToWorldCoords="false" CastShadows="false" Collides="true" Corner1UV="0 100.25" Corner2UV="0 0" Corner3UV="100.5 0" Corner4UV="100.5 100.25" EndCorner="100.5 0 100.25" Group="0" ID="4" Material="D:/SteamLibrary/steamapps/steamapps/common/Amnesia The Dark Descent/static_objects/outside/ground/zimmerman_ground_grass.mat" Name="Plane" Rotation="0 0 0" Scale="1 1 1" StartCorner="0 0 0" Tag="" TextureAngle="0" TileAmount="1 1 1" TileOffset="0 0 0" WorldPos="-39.5 0 -51.25" />
@@ -360,6 +417,238 @@
                     <UserVariables />
                 </Area>
                 <BoxLight Active="true" BlendFunc="0" CastShadows="false" DiffuseColor="1 1 1 1" FalloffMap="" FlickerActive="false" FlickerFade="false" FlickerOffColor="0 0 0 1" FlickerOffFadeMaxLength="0" FlickerOffFadeMinLength="0" FlickerOffMaxLength="0" FlickerOffMinLength="0" FlickerOffPS="" FlickerOffRadius="0" FlickerOffSound="" FlickerOnFadeMaxLength="0" FlickerOnFadeMinLength="0" FlickerOnMaxLength="0" FlickerOnMinLength="0" FlickerOnPS="" FlickerOnSound="" Gobo="" GoboAnimFrameTime="0" GoboAnimMode="None" Group="0" ID="414" Name="BoxLight_1" Radius="1" Rotation="0 -0 0" Scale="169 157.5 160.25" ShadowResolution="High" ShadowsAffectDynamic="true" ShadowsAffectStatic="true" Size="169 157.5 160.25" Tag="" WorldPos="-15.75 24.25 -5.5" />
+                <Entity Active="true" FileIndex="2" Group="0" ID="482" Name="tombstone01_1" Rotation="0 -2.35619 0" Scale="1 1 1" Tag="" WorldPos="43 0 -16.5">
+                    <UserVariables>
+                        <Var Name="CastShadows" Value="true" />
+                        <Var Name="IsAffectedByDecal" Value="true" />
+                    </UserVariables>
+                </Entity>
+                <Entity Active="true" FileIndex="2" Group="0" ID="483" Name="tombstone01_2" Rotation="0 -3.14159 0" Scale="1 1 1" Tag="" WorldPos="47 0 -14.25">
+                    <UserVariables>
+                        <Var Name="CastShadows" Value="true" />
+                        <Var Name="IsAffectedByDecal" Value="true" />
+                    </UserVariables>
+                </Entity>
+                <Entity Active="true" FileIndex="2" Group="0" ID="484" Name="tombstone01_3" Rotation="0 -1.5708 0" Scale="1 1 1" Tag="" WorldPos="42.5 0 -19.5">
+                    <UserVariables>
+                        <Var Name="CastShadows" Value="true" />
+                        <Var Name="IsAffectedByDecal" Value="true" />
+                    </UserVariables>
+                </Entity>
+                <Entity Active="true" FileIndex="2" Group="0" ID="485" Name="tombstone01_4" Rotation="0 -3.40339 0" Scale="1 1 1" Tag="" WorldPos="46.25 0 -5">
+                    <UserVariables>
+                        <Var Name="CastShadows" Value="true" />
+                        <Var Name="IsAffectedByDecal" Value="true" />
+                    </UserVariables>
+                </Entity>
+                <Entity Active="true" FileIndex="2" Group="0" ID="486" Name="tombstone01_5" Rotation="0 -2.87979 0" Scale="1 1 1" Tag="" WorldPos="46.5 0 -8.25">
+                    <UserVariables>
+                        <Var Name="CastShadows" Value="true" />
+                        <Var Name="IsAffectedByDecal" Value="true" />
+                    </UserVariables>
+                </Entity>
+                <Entity Active="true" FileIndex="2" Group="0" ID="487" Name="tombstone01_6" Rotation="0 -3.14159 0" Scale="1 1 1" Tag="" WorldPos="44.25 0 -6.75">
+                    <UserVariables>
+                        <Var Name="CastShadows" Value="true" />
+                        <Var Name="IsAffectedByDecal" Value="true" />
+                    </UserVariables>
+                </Entity>
+                <Entity Active="true" FileIndex="2" Group="0" ID="488" Name="tombstone01_7" Rotation="0 -2.87979 0" Scale="1 1 1" Tag="" WorldPos="45 0 -9.5">
+                    <UserVariables>
+                        <Var Name="CastShadows" Value="true" />
+                        <Var Name="IsAffectedByDecal" Value="true" />
+                    </UserVariables>
+                </Entity>
+                <Entity Active="true" FileIndex="3" Group="0" ID="489" Name="tombstone02_1" Rotation="0 -4.18879 0" Scale="1 1 1" Tag="" WorldPos="42.75 0 -4.5">
+                    <UserVariables>
+                        <Var Name="CastShadows" Value="true" />
+                        <Var Name="IsAffectedByDecal" Value="true" />
+                    </UserVariables>
+                </Entity>
+                <Entity Active="true" FileIndex="3" Group="0" ID="490" Name="tombstone02_2" Rotation="0 -3.14159 0" Scale="1 1 1" Tag="" WorldPos="42.75 0 -8.75">
+                    <UserVariables>
+                        <Var Name="CastShadows" Value="true" />
+                        <Var Name="IsAffectedByDecal" Value="true" />
+                    </UserVariables>
+                </Entity>
+                <Entity Active="true" FileIndex="3" Group="0" ID="491" Name="tombstone02_3" Rotation="0 -2.61799 0" Scale="1 1 1" Tag="" WorldPos="45 0 -18">
+                    <UserVariables>
+                        <Var Name="CastShadows" Value="true" />
+                        <Var Name="IsAffectedByDecal" Value="true" />
+                    </UserVariables>
+                </Entity>
+                <Entity Active="true" FileIndex="3" Group="0" ID="493" Name="tombstone02_4" Rotation="0 -2.35619 0" Scale="1 1 1" Tag="" WorldPos="40.25 0 -18.75">
+                    <UserVariables>
+                        <Var Name="CastShadows" Value="true" />
+                        <Var Name="IsAffectedByDecal" Value="true" />
+                    </UserVariables>
+                </Entity>
+                <Entity Active="true" FileIndex="3" Group="0" ID="494" Name="tombstone02_5" Rotation="0 -2.61799 0" Scale="1 1 1" Tag="" WorldPos="41.25 0 -15.5">
+                    <UserVariables>
+                        <Var Name="CastShadows" Value="true" />
+                        <Var Name="IsAffectedByDecal" Value="true" />
+                    </UserVariables>
+                </Entity>
+                <Entity Active="true" FileIndex="3" Group="0" ID="495" Name="tombstone02_6" Rotation="0 -3.92699 0" Scale="1 1 1" Tag="" WorldPos="40.75 0 -6.5">
+                    <UserVariables>
+                        <Var Name="CastShadows" Value="true" />
+                        <Var Name="IsAffectedByDecal" Value="true" />
+                    </UserVariables>
+                </Entity>
+                <Entity Active="true" FileIndex="4" Group="0" ID="496" Name="tombstone03_1" Rotation="0 -2.87979 0" Scale="1 1 1" Tag="" WorldPos="44.5 0 -12">
+                    <UserVariables>
+                        <Var Name="CastShadows" Value="true" />
+                        <Var Name="IsAffectedByDecal" Value="true" />
+                    </UserVariables>
+                </Entity>
+                <Entity Active="true" FileIndex="4" Group="0" ID="497" Name="tombstone03_2" Rotation="0 -2.35619 0" Scale="1 1 1" Tag="" WorldPos="45.25 0 -14.5">
+                    <UserVariables>
+                        <Var Name="CastShadows" Value="true" />
+                        <Var Name="IsAffectedByDecal" Value="true" />
+                    </UserVariables>
+                </Entity>
+                <Entity Active="true" FileIndex="4" Group="0" ID="498" Name="tombstone03_3" Rotation="0 -3.66519 0" Scale="1 1 1" Tag="" WorldPos="46.75 0 -11.25">
+                    <UserVariables>
+                        <Var Name="CastShadows" Value="true" />
+                        <Var Name="IsAffectedByDecal" Value="true" />
+                    </UserVariables>
+                </Entity>
+                <Entity Active="true" FileIndex="2" Group="0" ID="499" Name="tombstone01_8" Rotation="0 -2.61799 0" Scale="1 1 1" Tag="" WorldPos="42.5 0 -10.5">
+                    <UserVariables>
+                        <Var Name="CastShadows" Value="true" />
+                        <Var Name="IsAffectedByDecal" Value="true" />
+                    </UserVariables>
+                </Entity>
+                <Entity Active="true" FileIndex="2" Group="0" ID="500" Name="tombstone01_9" Rotation="0 -2.87979 0" Scale="1 1 1" Tag="" WorldPos="43.5 0 -13.5">
+                    <UserVariables>
+                        <Var Name="CastShadows" Value="true" />
+                        <Var Name="IsAffectedByDecal" Value="true" />
+                    </UserVariables>
+                </Entity>
+                <Entity Active="true" FileIndex="2" Group="0" ID="501" Name="tombstone01_10" Rotation="0 -2.61799 0" Scale="1 1 1" Tag="" WorldPos="40.5 0 -13.75">
+                    <UserVariables>
+                        <Var Name="CastShadows" Value="true" />
+                        <Var Name="IsAffectedByDecal" Value="true" />
+                    </UserVariables>
+                </Entity>
+                <Entity Active="true" FileIndex="2" Group="0" ID="502" Name="tombstone01_11" Rotation="0 -2.87979 0" Scale="1 1 1" Tag="" WorldPos="42.25 0 -12.75">
+                    <UserVariables>
+                        <Var Name="CastShadows" Value="true" />
+                        <Var Name="IsAffectedByDecal" Value="true" />
+                    </UserVariables>
+                </Entity>
+                <Entity Active="true" FileIndex="2" Group="0" ID="503" Name="tombstone01_12" Rotation="0 -3.40339 0" Scale="1 1 1" Tag="" WorldPos="42.5 0 -6">
+                    <UserVariables>
+                        <Var Name="CastShadows" Value="true" />
+                        <Var Name="IsAffectedByDecal" Value="true" />
+                    </UserVariables>
+                </Entity>
+                <Entity Active="true" FileIndex="2" Group="0" ID="504" Name="tombstone01_13" Rotation="0 -2.87979 0" Scale="1 1 1" Tag="" WorldPos="41.75 0 -8.5">
+                    <UserVariables>
+                        <Var Name="CastShadows" Value="true" />
+                        <Var Name="IsAffectedByDecal" Value="true" />
+                    </UserVariables>
+                </Entity>
+                <Entity Active="true" FileIndex="1" Group="0" ID="507" Name="candle_floor_small_1" Rotation="0 -2.87979 0" Scale="1 1 1" Tag="" WorldPos="44.25 0 -12.25">
+                    <UserVariables>
+                        <Var Name="CastShadows" Value="true" />
+                        <Var Name="StaticPhysics" Value="false" />
+                        <Var Name="IsAffectedByDecal" Value="false" />
+                        <Var Name="CallbackFunc" Value="" />
+                        <Var Name="ConnectedProps" Value="" />
+                        <Var Name="ConnectionStateChangeCallback" Value="" />
+                        <Var Name="FullGameSave" Value="false" />
+                        <Var Name="PlayerLookAtCallback" Value="" />
+                        <Var Name="PlayerLookAtCallbackAutoRemove" Value="false" />
+                        <Var Name="PlayerInteractCallback" Value="" />
+                        <Var Name="PlayerInteractCallbackAutoRemove" Value="false" />
+                        <Var Name="Lit" Value="true" />
+                        <Var Name="ConnectedLight" Value="" />
+                        <Var Name="ConnectionLightAmount" Value="1" />
+                        <Var Name="ConnectionLightUseOnColor" Value="true" />
+                        <Var Name="ConnectionLightUseSpec" Value="false" />
+                    </UserVariables>
+                </Entity>
+                <Entity Active="true" FileIndex="1" Group="0" ID="508" Name="candle_floor_small_2" Rotation="0 -2.87979 0" Scale="1 1 1" Tag="" WorldPos="44.5 0 -11.5">
+                    <UserVariables>
+                        <Var Name="CastShadows" Value="true" />
+                        <Var Name="StaticPhysics" Value="false" />
+                        <Var Name="IsAffectedByDecal" Value="false" />
+                        <Var Name="CallbackFunc" Value="" />
+                        <Var Name="ConnectedProps" Value="" />
+                        <Var Name="ConnectionStateChangeCallback" Value="" />
+                        <Var Name="FullGameSave" Value="false" />
+                        <Var Name="PlayerLookAtCallback" Value="" />
+                        <Var Name="PlayerLookAtCallbackAutoRemove" Value="false" />
+                        <Var Name="PlayerInteractCallback" Value="" />
+                        <Var Name="PlayerInteractCallbackAutoRemove" Value="false" />
+                        <Var Name="Lit" Value="true" />
+                        <Var Name="ConnectedLight" Value="" />
+                        <Var Name="ConnectionLightAmount" Value="1" />
+                        <Var Name="ConnectionLightUseOnColor" Value="true" />
+                        <Var Name="ConnectionLightUseSpec" Value="false" />
+                    </UserVariables>
+                </Entity>
+                <Entity Active="true" FileIndex="1" Group="0" ID="516" Name="candle_floor_small_3" Rotation="0 -2.87979 0" Scale="1 1 1" Tag="" WorldPos="44.25 0 -17.5">
+                    <UserVariables>
+                        <Var Name="CastShadows" Value="true" />
+                        <Var Name="StaticPhysics" Value="false" />
+                        <Var Name="IsAffectedByDecal" Value="false" />
+                        <Var Name="CallbackFunc" Value="" />
+                        <Var Name="ConnectedProps" Value="" />
+                        <Var Name="ConnectionStateChangeCallback" Value="" />
+                        <Var Name="FullGameSave" Value="false" />
+                        <Var Name="PlayerLookAtCallback" Value="" />
+                        <Var Name="PlayerLookAtCallbackAutoRemove" Value="false" />
+                        <Var Name="PlayerInteractCallback" Value="" />
+                        <Var Name="PlayerInteractCallbackAutoRemove" Value="false" />
+                        <Var Name="Lit" Value="true" />
+                        <Var Name="ConnectedLight" Value="" />
+                        <Var Name="ConnectionLightAmount" Value="1" />
+                        <Var Name="ConnectionLightUseOnColor" Value="true" />
+                        <Var Name="ConnectionLightUseSpec" Value="false" />
+                    </UserVariables>
+                </Entity>
+                <Entity Active="true" FileIndex="1" Group="0" ID="517" Name="candle_floor_small_4" Rotation="0 -2.87979 0" Scale="1 1 1" Tag="" WorldPos="42.75 0 -16.25">
+                    <UserVariables>
+                        <Var Name="CastShadows" Value="true" />
+                        <Var Name="StaticPhysics" Value="false" />
+                        <Var Name="IsAffectedByDecal" Value="false" />
+                        <Var Name="CallbackFunc" Value="" />
+                        <Var Name="ConnectedProps" Value="" />
+                        <Var Name="ConnectionStateChangeCallback" Value="" />
+                        <Var Name="FullGameSave" Value="false" />
+                        <Var Name="PlayerLookAtCallback" Value="" />
+                        <Var Name="PlayerLookAtCallbackAutoRemove" Value="false" />
+                        <Var Name="PlayerInteractCallback" Value="" />
+                        <Var Name="PlayerInteractCallbackAutoRemove" Value="false" />
+                        <Var Name="Lit" Value="true" />
+                        <Var Name="ConnectedLight" Value="" />
+                        <Var Name="ConnectionLightAmount" Value="1" />
+                        <Var Name="ConnectionLightUseOnColor" Value="true" />
+                        <Var Name="ConnectionLightUseSpec" Value="false" />
+                    </UserVariables>
+                </Entity>
+                <Entity Active="true" FileIndex="1" Group="0" ID="518" Name="candle_floor_small_5" Rotation="0 -2.87979 0" Scale="1 1 1" Tag="" WorldPos="46.5 0 -14.25">
+                    <UserVariables>
+                        <Var Name="CastShadows" Value="true" />
+                        <Var Name="StaticPhysics" Value="false" />
+                        <Var Name="IsAffectedByDecal" Value="false" />
+                        <Var Name="CallbackFunc" Value="" />
+                        <Var Name="ConnectedProps" Value="" />
+                        <Var Name="ConnectionStateChangeCallback" Value="" />
+                        <Var Name="FullGameSave" Value="false" />
+                        <Var Name="PlayerLookAtCallback" Value="" />
+                        <Var Name="PlayerLookAtCallbackAutoRemove" Value="false" />
+                        <Var Name="PlayerInteractCallback" Value="" />
+                        <Var Name="PlayerInteractCallbackAutoRemove" Value="false" />
+                        <Var Name="Lit" Value="true" />
+                        <Var Name="ConnectedLight" Value="" />
+                        <Var Name="ConnectionLightAmount" Value="1" />
+                        <Var Name="ConnectionLightUseOnColor" Value="true" />
+                        <Var Name="ConnectionLightUseSpec" Value="false" />
+                    </UserVariables>
+                </Entity>
             </Entities>
             <Misc />
             <StaticObjectCombos />

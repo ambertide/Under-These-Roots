@@ -35,7 +35,6 @@ void TimerDependant(string &in asTimer) {
         } else {
             SetPlayerActive(true);
             // Some random voices
-            AddTimer
         }
     } else if (asTimer == "SecondPass") {
         FadeOut(1.0f);
