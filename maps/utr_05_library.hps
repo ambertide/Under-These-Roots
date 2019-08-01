@@ -1,0 +1,56 @@
+void OnStart()
+{
+    SetEntityCallbackFunc("ceremony_knife", "PickUpKnife");
+}
+
+void PickUpCandles(string &in entity) {
+    for (int i = 1; i < 4; i++)
+    {
+        SetEntityActive("candle_pickup_" + i, false);
+    }
+    SetMessage("Messages", "L05CandlePickup", 2.5f);
+    GiveItem("PickupCandle", "Candle", "Candle", "candle.tga", 1);
+    AddUseItemCallback("candle_put", "PickupCandle", "candle_area", "PlaceCandles", true);
+} void PlaceCandles(string &in asItem, string &in asEntity) {
+    RemoveUseItemCallback("candle_put");
+    for (int i = 1; i < 4; i++)
+    {
+        SetEntityActive("ritual_candle_" + i, true);
+    }
+    SetLocalVarInt("connections", GetLocalVarInt("connections") + 1);
+    RemoveItem("PickupCandle");
+    if (GetLocalVarInt("connections") == 2) {
+        OpenPassage();
+    }
+}
+void PickUpKnife (string &in asEntity, string &in type) {
+    if (type == "OnPickup") {
+        AddUseItemCallback("", "ceremony_knife", "dagger_area", "DrawBlood", true);
+    }
+}
+void DrawBlood(string &in asItem, string &in asEntity) {
+    SetEntityActive("blood_spatter02_1", true);
+    GivePlayerDamage(10.0, "BloodSplat", false, false);
+    SetLocalVarInt("connections", GetLocalVarInt("connections") + 1);
+    if (GetLocalVarInt("connections") == 2) {
+        OpenPassage();
+    }
+}
+
+void OpenPassage() {
+    SetPlayerSanity(0);
+    GiveSanityDamage(10, true);
+    for (int i = 1; i < 11; i++)
+    {
+        SetLampLit("candlestick_wall_" + i, false, true);
+    }
+
+    for (int i = 1; i < 8; i++)
+    {
+        SetLampLit("candlestick_floor_" + i, false, true);
+    }
+
+    SetLampLit("candlestick02_1", false, true);
+    SetEntityActive("mansionbase_secret_passage_1", false);
+    SetEntityActive("mansionbase_secret_passage_broken_1", true);
+}

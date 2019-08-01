@@ -32,6 +32,8 @@
     <CATEGORY Name="Inventory">
         <Entry Name="ItemName_MansionKey">Key to Murray Estate</Entry>
         <Entry Name="ItemDesc_MansionKey">Key to the house of my childhood, my recently inherited estate.</Entry>
+	<Entry Name="ItemName_Candle">Three Ritual Candles</Entry>
+	<Entry Name="ItemDesc_Candle"> A group of Candles that might be helpful for a ritual.</Entry>
     </CATEGORY>
 
     <CATEGORY Name="Doors">
@@ -40,5 +42,6 @@
 
     <CATEGORY Name="Messages">
 	<Entry Name="L01WakeUp">I should get dressed</Entry>
+	<Entry Name="L05CandlePickup">Picked up Three Ritual Candles</Entry>
     </CATEGORY>
 </LANGUAGE>
