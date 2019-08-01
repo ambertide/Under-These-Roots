@@ -26,10 +26,11 @@ void lookInterract(string &in asEntity, int alState) {
 
 void treeFall () {
     if (GetLocalVarInt("tree_var") == 2) {
-        StartInsanityEvent("Stream_Monster_Roar03");
+//        StartInsanityEvent("Stream_Monster_Roar03");
         FadePlayerFOVMulTo(0.9f, 1.0f);
         AddTimer("zoom_in", 2.0f, "lightingStruck");
-        AddTimer("lighting_bro", 6.0f, "lightingStruck");
+        PlaySoundAtEntity("monster_roar", "guardian_distant3.snt", "Player", 11.0f, false);
+//        AddTimer("lighting_bro", 6.0f, "lightingStruck");
         StartScreenShake(0.005f, 6.0f, 0.5f, 0.5f);
 //        SetEntityActive("SpotLight_1", true);
 //        AddTimer("lighting_bro", 0.2f, "lightingStruck");
