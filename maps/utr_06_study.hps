@@ -1,11 +1,14 @@
+import void Unlit(string &in asEntity) from "utr_common";
 void OnStart()
 {
+    
     AddEntityCollideCallback("Player", "stand_area", "standInterract", true, 0);
     SetLocalVarInt("tree_var", 0);
 }
 
 void standInterract(string &in asParent, string &in asChild, int alState) {
     if (alState == 1) {
+        Unlit("candlestick_floor_3");
         AddLocalVarInt("tree_var", 1);
         treeFall();
     } else {
