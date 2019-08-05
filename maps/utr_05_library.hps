@@ -1,8 +1,7 @@
-#include "utr_common.hps"
 void OnStart()
 {
     SetEntityCallbackFunc("ceremony_knife", "PickUpKnife");
-    Unlit("cat");
+    SetEntityVisible("servant_brute_1", false);
 }
 
 void PickUpCandles(string &in entity) {

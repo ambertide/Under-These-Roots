@@ -59,7 +59,7 @@
                 <File Id="42" Path="static_objects/machine/pipes/thick_straight_short.dae" />
                 <File Id="43" Path="static_objects/machine/pipes/thick_three_cross.dae" />
             </FileIndex_StaticObjects>
-            <FileIndex_Entities NumOfFiles="54">
+            <FileIndex_Entities NumOfFiles="55">
                 <File Id="0" Path="entities/lamp/candle_floor/candle_floor_small.ent" />
                 <File Id="1" Path="entities/decals/blood_spatter/blood_spatter02.ent" />
                 <File Id="2" Path="entities/special/mansionbase_secret_passage/mansionbase_secret_passage_broken.ent" />
@@ -114,6 +114,7 @@
                 <File Id="51" Path="entities/prison/cell_bucket/cell_bucket.ent" />
                 <File Id="52" Path="entities/lamp/torch_static01/torch_static_green.ent" />
                 <File Id="53" Path="entities/organic/human_skull/human_skull.ent" />
+                <File Id="54" Path="entities/enemy/servant_brute/servant_brute.ent" />
             </FileIndex_Entities>
             <FileIndex_Decals NumOfFiles="2">
                 <File Id="0" Path="textures/decals/blood_alchemy_circles.mat" />
@@ -2228,7 +2229,7 @@
                         <Var Name="SpinDir" Value="BothWays" />
                     </UserVariables>
                 </Entity>
-                <SpotLight Active="true" Aspect="1" CastShadows="true" DiffuseColor="0 0.2 0.6 1" FOV="0.349066" FalloffMap="" FlickerActive="false" FlickerFade="false" FlickerOffColor="0 0 0 1" FlickerOffFadeMaxLength="0" FlickerOffFadeMinLength="0" FlickerOffMaxLength="0" FlickerOffMinLength="0" FlickerOffPS="" FlickerOffRadius="0" FlickerOffSound="" FlickerOnFadeMaxLength="0" FlickerOnFadeMinLength="0" FlickerOnMaxLength="0" FlickerOnMinLength="0" FlickerOnPS="" FlickerOnSound="" Gobo="D:/SteamLibrary/steamapps/steamapps/common/Amnesia The Dark Descent/lights/gobo_cell_tunnels_bigroom.dds" GoboAnimFrameTime="0" GoboAnimMode="None" Group="0" ID="747" Name="SpotLight_4" NearClipPlane="0.1" Radius="50" Rotation="-1.57079 0 0" Scale="1 1 1" ShadowResolution="High" ShadowsAffectDynamic="true" ShadowsAffectStatic="true" SpotFalloffMap="lights/light_falloff_short_fade.tga" Tag="" WorldPos="9 25 14.5" />
+                <SpotLight Active="true" Aspect="1" CastShadows="true" DiffuseColor="0 0.2 0.6 1" FOV="0.349066" FalloffMap="" FlickerActive="false" FlickerFade="false" FlickerOffColor="0 0 0 1" FlickerOffFadeMaxLength="0" FlickerOffFadeMinLength="0" FlickerOffMaxLength="0" FlickerOffMinLength="0" FlickerOffPS="" FlickerOffRadius="0" FlickerOffSound="" FlickerOnFadeMaxLength="0" FlickerOnFadeMinLength="0" FlickerOnMaxLength="0" FlickerOnMinLength="0" FlickerOnPS="" FlickerOnSound="" Gobo="D:/SteamLibrary/steamapps/steamapps/common/Amnesia The Dark Descent/lights/gobo_cell_tunnels_bigroom.dds" GoboAnimFrameTime="0" GoboAnimMode="None" Group="0" ID="747" Name="SpotLight_4" NearClipPlane="0.1" Radius="50" Rotation="-1.57079 0 0" Scale="1 1 1" ShadowResolution="High" ShadowsAffectDynamic="true" ShadowsAffectStatic="true" SpotFalloffMap="../../../../../../lights/light_falloff_short_fade.tga" Tag="" WorldPos="9 25 14.5" />
                 <PointLight Active="true" CastShadows="false" DiffuseColor="0 0.2 0.6 1" FalloffMap="" FlickerActive="false" FlickerFade="false" FlickerOffColor="0 0 0 1" FlickerOffFadeMaxLength="0" FlickerOffFadeMinLength="0" FlickerOffMaxLength="0" FlickerOffMinLength="0" FlickerOffPS="" FlickerOffRadius="0" FlickerOffSound="" FlickerOnFadeMaxLength="0" FlickerOnFadeMinLength="0" FlickerOnMaxLength="0" FlickerOnMinLength="0" FlickerOnPS="" FlickerOnSound="" Gobo="" GoboAnimFrameTime="0" GoboAnimMode="None" Group="0" ID="748" Name="PointLight_4" Radius="5.016" Rotation="0 -0 0" Scale="1 1 1" ShadowResolution="High" ShadowsAffectDynamic="true" ShadowsAffectStatic="true" Tag="" WorldPos="8.75 24.25 13.75" />
                 <Entity Active="true" FileIndex="52" Group="0" ID="749" Name="torch_static_green_5" Rotation="0 3.8147e-006 0" Scale="1 1 1" Tag="" WorldPos="11.25 2 8.25">
                     <UserVariables>
@@ -2388,6 +2389,14 @@
                         <Var Name="ConnectionLightAmount" Value="1" />
                         <Var Name="ConnectionLightUseOnColor" Value="true" />
                         <Var Name="ConnectionLightUseSpec" Value="false" />
+                    </UserVariables>
+                </Entity>
+                <Entity Active="true" FileIndex="54" Group="0" ID="795" Name="servant_brute_1" Rotation="0 -1.309 0" Scale="1 1 1" Tag="" WorldPos="14.9651 0.0349998 1.48453">
+                    <UserVariables>
+                        <Var Name="CallbackFunc" Value="" />
+                        <Var Name="DisableTriggers" Value="false" />
+                        <Var Name="Hallucination" Value="false" />
+                        <Var Name="HallucinationEndDist" Value="3" />
                     </UserVariables>
                 </Entity>
             </Entities>
