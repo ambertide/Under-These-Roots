@@ -1,4 +1,3 @@
-import void Unlit(string &in asEntity) from "utr_common";
 void OnStart()
 {
     

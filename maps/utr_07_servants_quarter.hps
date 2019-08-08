@@ -1,0 +1,24 @@
+void OnStart()
+{
+    SetEntityCallbackFunc("stone_chipper_1", "SetupChairScene");
+}
+
+
+void SetupChairScene(string &in asEntity, string &in asType) {
+    AddTimer("chair_fall", 5.0f, "TimedEvents");
+    for (int i = 1; i < 19; i++) {
+        SetEntityActive("chair_metal_" + i, true);
+        SetEntityActive("chair_metal_" + (i + 18), false);
+        SetPropStaticPhysics("chair_metal_" + i, true);
+    }
+}
+
+
+void TimedEvents(string &in asTimer) {
+    if (asTimer == "chair_fall") {
+        for (int i = 1; i < 19; i++) {
+            SetPropStaticPhysics("chair_metal_" + i, false);
+        }
+    } 
+
+} 

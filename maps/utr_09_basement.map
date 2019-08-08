@@ -1,0 +1,140 @@
+<Level>
+    <EditorSession>
+        <Performance CamClipPlanes="0.05 1000" LightsActive="true" PSActive="true" ShowFog="true" ShowSkybox="true" WorldReflection="true" />
+        <ViewportConfig BGColor="0.2 0.2 0.2 1" GAmbientLight="false" GPointLight="false" GridSnap="true" GridSnapSeparation="0.25" SelectedViewport="3" UsingEnlargedViewport="true">
+            <Viewport CameraPosition="0 0 0" CameraTarget="1 1 1" CameraZoom="0" GridHeight="0" GridPlane="2" Preset="0" RenderMode="1" ShowAxes="true" ShowGrid="true" UsingLTCam="true" />
+            <Viewport CameraPosition="0 0 0" CameraTarget="1 1 1" CameraZoom="0" GridHeight="0" GridPlane="0" Preset="1" RenderMode="1" ShowAxes="true" ShowGrid="true" UsingLTCam="true" />
+            <Viewport CameraPosition="0 0 0" CameraTarget="1 1 1" CameraZoom="0" GridHeight="0" GridPlane="1" Preset="2" RenderMode="1" ShowAxes="true" ShowGrid="true" UsingLTCam="true" />
+            <Viewport CameraPosition="0 0 0" CameraTarget="1 1 1" CameraZoom="0" GridHeight="0" GridPlane="1" Preset="3" RenderMode="0" ShowAxes="true" ShowGrid="true" UsingLTCam="true" />
+        </ViewportConfig>
+        <Groups>
+            <Group ID="0" Name="None" Visible="true" />
+        </Groups>
+    </EditorSession>
+    <MapData FogActive="false" FogColor="1 1 1 1" FogCulling="true" FogEnd="20" FogFalloffExp="1" FogStart="0" GlobalDecalMaxTris="300" Name="" SkyBoxActive="false" SkyBoxColor="1 1 1 1" SkyBoxTexture="../../../../../../">
+        <MapContents>
+            <FileIndex_StaticObjects NumOfFiles="1">
+                <File Id="0" Path="static_objects/dungeonbase/stairs/stairs_spiral_metal.dae" />
+            </FileIndex_StaticObjects>
+            <FileIndex_Entities NumOfFiles="2">
+                <File Id="0" Path="entities/lamp/bridge_torch/bridge_torch.ent" />
+                <File Id="1" Path="entities/furniture/cabinet_nice/cabinet_nice.ent" />
+            </FileIndex_Entities>
+            <FileIndex_Decals NumOfFiles="0" />
+            <StaticObjects>
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="0" Name="stairs_stairs_spiral_metal_1" Rotation="0 1.309 0" Scale="1 1 1" Tag="" WorldPos="0 -10.75 3.25" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="1" Name="stairs_stairs_spiral_metal_2" Rotation="-6.17093e-008 0.261792 -8.12402e-009" Scale="1 1 1" Tag="" WorldPos="0 -21.75 3.25" />
+            </StaticObjects>
+            <Primitives>
+                <Plane Active="true" AlignToWorldCoords="false" CastShadows="false" Collides="true" Corner1UV="0 31" Corner2UV="0 0" Corner3UV="49.75 0" Corner4UV="49.75 31" EndCorner="49.75 0 31" Group="0" ID="14" Material="D:/SteamLibrary/steamapps/steamapps/common/Amnesia The Dark Descent/static_objects/cellarbase/floor/cellarbase_wood_floor.mat" Name="Plane" Rotation="0 0 -3.14159" Scale="1 1 1" StartCorner="0 0 0" Tag="" TextureAngle="0" TileAmount="1 1 1" TileOffset="0 0 0" WorldPos="50 0 -10" />
+            </Primitives>
+            <Decals />
+            <Entities>
+                <BoxLight Active="true" BlendFunc="0" CastShadows="false" DiffuseColor="0.2 0.2 0.5 1" FalloffMap="" FlickerActive="false" FlickerFade="false" FlickerOffColor="0 0 0 1" FlickerOffFadeMaxLength="0" FlickerOffFadeMinLength="0" FlickerOffMaxLength="0" FlickerOffMinLength="0" FlickerOffPS="" FlickerOffRadius="0" FlickerOffSound="" FlickerOnFadeMaxLength="0" FlickerOnFadeMinLength="0" FlickerOnMaxLength="0" FlickerOnMinLength="0" FlickerOnPS="" FlickerOnSound="" Gobo="" GoboAnimFrameTime="0" GoboAnimMode="None" Group="0" ID="20" Name="BoxLight_1" Radius="1" Rotation="0 -0 0" Scale="93.5 42.5 81" ShadowResolution="High" ShadowsAffectDynamic="true" ShadowsAffectStatic="true" Size="93.5 42.5 81" Tag="" WorldPos="8.75 0 2.5" />
+                <Area Active="true" AreaType="PlayerStart" Group="0" ID="21" Mesh="" Name="PlayerStartArea_1" Rotation="0 -0 0" Scale="1 1 1" Tag="" WorldPos="4.5 0.75 0.75">
+                    <UserVariables />
+                </Area>
+                <Entity Active="true" FileIndex="0" Group="0" ID="22" Name="bridge_torch_1" Rotation="0 -1.5708 0" Scale="1 1 1" Tag="" WorldPos="4.5 -2 3.75">
+                    <UserVariables>
+                        <Var Name="CastShadows" Value="true" />
+                        <Var Name="StaticPhysics" Value="false" />
+                        <Var Name="IsAffectedByDecal" Value="false" />
+                        <Var Name="CallbackFunc" Value="" />
+                        <Var Name="ConnectedProps" Value="" />
+                        <Var Name="ConnectionStateChangeCallback" Value="" />
+                        <Var Name="FullGameSave" Value="false" />
+                        <Var Name="PlayerLookAtCallback" Value="" />
+                        <Var Name="PlayerLookAtCallbackAutoRemove" Value="false" />
+                        <Var Name="PlayerInteractCallback" Value="" />
+                        <Var Name="PlayerInteractCallbackAutoRemove" Value="false" />
+                        <Var Name="Lit" Value="true" />
+                        <Var Name="ConnectedLight" Value="" />
+                        <Var Name="ConnectionLightAmount" Value="1" />
+                        <Var Name="ConnectionLightUseOnColor" Value="true" />
+                        <Var Name="ConnectionLightUseSpec" Value="false" />
+                    </UserVariables>
+                </Entity>
+                <Entity Active="true" FileIndex="0" Group="0" ID="23" Name="bridge_torch_2" Rotation="0 -1.5708 0" Scale="1 1 1" Tag="" WorldPos="5.75 -2 -0.5">
+                    <UserVariables>
+                        <Var Name="CastShadows" Value="true" />
+                        <Var Name="StaticPhysics" Value="false" />
+                        <Var Name="IsAffectedByDecal" Value="false" />
+                        <Var Name="CallbackFunc" Value="" />
+                        <Var Name="ConnectedProps" Value="" />
+                        <Var Name="ConnectionStateChangeCallback" Value="" />
+                        <Var Name="FullGameSave" Value="false" />
+                        <Var Name="PlayerLookAtCallback" Value="" />
+                        <Var Name="PlayerLookAtCallbackAutoRemove" Value="false" />
+                        <Var Name="PlayerInteractCallback" Value="" />
+                        <Var Name="PlayerInteractCallbackAutoRemove" Value="false" />
+                        <Var Name="Lit" Value="true" />
+                        <Var Name="ConnectedLight" Value="" />
+                        <Var Name="ConnectionLightAmount" Value="1" />
+                        <Var Name="ConnectionLightUseOnColor" Value="true" />
+                        <Var Name="ConnectionLightUseSpec" Value="false" />
+                    </UserVariables>
+                </Entity>
+                <Entity Active="true" FileIndex="0" Group="0" ID="24" Name="bridge_torch_3" Rotation="0 -1.5708 0" Scale="1 1 1" Tag="" WorldPos="10.75 -2 2.75">
+                    <UserVariables>
+                        <Var Name="CastShadows" Value="true" />
+                        <Var Name="StaticPhysics" Value="false" />
+                        <Var Name="IsAffectedByDecal" Value="false" />
+                        <Var Name="CallbackFunc" Value="" />
+                        <Var Name="ConnectedProps" Value="" />
+                        <Var Name="ConnectionStateChangeCallback" Value="" />
+                        <Var Name="FullGameSave" Value="false" />
+                        <Var Name="PlayerLookAtCallback" Value="" />
+                        <Var Name="PlayerLookAtCallbackAutoRemove" Value="false" />
+                        <Var Name="PlayerInteractCallback" Value="" />
+                        <Var Name="PlayerInteractCallbackAutoRemove" Value="false" />
+                        <Var Name="Lit" Value="true" />
+                        <Var Name="ConnectedLight" Value="" />
+                        <Var Name="ConnectionLightAmount" Value="1" />
+                        <Var Name="ConnectionLightUseOnColor" Value="true" />
+                        <Var Name="ConnectionLightUseSpec" Value="false" />
+                    </UserVariables>
+                </Entity>
+                <Entity Active="true" FileIndex="0" Group="0" ID="25" Name="bridge_torch_4" Rotation="0 -1.5708 0" Scale="1 1 1" Tag="" WorldPos="10 -2 0.5">
+                    <UserVariables>
+                        <Var Name="CastShadows" Value="true" />
+                        <Var Name="StaticPhysics" Value="false" />
+                        <Var Name="IsAffectedByDecal" Value="false" />
+                        <Var Name="CallbackFunc" Value="" />
+                        <Var Name="ConnectedProps" Value="" />
+                        <Var Name="ConnectionStateChangeCallback" Value="" />
+                        <Var Name="FullGameSave" Value="false" />
+                        <Var Name="PlayerLookAtCallback" Value="" />
+                        <Var Name="PlayerLookAtCallbackAutoRemove" Value="false" />
+                        <Var Name="PlayerInteractCallback" Value="" />
+                        <Var Name="PlayerInteractCallbackAutoRemove" Value="false" />
+                        <Var Name="Lit" Value="true" />
+                        <Var Name="ConnectedLight" Value="" />
+                        <Var Name="ConnectionLightAmount" Value="1" />
+                        <Var Name="ConnectionLightUseOnColor" Value="true" />
+                        <Var Name="ConnectionLightUseSpec" Value="false" />
+                    </UserVariables>
+                </Entity>
+                <Entity Active="true" FileIndex="1" Group="0" ID="26" Name="cabinet_nice_1" Rotation="0 -1.5708 0" Scale="1 1 1" Tag="" WorldPos="7.5 0 3">
+                    <UserVariables>
+                        <Var Name="CastShadows" Value="true" />
+                        <Var Name="StaticPhysics" Value="false" />
+                        <Var Name="IsAffectedByDecal" Value="false" />
+                        <Var Name="CallbackFunc" Value="" />
+                        <Var Name="ConnectedProps" Value="" />
+                        <Var Name="ConnectionStateChangeCallback" Value="" />
+                        <Var Name="FullGameSave" Value="false" />
+                        <Var Name="PlayerLookAtCallback" Value="" />
+                        <Var Name="PlayerLookAtCallbackAutoRemove" Value="false" />
+                        <Var Name="PlayerInteractCallback" Value="" />
+                        <Var Name="PlayerInteractCallbackAutoRemove" Value="false" />
+                        <Var Name="Locked" Value="false" />
+                        <Var Name="OpenAmount" Value="0" />
+                        <Var Name="DisableBreakable" Value="false" />
+                    </UserVariables>
+                </Entity>
+            </Entities>
+            <Misc />
+            <StaticObjectCombos />
+        </MapContents>
+    </MapData>
+</Level>
