@@ -12,7 +12,9 @@ void PickUpCandles(string &in entity) {
     SetMessage("Messages", "L05CandlePickup", 2.5f);
     GiveItem("PickupCandle", "Candle", "Candle", "candle.tga", 1);
     AddUseItemCallback("candle_put", "PickupCandle", "candle_area", "PlaceCandles", true);
-} void PlaceCandles(string &in asItem, string &in asEntity) {
+} 
+
+void PlaceCandles(string &in asItem, string &in asEntity) {
     RemoveUseItemCallback("candle_put");
     for (int i = 1; i < 4; i++)
     {
