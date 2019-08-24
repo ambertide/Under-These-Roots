@@ -1,0 +1,20 @@
+void OnEnter()
+{
+    SetPlayerMoveSpeedMul(0.5f);
+    AddTimer("move_props", 1, "moveProps");
+    SetLocalVarFloat("UpDownFlag", 1.0f);
+}
+
+void OnLeave()
+{
+    SetPlayerMoveSpeedMul(1.0f);
+}
+
+void moveProps(string &in asTimer) {
+    if (asTimer == "move_props") {
+        int monolithCount = GetLocalVarInt("MonoLithCount");
+        SetEntityPos("monolith01_11", GetEntityPosX("monolith01_11"), GetEntityPosY("monolith01_11") +  MathSin(10.0f * GetLocalVarFloat("UpdownFlag")), GetEntityPosZ("monolith01_11"));
+        SetLocalVarFloat("UpDownFlag", GetLocalVarFloat("UpDownFlag") + 0.1f);
+        AddTimer("move_props", 0, "moveProps");
+    }
+}
