@@ -4,6 +4,7 @@ void OnEnter()
     AddTimer("move_props", 1, "moveProps");
     SetLocalVarFloat("UpDownFlag", 0.0f);
     SetLocalVarFloat("NegativeTurner", 1.0f);
+    SetLocalVarInt("MonoLithCount", 13);
 }
  
 void OnLeave()
@@ -14,7 +15,9 @@ void OnLeave()
 void moveProps(string &in asTimer) {
     if (asTimer == "move_props") {
         int monolithCount = GetLocalVarInt("MonoLithCount");
-        SetEntityPos("monolith01_11", GetEntityPosX("monolith01_11"), GetEntityPosY("monolith01_11") + 0.01f * MathSin(50.0f * GetLocalVarFloat("UpDownFlag")) * GetLocalVarFloat("NegativeTurner"), GetEntityPosZ("monolith01_11"));
+	for (int i = 1; i <= monolithCount; i++) {
+        	SetEntityPos("monolith01_" + i, GetEntityPosX("monolith01_" + i), GetEntityPosY("monolith01_" + i) + 0.01f * MathSin(50.0f * GetLocalVarFloat("UpDownFlag")) * GetLocalVarFloat("NegativeTurner"), GetEntityPosZ("monolith01_" + i));
+	}
 	if (GetLocalVarFloat("UpDownFlag") != 0.0f && GetLocalVarFloat("UpDownFlag") % 1 == 0) {
 		SetLocalVarFloat("NegativeTurner", GetLocalVarFloat("NegativeTurner") * -1.0f);
 	}        
