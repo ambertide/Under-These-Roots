@@ -2,7 +2,7 @@ void OnEnter()
 {
     SetPlayerMoveSpeedMul(0.5f);
     AddTimer("move_props", 1, "moveProps");
-    SetLocalVarFloat("UpDownFlag", 0.0f);
+    SetLocalVarFloat("FramePercentCount", 0.0f);
     SetLocalVarFloat("NegativeTurner", 1.0f);
     SetLocalVarInt("MonoLithCount", 13);
 }
@@ -16,12 +16,9 @@ void moveProps(string &in asTimer) {
     if (asTimer == "move_props") {
         int monolithCount = GetLocalVarInt("MonoLithCount");
 	for (int i = 1; i <= monolithCount; i++) {
-        	SetEntityPos("monolith01_" + i, GetEntityPosX("monolith01_" + i), GetEntityPosY("monolith01_" + i) + 0.01f * MathSin(50.0f * GetLocalVarFloat("UpDownFlag")) * GetLocalVarFloat("NegativeTurner"), GetEntityPosZ("monolith01_" + i));
-	}
-	if (GetLocalVarFloat("UpDownFlag") != 0.0f && GetLocalVarFloat("UpDownFlag") % 1 == 0) {
-		SetLocalVarFloat("NegativeTurner", GetLocalVarFloat("NegativeTurner") * -1.0f);
+        	SetEntityPos("monolith01_" + i, GetEntityPosX("monolith01_" + i), GetEntityPosY("monolith01_" + i) + 0.01f * MathSin(50.0f * GetLocalVarFloat("FramePercentCount")), GetEntityPosZ("monolith01_" + i));
 	}        
-	SetLocalVarFloat("UpDownFlag", GetLocalVarFloat("UpDownFlag") + 0.001f);
+	SetLocalVarFloat("FramePercentCount", GetLocalVarFloat("FramePercentCount") + 0.001f);
         AddTimer("move_props", 0, "moveProps");
     }
 }
