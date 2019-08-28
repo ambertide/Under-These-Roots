@@ -16,8 +16,8 @@ void moveProps(string &in asTimer) {
     if (asTimer == "move_props") {
         int monolithCount = GetLocalVarInt("MonoLithCount");
 	for (int i = 1; i <= monolithCount; i++) {
-        	SetEntityPos("monolith01_" + i, GetEntityPosX("monolith01_" + i), GetEntityPosY("monolith01_" + i) + 0.01f * MathSin(50.0f * GetLocalVarFloat("FramePercentCount")), GetEntityPosZ("monolith01_" + i));
-            SetEntityPos("monolith_" + i, GetEntityPosX("monolith_" + i), GetEntityPosY("monolith_" + i) + 0.01f * MathSin(50.0f * GetLocalVarFloat("FramePercentCount")), GetEntityPosZ("monolith_" + i));
+        	SetEntityPos("monolith01_" + i, GetEntityPosX("monolith01_" + i), GetEntityPosY("monolith01_" + i) + MathPow(-1, i) * 0.05f * MathSin(50.0f * GetLocalVarFloat("FramePercentCount")), GetEntityPosZ("monolith01_" + i));
+            SetEntityPos("monolith_" + i, GetEntityPosX("monolith_" + i), GetEntityPosY("monolith_" + i) + MathPow(-1, i) * 0.05f * MathSin(50.0f * GetLocalVarFloat("FramePercentCount")), GetEntityPosZ("monolith_" + i));
     }        
 	SetLocalVarFloat("FramePercentCount", GetLocalVarFloat("FramePercentCount") + 0.001f);
         AddTimer("move_props", 0, "moveProps");
