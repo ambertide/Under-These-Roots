@@ -10,9 +10,9 @@ void PlayerPass(string &in asParent, string &in asChild, int alState) {
         GivePlayerDamage(25.0f, "BlodSplat", false, false);
         FadePlayerRollTo(40.0f, 15.0f, 30.0f);
         FadeOut(0.5f);
-	PlaySoundAtEntity("", "player_falldamage_med.snt", "Player", 0, false);
+        PlaySoundAtEntity("", "player_falldamage_med.snt", "Player", 0, false);
         SetLocalVarInt("playerDragged", 1);
-        AddTimer("FirstPass", 1.5f, "TimerDependant");
+        AddTimer("FirstPass", 3.0f, "TimerDependant");
     } else if (asChild == "PlayerPassOut_2") {
         SetLocalVarInt("playerDragged", 0);
         AddTimer("SecondPass", 0, "TimerDependant");
@@ -23,8 +23,8 @@ void TimerDependant(string &in asTimer) {
     if (asTimer == "FirstPass") {
         //Play lock opening and dragging sounds
         TeleportPlayer("PlayerStartArea_2");
-        FadeIn(1.0f);
-        AddTimer("Dragged", 7.0f, "TimerDependant");
+        FadeIn(3.0f);
+        AddTimer("Dragged", 3.0f, "TimerDependant");
     } else if (asTimer == "Dragged") {
         AddTimer("ItelePlayer", 0, "TimerDependant");
     } else if (asTimer == "ItelePlayer") {
@@ -37,12 +37,14 @@ void TimerDependant(string &in asTimer) {
         }
     } else if (asTimer == "SecondPass") {
         FadeOut(1.0f);
+        AddTimer("TeleportPlayerDuringSecondPass", 1.0f, "TimerDependant");
+    } else if (asTimer == "TeleportPlayerDuringSecondPass") {
         TeleportPlayer("PlayerStartArea_3");
         AddTimer("PlayerReturnNormal", 1.0f, "TimerDependant");
     } else if (asTimer == "PlayerReturnNormal") {
         FadeIn(1.0f);
         ChangePlayerStateToNormal();
-	    StopMusic(0.5f, 0);
-	    PlayMusic("18_amb.ogg", true, 0.5f, 0.9f, 1, false);
+        StopMusic(0.5f, 0);
+        PlayMusic("18_amb.ogg", true, 0.5f, 0.9f, 1, false);
     }
 }
