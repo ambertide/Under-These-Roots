@@ -41,8 +41,8 @@ void TimerDependant(string &in asTimer) {
         AddTimer("PlayerReturnNormal", 1.0f, "TimerDependant");
     } else if (asTimer == "PlayerReturnNormal") {
         FadeIn(1.0f);
-//        ChangePlayerStateToNormal();
+        ChangePlayerStateToNormal();
 	    StopMusic(0.5f, 0);
-	    StartMusic("18_amb.ogg", true, 0.5f, 0.9f, 1);
+	    PlayMusic("18_amb.ogg", true, 0.5f, 0.9f, 1, false);
     }
 }
