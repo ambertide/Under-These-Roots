@@ -12,7 +12,7 @@ void Dressed(string &in asEntity) {
     PlaySoundAtEntity("zipper", "01_zipper", "Player", 0, false);
     CompleteQuest("get_dressed", "L01");
     FadeOut(0.5f);
-    AddTimer("T4", 0.5f, "getDressedComp");
+    AddTimer("T4", 3.0f, "getDressedComp");
 }
 
 void OnStart() {
@@ -31,12 +31,12 @@ void OnStart() {
 void WakeUp(string &in timer_name) {
     if (timer_name == "T1") {
         PlaySoundAtEntity("", "react_sigh.snt", "Player", 0, false);
-        FadeIn(3);
-        FadePlayerRollTo(0.0f, 100.0f, 250.0f);
-        MovePlayerHeadPos(0.0f, 0.0f, 0.0f, 1.0f, 0.3f);
+        FadeIn(6);
+        FadePlayerRollTo(0.0f, 50.0f, 70.0f);
+        MovePlayerHeadPos(0.0f, 0.0f, 0.0f, 1.0f, 0.15f);
         SetPlayerActive(true);
         ShowPlayerCrossHairIcons(true);
-        SetPlayerSanity(15);
+        SetPlayerSanity(26);
     }
 }
 

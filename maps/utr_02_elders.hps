@@ -14,7 +14,7 @@ void PlayerPass(string &in asParent, string &in asChild, int alState) {
         AddTimer("FirstPass", 1.5f, "TimerDependant");
     } else if (asChild == "PlayerPassOut_2") {
         SetLocalVarInt("playerDragged", 0);
-        AddTimer("SecondPass", 3.0f, "TimerDependant");
+        AddTimer("SecondPass", 0, "TimerDependant");
     } else if (asChild == "PlayerPassOut_3") {
         
     }
@@ -39,5 +39,6 @@ void TimerDependant(string &in asTimer) {
     } else if (asTimer == "SecondPass") {
         FadeOut(1.0f);
         TeleportPlayer("PlayerStartArea_3");
+        FadeIn(1.0f);
     }
 }

@@ -5,7 +5,7 @@
             <Viewport CameraPosition="0 0 0" CameraTarget="1 1 1" CameraZoom="3.36272" GridHeight="0" GridPlane="2" Preset="0" RenderMode="1" ShowAxes="true" ShowGrid="true" UsingLTCam="true" />
             <Viewport CameraPosition="0 0 0" CameraTarget="1 1 1" CameraZoom="3.36272" GridHeight="0" GridPlane="0" Preset="1" RenderMode="1" ShowAxes="true" ShowGrid="true" UsingLTCam="true" />
             <Viewport CameraPosition="0 0 0" CameraTarget="1 1 1" CameraZoom="3.36272" GridHeight="0" GridPlane="1" Preset="2" RenderMode="1" ShowAxes="true" ShowGrid="true" UsingLTCam="true" />
-            <Viewport CameraPosition="9.8275 3.3719 -0.43821" CameraTarget="12.7655 -6.79884e-06 -1.96503" CameraZoom="2.359" GridHeight="0" GridPlane="1" Preset="3" RenderMode="0" ShowAxes="true" ShowGrid="true" UsingLTCam="true" />
+            <Viewport CameraPosition="4.28896 1.77256 -1.17403" CameraTarget="7.4867 -6.79884e-06 5.70628" CameraZoom="1.859" GridHeight="0" GridPlane="1" Preset="3" RenderMode="0" ShowAxes="true" ShowGrid="true" UsingLTCam="true" />
         </ViewportConfig>
         <Groups>
             <Group ID="0" Name="None" Visible="true" />
@@ -543,25 +543,6 @@
                     </UserVariables>
                 </Entity>
                 <BoxLight Active="true" BlendFunc="1" CastShadows="false" DiffuseColor="0.9 0.1 0.9 1" FalloffMap="" FlickerActive="false" FlickerFade="false" FlickerOffColor="0 0 0 1" FlickerOffFadeMaxLength="0" FlickerOffFadeMinLength="0" FlickerOffMaxLength="0" FlickerOffMinLength="0" FlickerOffPS="" FlickerOffRadius="0" FlickerOffSound="" FlickerOnFadeMaxLength="0" FlickerOnFadeMinLength="0" FlickerOnMaxLength="0" FlickerOnMinLength="0" FlickerOnPS="" FlickerOnSound="" Gobo="" GoboAnimFrameTime="0" GoboAnimMode="None" Group="0" ID="95" Name="BoxLight_10" Radius="1" Rotation="-3.90697 0.856358 3.96374" Scale="3.75 5.75 4" ShadowResolution="High" ShadowsAffectDynamic="true" ShadowsAffectStatic="true" Size="3.75 5.75 4" Tag="" WorldPos="13.75 -1 -4.75" />
-                <Entity Active="true" FileIndex="0" Group="0" ID="96" Name="monolith_11" Rotation="-6.57923 10.5742 6.96975" Scale="1 1 1" Tag="" WorldPos="6.75 -4.75 6.25">
-                    <UserVariables>
-                        <Var Name="CastShadows" Value="true" />
-                        <Var Name="StaticPhysics" Value="false" />
-                        <Var Name="IsAffectedByDecal" Value="false" />
-                        <Var Name="CallbackFunc" Value="" />
-                        <Var Name="ConnectedProps" Value="" />
-                        <Var Name="ConnectionStateChangeCallback" Value="" />
-                        <Var Name="FullGameSave" Value="false" />
-                        <Var Name="PlayerLookAtCallback" Value="" />
-                        <Var Name="PlayerLookAtCallbackAutoRemove" Value="false" />
-                        <Var Name="PlayerInteractCallback" Value="" />
-                        <Var Name="PlayerInteractCallbackAutoRemove" Value="false" />
-                        <Var Name="ContainedItem" Value="None" />
-                        <Var Name="DisableBreakable" Value="false" />
-                        <Var Name="IsInsanityVision" Value="false" />
-                        <Var Name="VisionMaxSanity" Value="30" />
-                    </UserVariables>
-                </Entity>
                 <Entity Active="true" FileIndex="0" Group="0" ID="97" Name="monolith_12" Rotation="-6.57923 10.5742 6.96975" Scale="1 1 1" Tag="" WorldPos="6.75 -4.75 6.25">
                     <UserVariables>
                         <Var Name="CastShadows" Value="true" />
@@ -582,25 +563,6 @@
                     </UserVariables>
                 </Entity>
                 <BoxLight Active="true" BlendFunc="1" CastShadows="false" DiffuseColor="0.9 0.1 0.9 1" FalloffMap="" FlickerActive="false" FlickerFade="false" FlickerOffColor="0 0 0 1" FlickerOffFadeMaxLength="0" FlickerOffFadeMinLength="0" FlickerOffMaxLength="0" FlickerOffMinLength="0" FlickerOffPS="" FlickerOffRadius="0" FlickerOffSound="" FlickerOnFadeMaxLength="0" FlickerOnFadeMinLength="0" FlickerOnMaxLength="0" FlickerOnMinLength="0" FlickerOnPS="" FlickerOnSound="" Gobo="" GoboAnimFrameTime="0" GoboAnimMode="None" Group="0" ID="98" Name="BoxLight_11" Radius="1" Rotation="-6.57923 1.14938 6.96975" Scale="3.75 5.75 4" ShadowResolution="High" ShadowsAffectDynamic="true" ShadowsAffectStatic="true" Size="3.75 5.75 4" Tag="" WorldPos="6.5 -5 5.5" />
-                <Entity Active="true" FileIndex="0" Group="0" ID="102" Name="monolith_13" Rotation="-6.57923 11.3596 6.96975" Scale="1 1 1" Tag="" WorldPos="6.75 6.25 13">
-                    <UserVariables>
-                        <Var Name="CastShadows" Value="true" />
-                        <Var Name="StaticPhysics" Value="false" />
-                        <Var Name="IsAffectedByDecal" Value="false" />
-                        <Var Name="CallbackFunc" Value="" />
-                        <Var Name="ConnectedProps" Value="" />
-                        <Var Name="ConnectionStateChangeCallback" Value="" />
-                        <Var Name="FullGameSave" Value="false" />
-                        <Var Name="PlayerLookAtCallback" Value="" />
-                        <Var Name="PlayerLookAtCallbackAutoRemove" Value="false" />
-                        <Var Name="PlayerInteractCallback" Value="" />
-                        <Var Name="PlayerInteractCallbackAutoRemove" Value="false" />
-                        <Var Name="ContainedItem" Value="None" />
-                        <Var Name="DisableBreakable" Value="false" />
-                        <Var Name="IsInsanityVision" Value="false" />
-                        <Var Name="VisionMaxSanity" Value="30" />
-                    </UserVariables>
-                </Entity>
                 <Entity Active="true" FileIndex="0" Group="0" ID="103" Name="monolith_14" Rotation="-6.57923 11.3596 6.96975" Scale="1 1 1" Tag="" WorldPos="6.75 6.25 13">
                     <UserVariables>
                         <Var Name="CastShadows" Value="true" />
