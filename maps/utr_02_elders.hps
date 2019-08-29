@@ -16,8 +16,6 @@ void PlayerPass(string &in asParent, string &in asChild, int alState) {
     } else if (asChild == "PlayerPassOut_2") {
         SetLocalVarInt("playerDragged", 0);
         AddTimer("SecondPass", 0, "TimerDependant");
-    } else if (asChild == "PlayerPassOut_3") {
-        
     }
 }
 
@@ -43,8 +41,8 @@ void TimerDependant(string &in asTimer) {
         AddTimer("PlayerReturnNormal", 1.0f, "TimerDependant");
     } else if (asTimer == "PlayerReturnNormal") {
         FadeIn(1.0f);
-        ChangePlayerStateToNormal();
-	StopMusic(0.5f, 0);
-	StartMusic("18_amb.ogg", true, 0.5f, 0.9f, 1);
+//        ChangePlayerStateToNormal();
+	    StopMusic(0.5f, 0);
+	    StartMusic("18_amb.ogg", true, 0.5f, 0.9f, 1);
     }
 }
