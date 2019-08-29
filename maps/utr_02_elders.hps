@@ -2,6 +2,15 @@ void OnStart()
 {
     AddEntityCollideCallback("Player", "PlayerPassOut_1", "PlayerPass", true, 0);
     AddEntityCollideCallback("Player", "PlayerPassOut_2", "PlayerPass", true, 0);
+    AddEntityCollideCallback("Player", "MapChange", "PlayerPass", true, 0);
+	AddEntityCollideCallback("Player", "PlayerMonsterPass", "PlayerPass", false, 0);
+	AddUseItemCallback("key_open_prison", "key_tomb_rusty_1", "prison_1", "ItemUse");
+}
+
+void ItemUse(string &in asItem, string &in asEntity) {
+	if (asEntity == "prison_1") {
+		SetSwingDoorLocked("prison_1", false, true);
+	}
 }
 
 void PlayerPass(string &in asParent, string &in asChild, int alState) {
@@ -18,7 +27,14 @@ void PlayerPass(string &in asParent, string &in asChild, int alState) {
     } else if (asChild == "PlayerPassOut_2") {
         SetLocalVarInt("playerDragged", 0);
         AddTimer("SecondPass", 0, "TimerDependant");
-    }
+    } else if (asChild == "MapChange") {
+        ChangeMap("utr_03_forest", "PlayerStartArea_1", "", "");
+    } else if (asChild == "PlayerMonsterPass") {
+		if (HasItem("key_tomb_rusty_1")) {
+			RemoveEntityCollideCallback("Player", "PlayerPass");
+			InitiateMayhem();
+		}	
+	}
 }
 
 void TimerDependant(string &in asTimer) {
@@ -47,4 +63,8 @@ void TimerDependant(string &in asTimer) {
         FadeIn(1.0f);
         FadePlayerRollTo(0, 100.0f, 100.0f);
     }
+}
+
+void InitiateMayhem() {
+
 }
