@@ -10,6 +10,7 @@ void PlayerPass(string &in asParent, string &in asChild, int alState) {
         GivePlayerDamage(25.0f, "BlodSplat", false, false);
         FadePlayerRollTo(40.0f, 15.0f, 30.0f);
         FadeOut(0.5f);
+	PlaySoundAtEntity("", "player_falldamage_med.snt", "Player", 0, false);
         SetLocalVarInt("playerDragged", 1);
         AddTimer("FirstPass", 1.5f, "TimerDependant");
     } else if (asChild == "PlayerPassOut_2") {
@@ -43,5 +44,7 @@ void TimerDependant(string &in asTimer) {
     } else if (asTimer == "PlayerReturnNormal") {
         FadeIn(1.0f);
         ChangePlayerStateToNormal();
+	StopMusic(0.5f, 0);
+	StartMusic("18_amb.ogg", true, 0.5f, 0.9f, 1);
     }
 }
