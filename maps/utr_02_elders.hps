@@ -39,6 +39,9 @@ void TimerDependant(string &in asTimer) {
     } else if (asTimer == "SecondPass") {
         FadeOut(1.0f);
         TeleportPlayer("PlayerStartArea_3");
+        AddTimer("PlayerReturnNormal", 1.0f, "TimerDependant");
+    } else if (asTimer == "PlayerReturnNormal") {
         FadeIn(1.0f);
+        ChangePlayerStateToNormal();
     }
 }

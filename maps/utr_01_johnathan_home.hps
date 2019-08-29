@@ -24,20 +24,31 @@ void OnStart() {
     FadePlayerRollTo(-90.0f, 1000.0f, 1000.0f);
     AddTimer("T1", 1.0f, "WakeUp");
     SetEntityCallbackFunc("key_tower_1", "KeyTaken");
-    AddQuest("get_dressed", "L01");
+    AddTimer("QuestAdd", 7.0f, "AddQuest_");
     SetEntityPlayerInteractCallback("cabinet_nice_1", "Dressed", true);
+}
+
+
+void AddQuest_(string &in timer_name) {
+    AddQuest("get_dressed", "L01");
 }
 
 void WakeUp(string &in timer_name) {
     if (timer_name == "T1") {
         PlaySoundAtEntity("", "react_sigh.snt", "Player", 0, false);
+        PlaySoundAtEntity("", "player_bodyfall.snt", "Player", 0, false);
         FadeIn(6);
-        FadePlayerRollTo(0.0f, 50.0f, 70.0f);
+        FadePlayerRollTo(0.0f, 20.0f, 50.0f);
         MovePlayerHeadPos(0.0f, 0.0f, 0.0f, 1.0f, 0.15f);
         SetPlayerActive(true);
         ShowPlayerCrossHairIcons(true);
         SetPlayerSanity(26);
+        AddTimer("wake_up_later", 5.0f, "PlaySoundAfter");
     }
+}
+
+void PlaySoundAfter(string &in asTimer) {
+    PlaySoundAtEntity("", "player_cough.snt", "Player", 0, false);
 }
 
 void lookAtDoor(string &in timer_name) {

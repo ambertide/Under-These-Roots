@@ -5,7 +5,7 @@
             <Viewport CameraPosition="0 0 0" CameraTarget="1 1 1" CameraZoom="3.36272" GridHeight="0" GridPlane="2" Preset="0" RenderMode="1" ShowAxes="true" ShowGrid="true" UsingLTCam="true" />
             <Viewport CameraPosition="0 0 0" CameraTarget="1 1 1" CameraZoom="3.36272" GridHeight="0" GridPlane="0" Preset="1" RenderMode="1" ShowAxes="true" ShowGrid="true" UsingLTCam="true" />
             <Viewport CameraPosition="0 0 0" CameraTarget="1 1 1" CameraZoom="3.36272" GridHeight="0" GridPlane="1" Preset="2" RenderMode="1" ShowAxes="true" ShowGrid="true" UsingLTCam="true" />
-            <Viewport CameraPosition="-1.50616 2.89383 0.95999" CameraTarget="3.4428 1.5 -0.0233067" CameraZoom="2.25672" GridHeight="1.5" GridPlane="1" Preset="3" RenderMode="0" ShowAxes="true" ShowGrid="true" UsingLTCam="true" />
+            <Viewport CameraPosition="-1.71844 1.75044 2.17658" CameraTarget="-1.06037 1.5 0.765882" CameraZoom="3.45672" GridHeight="1.5" GridPlane="1" Preset="3" RenderMode="0" ShowAxes="true" ShowGrid="true" UsingLTCam="true" />
         </ViewportConfig>
         <Groups>
             <Group ID="0" Name="None" Visible="true" />
@@ -426,7 +426,7 @@
                         <Var Name="IsAffectedByDecal" Value="true" />
                     </UserVariables>
                 </Entity>
-                <Entity Active="true" FileIndex="15" Group="0" ID="144" Name="ink_bottle_1" Rotation="-3.14159 1.30899 -3.14159" Scale="1 1 1" Tag="" WorldPos="-1 1.08 -1.22">
+                <Entity Active="true" FileIndex="15" Group="0" ID="144" Name="ink_bottle_1" Rotation="-3.14159 1.30899 -3.14159" Scale="1 1 1" Tag="" WorldPos="-1 1.08 -1.25">
                     <UserVariables>
                         <Var Name="CastShadows" Value="true" />
                         <Var Name="StaticPhysics" Value="false" />
@@ -1041,7 +1041,7 @@
                         <Var Name="UseNarration" Value="false" />
                     </UserVariables>
                 </Entity>
-                <Sound Active="true" Group="0" ID="305" MaxDistance="5" MinDistance="1" Name="Sound_1" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../sounds/07/07_amb_breath.snt" Tag="" UseDefault="true" Volume="1" WorldPos="-2.5 3.25 -0.75" />
+                <Sound Active="true" Group="0" ID="305" MaxDistance="5" MinDistance="1" Name="Sound_1" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../sounds/07/07_amb_breath.snt" Tag="" UseDefault="true" Volume="1" WorldPos="-2.5 3.25 -0.75" />
                 <Area Active="true" AreaType="PlayerStart" Group="0" ID="306" Mesh="" Name="PlayerStartArea_1" Rotation="0 1.5708 0" Scale="1 1 1" Tag="" WorldPos="-2.75 2 2">
                     <UserVariables />
                 </Area>
