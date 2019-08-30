@@ -5,7 +5,7 @@
             <Viewport CameraPosition="0 0 0" CameraTarget="1 1 1" CameraZoom="3.36272" GridHeight="0" GridPlane="2" Preset="0" RenderMode="1" ShowAxes="true" ShowGrid="true" UsingLTCam="true" />
             <Viewport CameraPosition="0 0 0" CameraTarget="1 1 1" CameraZoom="3.36272" GridHeight="0" GridPlane="0" Preset="1" RenderMode="1" ShowAxes="true" ShowGrid="true" UsingLTCam="true" />
             <Viewport CameraPosition="0 0 0" CameraTarget="1 1 1" CameraZoom="3.36272" GridHeight="0" GridPlane="1" Preset="2" RenderMode="1" ShowAxes="true" ShowGrid="true" UsingLTCam="true" />
-            <Viewport CameraPosition="4.22984 16.0429 -36.7583" CameraTarget="5.93362 -4.76837e-06 -40.8489" CameraZoom="1.1" GridHeight="0" GridPlane="1" Preset="3" RenderMode="0" ShowAxes="true" ShowGrid="true" UsingLTCam="true" />
+            <Viewport CameraPosition="9.19991 5.71696 -53.5478" CameraTarget="12.4294 -5.72204e-06 -51.912" CameraZoom="2" GridHeight="0" GridPlane="1" Preset="3" RenderMode="0" ShowAxes="true" ShowGrid="true" UsingLTCam="true" />
         </ViewportConfig>
         <Groups>
             <Group ID="0" Name="None" Visible="true" />
@@ -443,10 +443,10 @@
                 <StaticObject CastShadows="true" Collides="true" FileIndex="52" Group="0" ID="913" Name="wall_default_extension_arch_5" Rotation="0 1.39876e-06 0" Scale="1 1 1" Tag="" WorldPos="18.75 8 -58.75" />
                 <StaticObject CastShadows="true" Collides="true" FileIndex="52" Group="0" ID="914" Name="wall_default_extension_arch_6" Rotation="3.14159 -2.67828e-06 3.14159" Scale="1 1 1" Tag="" WorldPos="18.75 8 -42.25" />
                 <StaticObject CastShadows="true" Collides="true" FileIndex="52" Group="0" ID="915" Name="wall_default_extension_arch_7" Rotation="3.14159 -2.67828e-06 3.14159" Scale="1 1 1" Tag="" WorldPos="14.75 8 -42.25" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="51" Group="0" ID="920" Name="wall_default_extension_6" Rotation="3.14159 1.5708 3.14159" Scale="1 1 1" Tag="" WorldPos="12.75 8 -44" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="51" Group="0" ID="921" Name="wall_default_extension_7" Rotation="3.14159 1.5708 3.14159" Scale="1 1 1" Tag="" WorldPos="12.75 8 -48" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="51" Group="0" ID="922" Name="wall_default_extension_8" Rotation="3.14159 1.5708 3.14159" Scale="1 1 1" Tag="" WorldPos="12.75 8 -52" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="51" Group="0" ID="923" Name="wall_default_extension_9" Rotation="3.14159 1.5708 3.14159" Scale="1 1 1" Tag="" WorldPos="12.75 8 -56" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="51" Group="0" ID="920" Name="wall_default_extension_6" Rotation="3.14159 1.5708 3.14159" Scale="1 1 1" Tag="" WorldPos="13 8 -44" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="51" Group="0" ID="921" Name="wall_default_extension_7" Rotation="3.14159 1.5708 3.14159" Scale="1 1 1" Tag="" WorldPos="13 8 -48" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="51" Group="0" ID="922" Name="wall_default_extension_8" Rotation="3.14159 1.5708 3.14159" Scale="1 1 1" Tag="" WorldPos="13 8 -52" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="51" Group="0" ID="923" Name="wall_default_extension_9" Rotation="3.14159 1.5708 3.14159" Scale="1 1 1" Tag="" WorldPos="13 8 -56" />
                 <StaticObject CastShadows="true" Collides="true" FileIndex="51" Group="0" ID="924" Name="wall_default_extension_10" Rotation="0 2.70213e-06 0" Scale="1 1 1" Tag="" WorldPos="14.75 8 -58.75" />
                 <StaticObject CastShadows="true" Collides="true" FileIndex="24" Group="0" ID="926" Name="ceiling_default_19" Rotation="0 2.70213e-06 0" Scale="1 1 1" Tag="" WorldPos="18.75 12 -44.75" />
                 <StaticObject CastShadows="true" Collides="true" FileIndex="24" Group="0" ID="928" Name="ceiling_default_20" Rotation="0 2.70213e-06 0" Scale="1 1 1" Tag="" WorldPos="14.75 12 -44.75" />
@@ -471,6 +471,9 @@
                 <StaticObject CastShadows="true" Collides="true" FileIndex="56" Group="0" ID="963" Name="ceiling_concave_short_1" Rotation="3.14159 1.5708 3.14159" Scale="1 1 1" Tag="" WorldPos="4.75 8 -61.5" />
                 <StaticObject CastShadows="true" Collides="true" FileIndex="56" Group="0" ID="965" Name="ceiling_concave_short_2" Rotation="3.14159 -1.47031e-06 3.14159" Scale="1 1 1" Tag="" WorldPos="8.25 8 -58.25" />
                 <StaticObject CastShadows="true" Collides="true" FileIndex="57" Group="0" ID="967" Name="ceiling_corner_concave_short_2" Rotation="-3.11609 -1.5708 3.11609" Scale="1 1 1" Tag="" WorldPos="12 8 -59.5" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="51" Group="0" ID="977" Name="wall_default_extension_11" Rotation="-3.14159 -1.5708 3.14159" Scale="1 1 1" Tag="" WorldPos="13.25 8 -48" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="51" Group="0" ID="978" Name="wall_default_extension_12" Rotation="-3.14159 -1.5708 3.14159" Scale="1 1 1" Tag="" WorldPos="13.25 8 -52" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="51" Group="0" ID="979" Name="wall_default_extension_13" Rotation="-3.14159 -1.5708 3.14159" Scale="1 1 1" Tag="" WorldPos="13.25 8 -43.75" />
             </StaticObjects>
             <Primitives>
                 <Plane Active="true" AlignToWorldCoords="false" CastShadows="false" Collides="true" Corner1UV="0 4.125" Corner2UV="0 0" Corner3UV="4.75 0" Corner4UV="4.75 4.125" EndCorner="19 0 16.5" Group="0" ID="217" Material="D:/SteamLibrary/steamapps/steamapps/common/Amnesia The Dark Descent/static_objects/castlebase/ceiling/ceiling_rough.mat" Name="Plane" Rotation="-3.14159 0 0" Scale="1 1 1" StartCorner="0 0 0" Tag="" TextureAngle="0" TileAmount="0.25 0.25 0.25" TileOffset="0 0 0" WorldPos="-10.25 10 0" />
@@ -2092,7 +2095,7 @@
                         <Var Name="PlayerLookAtCallbackAutoRemove" Value="false" />
                         <Var Name="PlayerInteractCallback" Value="" />
                         <Var Name="PlayerInteractCallbackAutoRemove" Value="false" />
-                        <Var Name="Locked" Value="false" />
+                        <Var Name="Locked" Value="true" />
                         <Var Name="OpenAmount" Value="0" />
                         <Var Name="DisableBreakable" Value="false" />
                     </UserVariables>
@@ -2893,7 +2896,7 @@
                         <Var Name="DisableBreakable" Value="false" />
                     </UserVariables>
                 </Entity>
-                <PointLight Active="true" CastShadows="false" DiffuseColor="0.85 0.6 0 1" FalloffMap="" FlickerActive="false" FlickerFade="false" FlickerOffColor="0 0 0 1" FlickerOffFadeMaxLength="0" FlickerOffFadeMinLength="0" FlickerOffMaxLength="0" FlickerOffMinLength="0" FlickerOffPS="" FlickerOffRadius="0" FlickerOffSound="" FlickerOnFadeMaxLength="0" FlickerOnFadeMinLength="0" FlickerOnMaxLength="0" FlickerOnMinLength="0" FlickerOnPS="" FlickerOnSound="" Gobo="" GoboAnimFrameTime="0" GoboAnimMode="None" Group="0" ID="974" Name="PointLight_5" Radius="1" Rotation="0 0 0" Scale="1 1 1" ShadowResolution="High" ShadowsAffectDynamic="true" ShadowsAffectStatic="true" Tag="" WorldPos="9.87 4.25 -53.25" />
+                <PointLight Active="true" CastShadows="false" DiffuseColor="0.85 0.6 0 1" FalloffMap="" FlickerActive="false" FlickerFade="false" FlickerOffColor="0 0 0 1" FlickerOffFadeMaxLength="0" FlickerOffFadeMinLength="0" FlickerOffMaxLength="0" FlickerOffMinLength="0" FlickerOffPS="" FlickerOffRadius="0" FlickerOffSound="" FlickerOnFadeMaxLength="0" FlickerOnFadeMinLength="0" FlickerOnMaxLength="0" FlickerOnMinLength="0" FlickerOnPS="" FlickerOnSound="" Gobo="" GoboAnimFrameTime="0" GoboAnimMode="None" Group="0" ID="974" Name="lantern_light" Radius="1" Rotation="0 0 0" Scale="1 1 1" ShadowResolution="High" ShadowsAffectDynamic="true" ShadowsAffectStatic="true" Tag="" WorldPos="9.87 4.25 -53.25" />
                 <Entity Active="true" FileIndex="62" Group="0" ID="975" Name="key_tomb_rusty_1" Rotation="1.08614e-07 1.1797e-14 -1.08614e-07" Scale="1 1 1" Tag="" WorldPos="6.86576 4.88298 -35.5238">
                     <UserVariables>
                         <Var Name="CastShadows" Value="true" />

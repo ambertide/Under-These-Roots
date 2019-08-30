@@ -4,7 +4,16 @@ void OnStart()
     AddEntityCollideCallback("Player", "PlayerPassOut_2", "PlayerPass", true, 0);
     AddEntityCollideCallback("Player", "MapChange", "PlayerPass", true, 0);
 	AddEntityCollideCallback("Player", "PlayerMonsterPass", "PlayerPass", false, 0);
-	AddUseItemCallback("key_open_prison", "key_tomb_rusty_1", "prison_1", "ItemUse");
+	AddUseItemCallback("key_open_prison", "key_tomb_rusty_1", "prison_1", "ItemUse", true);
+    SetEntityCallbackFunc("lantern_1", "EntityCallback");
+}
+
+void EntityCallback(string &in asEntity, string&in type) {
+    if (asEntity == "lantern_1") {
+        if (type == "OnPickup") {
+            SetLightVisible("lantern_light", false);
+        }
+    }
 }
 
 void ItemUse(string &in asItem, string &in asEntity) {
@@ -32,7 +41,8 @@ void PlayerPass(string &in asParent, string &in asChild, int alState) {
     } else if (asChild == "PlayerMonsterPass") {
 		if (HasItem("key_tomb_rusty_1")) {
 			RemoveEntityCollideCallback("Player", "PlayerPass");
-			InitiateMayhem();
+			StopMusic(1.0f, 0);
+			AddTimer("PrepMayhem", 1.0f, "TimerDependant");
 		}	
 	}
 }
@@ -62,9 +72,14 @@ void TimerDependant(string &in asTimer) {
     } else if (asTimer == "PlayerReturnNormal") {
         FadeIn(1.0f);
         FadePlayerRollTo(0, 100.0f, 100.0f);
-    }
+    } else if (asTimer == "PrepMayhem") {
+		InitiateMayhem();
+	}
 }
 
 void InitiateMayhem() {
-
+//    PlayMusic("utr_02_elders_amb.ogg", true, 0.5f, 0.9f, 1, false);
+	PlaySoundAtEntity("", "other_enabled.snt", "corpse_pile1_1", 0, false);
+	PlaySoundAtEntity("", "29_scream.snt", "corpse_pile_1", 0, false);
+    PlaySoundAtEntity("", "15_ripp_door.snt", "prison_section_silent_1", 0, false);
 }
