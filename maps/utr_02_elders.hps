@@ -3,7 +3,10 @@ void OnStart()
     AddEntityCollideCallback("Player", "PlayerPassOut_1", "PlayerPass", true, 0);
     AddEntityCollideCallback("Player", "PlayerPassOut_2", "PlayerPass", true, 0);
     AddEntityCollideCallback("Player", "MapChange", "PlayerPass", true, 0);
-	AddEntityCollideCallback("Player", "PlayerMonsterPass", "PlayerPass", false, 0);
+	AddEntityCollideCallback("Player", "PlayerMonsterPass", "PlayerPass", false, 1);
+	AddEntityCollideCallback("Player", "CrouchArea", "PlayerPass", false, 1);
+	AddEntityCollideCallback("Player", "CrouchArea", "PlayerPass", false, 1);
+    AddEntityCollideCallback("Player", "Hint_Area", "PlayerPass", true, 0);
 	AddUseItemCallback("key_open_prison", "key_tomb_rusty_1", "prison_1", "ItemUse", true);
     SetEntityCallbackFunc("lantern_1", "EntityCallback");
 }
@@ -40,10 +43,18 @@ void PlayerPass(string &in asParent, string &in asChild, int alState) {
         ChangeMap("utr_03_forest", "PlayerStartArea_1", "", "");
     } else if (asChild == "PlayerMonsterPass") {
 		if (HasItem("key_tomb_rusty_1")) {
-			RemoveEntityCollideCallback("Player", "PlayerPass");
+			RemoveEntityCollideCallback("Player", "PlayerMonsterPass");
 			StopMusic(1.0f, 0);
-			AddTimer("PrepMayhem", 1.0f, "TimerDependant");
-		}	
+			AddTimer("Other_Enabled", 1.0f, "TimerDependant");
+		}
+	} else if (asChild == "CrouchArea") {
+	    if (alState == -1) {
+	        SetPlayerCrouching(false);
+	    } else {
+	        SetPlayerCrouching(true);
+	    }
+	} else if (asChild == "Hint_Area") {
+	    GiveHint ("hint_can_see", "Hints", "utr_02_can_see_you", -1);
 	}
 }
 
@@ -72,14 +83,22 @@ void TimerDependant(string &in asTimer) {
     } else if (asTimer == "PlayerReturnNormal") {
         FadeIn(1.0f);
         FadePlayerRollTo(0, 100.0f, 100.0f);
-    } else if (asTimer == "PrepMayhem") {
-		InitiateMayhem();
+    } else if (asTimer == "Other_Enabled") {
+        FadePlayerFOVMulTo(0.9f, 1.0f);
+        StartScreenShake(0.005f, 6.0f, 0.5f, 0.5f);
+        SetLanternActive(false, false);
+		PlayMusic("utr_02_post_monster.ogg", true, 0.5f, 0.9f, 1, false);
+		PlaySoundAtEntity("", "other_enabled.snt", "prison_section_silent_1", 0, false);
+		AddTimer("HumanScream", 1.5f, "TimerDependant");
+	} else if (asTimer == "HumanScream") {
+	    PlaySoundAtEntity("", "29_scream.snt", "prison_section_silent_1", 0, false);
+	    AddTimer("GrateRipped", 0.5f, "TimerDependant");
+	} else if (asTimer == "GrateRipped") {
+	    PlaySoundAtEntity("", "15_ripp_door.snt", "prison_section_silent_1", 0, false);
+	    StopCurrentInsanityEvent();
+	    FadePlayerFOVMulTo(1.1f, 1.0f);
+        AddTimer("NormaliseScream", 2.0f, "TimerDependant");
+	} else if (asTimer == "NormaliseScream") {
+	    FadePlayerFOVMulTo(1.0f, 1.0f);
 	}
-}
-
-void InitiateMayhem() {
-//    PlayMusic("utr_02_elders_amb.ogg", true, 0.5f, 0.9f, 1, false);
-	PlaySoundAtEntity("", "other_enabled.snt", "corpse_pile1_1", 0, false);
-	PlaySoundAtEntity("", "29_scream.snt", "corpse_pile_1", 0, false);
-    PlaySoundAtEntity("", "15_ripp_door.snt", "prison_section_silent_1", 0, false);
 }

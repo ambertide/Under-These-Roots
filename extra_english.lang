@@ -44,4 +44,8 @@
 	<Entry Name="L01WakeUp">I should get dressed</Entry>
 	<Entry Name="L05CandlePickup">Picked up Three Ritual Candles</Entry>
     </CATEGORY>
+    
+    <CATEGORY Name = "Hints">
+        <Entry Name="utr_02_can_see_you">If you can see them, they can see you.</Entry>
+    </CATEGORY>
 </LANGUAGE>
