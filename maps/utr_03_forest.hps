@@ -1,10 +1,51 @@
 void OnStart()
 {
     AddEntityCollideCallback("Player", "LevelChangeArea", "CollisionDependant", true, 0);
+    AddTimer("CreateBreath", 5.0f, "TimerDependant");
+    SetEntityPlayerLookAtCallback("FogBreathArea_PosX_Look", "LookDependant", false);
+    SetEntityPlayerLookAtCallback("FogBreathArea_PosZ_Look", "LookDependant", false);
+    SetEntityPlayerLookAtCallback("FogBreathArea_NegZ_Look", "LookDependant", false);
+    SetEntityPlayerLookAtCallback("FogBreathArea_NegX_Look", "LookDependant", false);
+    SetLocalVarInt("has_looked_at", 0);
+    SetLocalVarFloat("fog_breath_distance", 10.0f);
+    SetLocalVarFloat("fog_look_distance", 2.0f);
+    SetLocalVarString("create_fog_at", "");
 }
 
 void CollisionDependant(string &in asParent, string &in asChild, int alState) {
     if (asChild == "LevelChangeArea") {
         ChangeMap("utr_04_mansion.map", "PlayerStartArea_1", "", "");
+    }
+}
+
+void LookDependant(string &in asEntity, int alState) {
+    if (GetLocalVarInt("has_looked_at") == 0 && (asEntity == "FogBreathArea_PosX_Look" || asEntity == "FogBreathArea_PosZ_Look" || asEntity == "FogBreathArea_NegX_Look" || asEntity == "FogBreathArea_NegZ_Look")) {
+        if (asEntity == "FogBreathArea_PosX_Look") {
+            SetLocalVarString("create_fog_at", "FogBreathArea_PosX");
+        } else if (asEntity == "FogBreathArea_PosZ_Look") {
+            SetLocalVarString("create_fog_at", "FogBreathArea_PosZ");
+        } else if (asEntity == "FogBreathArea_NegZ_Look") {
+            SetLocalVarString("create_fog_at", "FogBreathArea_NegZ");
+        } else if (asEntity == "FogBreathArea_NegX_Look") {
+            SetLocalVarString("create_fog_at", "FogBreathArea_NegX");
+        }
+        CreateParticleSystemAtEntityExt("fog_breathe", "ps_cave_monster_breath.ps", GetLocalVarString("create_fog_at"), false, 4.0f, 4.0f, 4.0f, 1.0f, false, 0, 0, 0, 0);
+        SetLocalVarInt("has_looked_at", 1);
+    }
+}
+
+void TimerDependant(string &in asTimer) {
+    if (asTimer == "CreateBreath") {
+        SetLocalVarInt("has_looked_at", 0);
+        SetEntityPos("FogBreathArea_PosX", GetPlayerPosX() + GetLocalVarFloat("fog_breath_distance"), GetPlayerPosY(), GetPlayerPosZ());
+        SetEntityPos("FogBreathArea_PosZ", GetPlayerPosX(), GetPlayerPosY(), GetPlayerPosZ() + GetLocalVarFloat("fog_breath_distance"));
+        SetEntityPos("FogBreathArea_NegX", GetPlayerPosX() - GetLocalVarFloat("fog_breath_distance"), GetPlayerPosY(), GetPlayerPosZ());
+        SetEntityPos("FogBreathArea_NegZ", GetPlayerPosX(), GetPlayerPosY(), GetPlayerPosZ() - GetLocalVarFloat("fog_breath_distance"));
+
+        SetEntityPos("FogBreathArea_PosX_Look", GetPlayerPosX() + GetLocalVarFloat("fog_look_distance"), GetPlayerPosY(), GetPlayerPosZ());
+        SetEntityPos("FogBreathArea_PosZ_Look", GetPlayerPosX(), GetPlayerPosY(), GetPlayerPosZ() + GetLocalVarFloat("fog_look_distance"));
+        SetEntityPos("FogBreathArea_NegX_Look", GetPlayerPosX() - GetLocalVarFloat("fog_look_distance"), GetPlayerPosY(), GetPlayerPosZ());
+        SetEntityPos("FogBreathArea_NegZ_Look", GetPlayerPosX(), GetPlayerPosY(), GetPlayerPosZ() - GetLocalVarFloat("fog_look_distance"));
+        AddTimer("CreateBreath", 10.0f, "TimerDependant");
     }
 }

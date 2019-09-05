@@ -5,7 +5,7 @@
             <Viewport CameraPosition="0 0 0" CameraTarget="1 1 1" CameraZoom="3.36272" GridHeight="0" GridPlane="2" Preset="0" RenderMode="1" ShowAxes="true" ShowGrid="true" UsingLTCam="true" />
             <Viewport CameraPosition="0 0 0" CameraTarget="1 1 1" CameraZoom="3.36272" GridHeight="0" GridPlane="0" Preset="1" RenderMode="1" ShowAxes="true" ShowGrid="true" UsingLTCam="true" />
             <Viewport CameraPosition="0 0 0" CameraTarget="1 1 1" CameraZoom="3.36272" GridHeight="0" GridPlane="1" Preset="2" RenderMode="1" ShowAxes="true" ShowGrid="true" UsingLTCam="true" />
-            <Viewport CameraPosition="-22.4566 28.5861 21.5613" CameraTarget="-23.2651 2.28757 6.48034" CameraZoom="0.5" GridHeight="0" GridPlane="1" Preset="3" RenderMode="0" ShowAxes="true" ShowGrid="true" UsingLTCam="false" />
+            <Viewport CameraPosition="-21.7393 3.07979 16.4121" CameraTarget="-22.8321 1.09762 14.8483" CameraZoom="2.9" GridHeight="0.8" GridPlane="1" Preset="3" RenderMode="0" ShowAxes="true" ShowGrid="true" UsingLTCam="false" />
         </ViewportConfig>
         <Groups>
             <Group ID="0" Name="None" Visible="true" />
@@ -1604,7 +1604,7 @@
                         <Var Name="PlayerInteractCallbackAutoRemove" Value="false" />
                         <Var Name="TextEntry" Value="" />
                         <Var Name="StartPos" Value="" />
-                        <Var Name="MapFile" Value="" />
+                        <Var Name="MapFile" Value="D:/SteamLibrary/steamapps/steamapps/common/Amnesia The Dark Descent/custom_stories/Under These Roots/maps/utr_06_study.map" />
                         <Var Name="Locked" Value="false" />
                         <Var Name="LockedSound" Value="" />
                         <Var Name="LockedTextCat" Value="" />
@@ -2621,7 +2621,7 @@
                 </Entity>
                 <PointLight Active="true" CastShadows="false" DiffuseColor="0.7 0.5 0.5 1" FalloffMap="" FlickerActive="false" FlickerFade="false" FlickerOffColor="0 0 0 1" FlickerOffFadeMaxLength="0" FlickerOffFadeMinLength="0" FlickerOffMaxLength="0" FlickerOffMinLength="0" FlickerOffPS="" FlickerOffRadius="0" FlickerOffSound="" FlickerOnFadeMaxLength="0" FlickerOnFadeMinLength="0" FlickerOnMaxLength="0" FlickerOnMinLength="0" FlickerOnPS="" FlickerOnSound="" Gobo="" GoboAnimFrameTime="0" GoboAnimMode="None" Group="0" ID="777" Name="PointLight_14" Radius="2.51247" Rotation="0 0 0" Scale="1 1 1" ShadowResolution="High" ShadowsAffectDynamic="true" ShadowsAffectStatic="true" Tag="" WorldPos="-3.5 8.5 20" />
                 <SpotLight Active="true" Aspect="1" CastShadows="false" DiffuseColor="0.7 0.5 0.5 1" FOV="1.0472" FalloffMap="" FlickerActive="false" FlickerFade="false" FlickerOffColor="0 0 0 1" FlickerOffFadeMaxLength="0" FlickerOffFadeMinLength="0" FlickerOffMaxLength="0" FlickerOffMinLength="0" FlickerOffPS="" FlickerOffRadius="0" FlickerOffSound="" FlickerOnFadeMaxLength="0" FlickerOnFadeMinLength="0" FlickerOnMaxLength="0" FlickerOnMinLength="0" FlickerOnPS="" FlickerOnSound="" Gobo="D:/SteamLibrary/steamapps/steamapps/common/Amnesia The Dark Descent/lights/gobo_castlebase_window.dds" GoboAnimFrameTime="0" GoboAnimMode="None" Group="0" ID="778" Name="SpotLight_6" NearClipPlane="0.1" Radius="25" Rotation="0.925876 -1.5398 2.92306" Scale="1 1 1" ShadowResolution="High" ShadowsAffectDynamic="true" ShadowsAffectStatic="true" SpotFalloffMap="" Tag="" WorldPos="-3.5 8.5 20" />
-                <PointLight Active="true" CastShadows="false" DiffuseColor="0.7 0.5 0.5 1" FalloffMap="" FlickerActive="false" FlickerFade="false" FlickerOffColor="0 0 0 1" FlickerOffFadeMaxLength="0" FlickerOffFadeMinLength="0" FlickerOffMaxLength="0" FlickerOffMinLength="0" FlickerOffPS="" FlickerOffRadius="0" FlickerOffSound="" FlickerOnFadeMaxLength="0" FlickerOnFadeMinLength="0" FlickerOnMaxLength="0" FlickerOnMinLength="0" FlickerOnPS="" FlickerOnSound="" Gobo="" GoboAnimFrameTime="0" GoboAnimMode="None" Group="0" ID="779" Name="PointLight_15" Radius="2.51247" Rotation="0 -0 0" Scale="1 1 1" ShadowResolution="High" ShadowsAffectDynamic="true" ShadowsAffectStatic="true" Tag="" WorldPos="-7.75 8.5 16" />
+                <PointLight Active="true" CastShadows="false" DiffuseColor="0.7 0.5 0.5 1" FalloffMap="" FlickerActive="false" FlickerFade="false" FlickerOffColor="0 0 0 1" FlickerOffFadeMaxLength="0" FlickerOffFadeMinLength="0" FlickerOffMaxLength="0" FlickerOffMinLength="0" FlickerOffPS="" FlickerOffRadius="0" FlickerOffSound="" FlickerOnFadeMaxLength="0" FlickerOnFadeMinLength="0" FlickerOnMaxLength="0" FlickerOnMinLength="0" FlickerOnPS="" FlickerOnSound="" Gobo="" GoboAnimFrameTime="0" GoboAnimMode="None" Group="0" ID="779" Name="PointLight_15" Radius="2.51247" Rotation="0 0 0" Scale="1 1 1" ShadowResolution="High" ShadowsAffectDynamic="true" ShadowsAffectStatic="true" Tag="" WorldPos="-7.75 8.5 16" />
                 <SpotLight Active="true" Aspect="1" CastShadows="false" DiffuseColor="0.7 0.5 0.5 1" FOV="1.0472" FalloffMap="" FlickerActive="false" FlickerFade="false" FlickerOffColor="0 0 0 1" FlickerOffFadeMaxLength="0" FlickerOffFadeMinLength="0" FlickerOffMaxLength="0" FlickerOffMinLength="0" FlickerOffPS="" FlickerOffRadius="0" FlickerOffSound="" FlickerOnFadeMaxLength="0" FlickerOnFadeMinLength="0" FlickerOnMaxLength="0" FlickerOnMinLength="0" FlickerOnPS="" FlickerOnSound="" Gobo="D:/SteamLibrary/steamapps/steamapps/common/Amnesia The Dark Descent/lights/gobo_castlebase_window.dds" GoboAnimFrameTime="0" GoboAnimMode="None" Group="0" ID="780" Name="SpotLight_7" NearClipPlane="0.1" Radius="25" Rotation="-1.82763 1.5708 0.528562" Scale="1 1 1" ShadowResolution="High" ShadowsAffectDynamic="true" ShadowsAffectStatic="true" SpotFalloffMap="" Tag="" WorldPos="-7.75 8.5 16" />
                 <Entity Active="true" FileIndex="58" Group="0" ID="782" Name="candlestick_wall_18" Rotation="0 17.2788 0" Scale="1 1 1" Tag="" WorldPos="-7.75 8.5 20">
                     <UserVariables>
@@ -2681,7 +2681,7 @@
                         <Var Name="TextEntry" Value="" />
                         <Var Name="StartPos" Value="" />
                         <Var Name="MapFile" Value="D:/SteamLibrary/steamapps/steamapps/common/Amnesia The Dark Descent/custom_stories/Under These Roots/maps/utr_05_library.map" />
-                        <Var Name="Locked" Value="false" />
+                        <Var Name="Locked" Value="true" />
                         <Var Name="LockedSound" Value="" />
                         <Var Name="LockedTextCat" Value="" />
                         <Var Name="LockedTextEntry" Value="" />
@@ -2745,7 +2745,7 @@
                         <Var Name="PlayerInteractCallbackAutoRemove" Value="false" />
                         <Var Name="TextEntry" Value="" />
                         <Var Name="StartPos" Value="" />
-                        <Var Name="MapFile" Value="" />
+                        <Var Name="MapFile" Value="D:/SteamLibrary/steamapps/steamapps/common/Amnesia The Dark Descent/custom_stories/Under These Roots/maps/utr_07_servants_quarter.map" />
                         <Var Name="Locked" Value="false" />
                         <Var Name="LockedSound" Value="" />
                         <Var Name="LockedTextCat" Value="" />
@@ -3733,7 +3733,7 @@
                         <Var Name="VisionMaxSanity" Value="30" />
                     </UserVariables>
                 </Entity>
-                <SpotLight Active="true" Aspect="0.2" CastShadows="false" DiffuseColor="0.7 0.5 0.5 1" FOV="1.0472" FalloffMap="lights/light_falloff_short_fade.tga" FlickerActive="false" FlickerFade="false" FlickerOffColor="0 0 0 1" FlickerOffFadeMaxLength="0" FlickerOffFadeMinLength="0" FlickerOffMaxLength="0" FlickerOffMinLength="0" FlickerOffPS="" FlickerOffRadius="0" FlickerOffSound="" FlickerOnFadeMaxLength="0" FlickerOnFadeMinLength="0" FlickerOnMaxLength="0" FlickerOnMinLength="0" FlickerOnPS="" FlickerOnSound="" Gobo="" GoboAnimFrameTime="0" GoboAnimMode="None" Group="0" ID="982" Name="SpotLight_9" NearClipPlane="0.1" Radius="10" Rotation="-0.785397 0 0" Scale="1 1 1" ShadowResolution="High" ShadowsAffectDynamic="true" ShadowsAffectStatic="true" SpotFalloffMap="" Tag="" WorldPos="-29.75 2.25 18" />
+                <SpotLight Active="true" Aspect="0.2" CastShadows="false" DiffuseColor="0.7 0.5 0.5 1" FOV="1.0472" FalloffMap="../../../../../../lights/light_falloff_short_fade.tga" FlickerActive="false" FlickerFade="false" FlickerOffColor="0 0 0 1" FlickerOffFadeMaxLength="0" FlickerOffFadeMinLength="0" FlickerOffMaxLength="0" FlickerOffMinLength="0" FlickerOffPS="" FlickerOffRadius="0" FlickerOffSound="" FlickerOnFadeMaxLength="0" FlickerOnFadeMinLength="0" FlickerOnMaxLength="0" FlickerOnMinLength="0" FlickerOnPS="" FlickerOnSound="" Gobo="" GoboAnimFrameTime="0" GoboAnimMode="None" Group="0" ID="982" Name="SpotLight_9" NearClipPlane="0.1" Radius="10" Rotation="-0.785397 0 0" Scale="1 1 1" ShadowResolution="High" ShadowsAffectDynamic="true" ShadowsAffectStatic="true" SpotFalloffMap="" Tag="" WorldPos="-29.75 2.25 18" />
                 <Entity Active="true" FileIndex="72" Group="0" ID="986" Name="candlestick_tri_1" Rotation="3.14159 -2.38498e-008 3.14159" Scale="1 1 1" Tag="" WorldPos="-19.6288 0.889201 13.7054">
                     <UserVariables>
                         <Var Name="CastShadows" Value="true" />

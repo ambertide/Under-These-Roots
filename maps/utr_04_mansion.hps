@@ -1,0 +1,13 @@
+void OnStart()
+{
+    SetEntityPlayerLookAtCallback("candlestick_tri_3", "LookDependant", true);
+}
+
+void LookDependant(string &in asEntity, int alState)
+{
+    if (asEntity == "candlestick_tri_3") {
+//        PlaySoundAtEntity("windgal", "general_wind_whirl.snt", "candlestick_tri_3", 0.0f, false);
+        SetLampLit("candlestick_tri_3", false, true);
+//        CreateParticleSystemAtEntity("psgal", "ps_dust_whirl.ps", "candlestick_tri_3", false);
+    }
+}
