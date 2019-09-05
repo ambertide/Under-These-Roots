@@ -5,13 +5,13 @@
             <Viewport CameraPosition="0 0 0" CameraTarget="1 1 1" CameraZoom="3.36272" GridHeight="0" GridPlane="2" Preset="0" RenderMode="1" ShowAxes="true" ShowGrid="true" UsingLTCam="true" />
             <Viewport CameraPosition="0 0 0" CameraTarget="1 1 1" CameraZoom="3.36272" GridHeight="0" GridPlane="0" Preset="1" RenderMode="1" ShowAxes="true" ShowGrid="true" UsingLTCam="true" />
             <Viewport CameraPosition="0 0 0" CameraTarget="1 1 1" CameraZoom="3.36272" GridHeight="0" GridPlane="1" Preset="2" RenderMode="1" ShowAxes="true" ShowGrid="true" UsingLTCam="true" />
-            <Viewport CameraPosition="-0.202574 4.73248 4.3082" CameraTarget="-1.56796 3.11734e-006 8.94808" CameraZoom="2" GridHeight="0" GridPlane="1" Preset="3" RenderMode="0" ShowAxes="true" ShowGrid="true" UsingLTCam="true" />
+            <Viewport CameraPosition="-10.7046 21.0728 -50.5367" CameraTarget="27.7841 4.99522e-006 -39.5192" CameraZoom="0.1" GridHeight="0" GridPlane="1" Preset="3" RenderMode="0" ShowAxes="true" ShowGrid="true" UsingLTCam="true" />
         </ViewportConfig>
         <Groups>
             <Group ID="0" Name="None" Visible="true" />
         </Groups>
     </EditorSession>
-    <MapData FogActive="true" FogColor="1 1 1 1" FogCulling="true" FogEnd="15" FogFalloffExp="1" FogStart="0" GlobalDecalMaxTris="300" Name="" SkyBoxActive="true" SkyBoxColor="1 1 1 1" SkyBoxTexture="../../../../../../">
+    <MapData FogActive="false" FogColor="1 1 1 1" FogCulling="true" FogEnd="15" FogFalloffExp="1" FogStart="0" GlobalDecalMaxTris="300" Name="" SkyBoxActive="true" SkyBoxColor="1 1 1 1" SkyBoxTexture="../../../../../../">
         <MapContents>
             <FileIndex_StaticObjects NumOfFiles="8">
                 <File Id="0" Path="static_objects/outside/tree/pine.dae" />
@@ -393,17 +393,10 @@
                 <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="475" Name="foliage_zimmarman_grass02_brown_2sided_47" Rotation="0 0.523599 0" Scale="1 1 1" Tag="" WorldPos="-14.25 0 -24" />
                 <StaticObject CastShadows="true" Collides="true" FileIndex="3" Group="0" ID="478" Name="house_zimmarman_fence_1" Rotation="3.14159 4.44253e-006 3.14159" Scale="1 1 1" Tag="" WorldPos="48.25 0 -8.25" />
                 <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="505" Name="tree_pine_312" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="37 0 -10" />
-                <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="519" Name="foliage_zimmarman_grass02_brown_2sided_48" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="6 0 61.25" />
-                <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="520" Name="foliage_zimmarman_grass02_brown_2sided_49" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="10.5 0 61.25" />
-                <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="521" Name="foliage_zimmarman_grass02_brown_2sided_50" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="10.5 0 63.75" />
-                <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="522" Name="foliage_zimmarman_grass02_brown_2sided_51" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="5.75 0 63.75" />
                 <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="523" Name="foliage_zimmarman_grass02_brown_2sided_52" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="5.75 0 66.25" />
-                <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="524" Name="foliage_zimmarman_grass02_brown_2sided_53" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="10.25 0 66.25" />
                 <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="525" Name="foliage_zimmarman_grass02_brown_2sided_54" Rotation="0 1.0472 0" Scale="1 1 1" Tag="" WorldPos="14.25 0 66.25" />
                 <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="526" Name="foliage_zimmarman_grass02_brown_2sided_55" Rotation="0 -1.0472 0" Scale="1 1 1" Tag="" WorldPos="14.25 0 63.25" />
                 <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="527" Name="foliage_zimmarman_grass02_brown_2sided_56" Rotation="0 -0.523598 0" Scale="1 1 1.25" Tag="" WorldPos="13 0 59.25" />
-                <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="528" Name="foliage_zimmarman_grass02_brown_2sided_57" Rotation="0 -0.523598 0" Scale="1 1 1.25" Tag="" WorldPos="8 0 59.25" />
-                <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="529" Name="foliage_zimmarman_grass02_brown_2sided_58" Rotation="0 -0.523598 0" Scale="1 1 1.25" Tag="" WorldPos="4 0 59.25" />
                 <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="530" Name="foliage_zimmarman_grass02_brown_2sided_59" Rotation="0 -0.523598 0" Scale="1 1 1.25" Tag="" WorldPos="4 0 59.25" />
                 <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="531" Name="foliage_zimmarman_grass02_brown_2sided_60" Rotation="0 -0.523598 0" Scale="1 1 1.25" Tag="" WorldPos="4 0 -5" />
                 <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="532" Name="foliage_zimmarman_grass02_brown_2sided_61" Rotation="0 -0.523598 0" Scale="1 1 1.25" Tag="" WorldPos="4 0 -5" />
@@ -779,13 +772,8 @@
                 <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="908" Name="tree_pine_451" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="66 0 -61.25" />
                 <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="909" Name="foliage_zimmarman_grass02_brown_2sided_274" Rotation="0 -0.523598 0" Scale="1 1 1.25" Tag="" WorldPos="4 0 59.25" />
                 <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="910" Name="foliage_zimmarman_grass02_brown_2sided_275" Rotation="0 -0.523598 0" Scale="1 1 1.25" Tag="" WorldPos="4 0 59.25" />
-                <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="911" Name="foliage_zimmarman_grass02_brown_2sided_276" Rotation="0 -0.523598 0" Scale="1 1 1.25" Tag="" WorldPos="8 0 59.25" />
-                <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="912" Name="foliage_zimmarman_grass02_brown_2sided_277" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="6 0 61.25" />
-                <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="913" Name="foliage_zimmarman_grass02_brown_2sided_278" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="5.75 0 63.75" />
                 <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="914" Name="foliage_zimmarman_grass02_brown_2sided_279" Rotation="0 -0.523598 0" Scale="1 1 1.25" Tag="" WorldPos="13 0 59.25" />
-                <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="915" Name="foliage_zimmarman_grass02_brown_2sided_280" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="10.5 0 61.25" />
                 <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="916" Name="foliage_zimmarman_grass02_brown_2sided_281" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="5.75 0 66.25" />
-                <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="917" Name="foliage_zimmarman_grass02_brown_2sided_282" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="10.5 0 63.75" />
                 <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="918" Name="foliage_zimmarman_grass02_brown_2sided_283" Rotation="0 -1.0472 0" Scale="1 1 1" Tag="" WorldPos="14.25 0 63.25" />
                 <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="919" Name="foliage_zimmarman_grass02_brown_2sided_284" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="10.25 0 66.25" />
                 <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="920" Name="foliage_zimmarman_grass02_brown_2sided_285" Rotation="0 1.0472 0" Scale="1 1 1" Tag="" WorldPos="14.25 0 66.25" />
@@ -1875,6 +1863,56 @@
                     </UserVariables>
                 </Area>
                 <Area Active="true" AreaType="Script" Group="0" ID="1441" Mesh="" Name="FogBreathArea_PosX_Look" Rotation="0 -1.5708 0" Scale="3.5 4.25 0.5" Tag="" WorldPos="3 0 0">
+                    <UserVariables>
+                        <Var Name="PlayerLookAtCallback" Value="" />
+                        <Var Name="PlayerLookAtCallbackAutoRemove" Value="true" />
+                        <Var Name="PlayerInteractCallback" Value="" />
+                        <Var Name="PlayerInteractCallbackAutoRemove" Value="false" />
+                        <Var Name="ItemInteraction" Value="false" />
+                        <Var Name="MaxFocusDistance" Value="-1" />
+                    </UserVariables>
+                </Area>
+                <Area Active="true" AreaType="Script" Group="0" ID="1442" Mesh="" Name="GraveYardEnteranceArea_Sound1" Rotation="0 0.523598 0" Scale="1.25 6.75 22.25" Tag="" WorldPos="34.25 3.5 -6.25">
+                    <UserVariables>
+                        <Var Name="PlayerLookAtCallback" Value="" />
+                        <Var Name="PlayerLookAtCallbackAutoRemove" Value="true" />
+                        <Var Name="PlayerInteractCallback" Value="" />
+                        <Var Name="PlayerInteractCallbackAutoRemove" Value="false" />
+                        <Var Name="ItemInteraction" Value="false" />
+                        <Var Name="MaxFocusDistance" Value="-1" />
+                    </UserVariables>
+                </Area>
+                <Area Active="true" AreaType="Script" Group="0" ID="1444" Mesh="" Name="Forest_Sound2" Rotation="0 -0.523598 0" Scale="11.5 5.5 1.75" Tag="" WorldPos="2.25 2.75 -14.75">
+                    <UserVariables>
+                        <Var Name="PlayerLookAtCallback" Value="" />
+                        <Var Name="PlayerLookAtCallbackAutoRemove" Value="true" />
+                        <Var Name="PlayerInteractCallback" Value="" />
+                        <Var Name="PlayerInteractCallbackAutoRemove" Value="false" />
+                        <Var Name="ItemInteraction" Value="false" />
+                        <Var Name="MaxFocusDistance" Value="-1" />
+                    </UserVariables>
+                </Area>
+                <Area Active="true" AreaType="Script" Group="0" ID="1445" Mesh="" Name="Forest_Deadend_Sound3" Rotation="0 -0 0" Scale="13.5 8 1.75" Tag="" WorldPos="-31.5 4 -1.375">
+                    <UserVariables>
+                        <Var Name="PlayerLookAtCallback" Value="" />
+                        <Var Name="PlayerLookAtCallbackAutoRemove" Value="true" />
+                        <Var Name="PlayerInteractCallback" Value="" />
+                        <Var Name="PlayerInteractCallbackAutoRemove" Value="false" />
+                        <Var Name="ItemInteraction" Value="false" />
+                        <Var Name="MaxFocusDistance" Value="-1" />
+                    </UserVariables>
+                </Area>
+                <Area Active="true" AreaType="Script" Group="0" ID="1446" Mesh="" Name="Cottage_Sound4" Rotation="0 -0.261799 0" Scale="1.5 6 13.75" Tag="" WorldPos="-9.25 3 -54.75">
+                    <UserVariables>
+                        <Var Name="PlayerLookAtCallback" Value="" />
+                        <Var Name="PlayerLookAtCallbackAutoRemove" Value="true" />
+                        <Var Name="PlayerInteractCallback" Value="" />
+                        <Var Name="PlayerInteractCallbackAutoRemove" Value="false" />
+                        <Var Name="ItemInteraction" Value="false" />
+                        <Var Name="MaxFocusDistance" Value="-1" />
+                    </UserVariables>
+                </Area>
+                <Area Active="true" AreaType="Script" Group="0" ID="1447" Mesh="" Name="AreaExitProx_Sound5" Rotation="0 -0 0" Scale="2.25 9.5 18.25" Tag="" WorldPos="41.625 4.75 -43.625">
                     <UserVariables>
                         <Var Name="PlayerLookAtCallback" Value="" />
                         <Var Name="PlayerLookAtCallbackAutoRemove" Value="true" />

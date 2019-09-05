@@ -5,7 +5,7 @@
             <Viewport CameraPosition="0 0 0" CameraTarget="1 1 1" CameraZoom="3.36272" GridHeight="0" GridPlane="2" Preset="0" RenderMode="1" ShowAxes="true" ShowGrid="true" UsingLTCam="true" />
             <Viewport CameraPosition="0 0 0" CameraTarget="1 1 1" CameraZoom="3.36272" GridHeight="0" GridPlane="0" Preset="1" RenderMode="1" ShowAxes="true" ShowGrid="true" UsingLTCam="true" />
             <Viewport CameraPosition="0 0 0" CameraTarget="1 1 1" CameraZoom="3.36272" GridHeight="0" GridPlane="1" Preset="2" RenderMode="1" ShowAxes="true" ShowGrid="true" UsingLTCam="true" />
-            <Viewport CameraPosition="-23.1358 1.85346 13.573" CameraTarget="-27.466 -8 19.5194" CameraZoom="1.40272" GridHeight="-8" GridPlane="1" Preset="3" RenderMode="0" ShowAxes="true" ShowGrid="false" UsingLTCam="true" />
+            <Viewport CameraPosition="-11.6128 3.57686 0.170574" CameraTarget="-14.9292 -2.14577e-006 -0.985572" CameraZoom="2.3" GridHeight="0" GridPlane="1" Preset="3" RenderMode="0" ShowAxes="true" ShowGrid="false" UsingLTCam="true" />
         </ViewportConfig>
         <Groups>
             <Group ID="0" Name="None" Visible="true" />
@@ -27,7 +27,7 @@
                 <File Id="10" Path="static_objects/ornaments/carpets/carpet04.dae" />
                 <File Id="11" Path="static_objects/castlebase/wall/door_frame_plain_worn.dae" />
             </FileIndex_StaticObjects>
-            <FileIndex_Entities NumOfFiles="37">
+            <FileIndex_Entities NumOfFiles="38">
                 <File Id="0" Path="entities/door/prison/prison.ent" />
                 <File Id="1" Path="entities/item/lantern/lantern.ent" />
                 <File Id="2" Path="entities/furniture/table_metal/table_metal.ent" />
@@ -65,6 +65,7 @@
                 <File Id="34" Path="entities/container/barrel01/barrel01.ent" />
                 <File Id="35" Path="entities/container/wood_box01/wood_box01.ent" />
                 <File Id="36" Path="entities/door/level_dungeon/level_dungeon.ent" />
+                <File Id="37" Path="entities/enemy/servant_brute/servant_brute.ent" />
             </FileIndex_Entities>
             <FileIndex_Decals NumOfFiles="0" />
             <StaticObjects>
@@ -213,17 +214,17 @@
                 <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="265" Name="wall_default_worn_62" Rotation="3.14159 1.7404e-006 3.14159" Scale="1 1 1" Tag="" WorldPos="-22 -4 -5.25" />
                 <StaticObject CastShadows="true" Collides="true" FileIndex="1" Group="0" ID="266" Name="wall_door_way_worn_9" Rotation="3.14158 1.645e-006 3.14159" Scale="1 1 1" Tag="" WorldPos="-26 -4 -5.25" />
                 <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="268" Name="wall_default_worn_63" Rotation="3.14159 1.7404e-006 3.14159" Scale="1 1 1" Tag="" WorldPos="-30 -4 -5.25" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="9" Group="0" ID="440" Name="carpets_carpet01_1" Rotation="0 -0 0" Scale="3 3 3" Tag="" WorldPos="-11.75 0 -1.5" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="9" Group="0" ID="440" Name="carpets_carpet01_1" Rotation="0 0 0" Scale="3 3 3" Tag="" WorldPos="-11.75 0 -1.5" />
                 <StaticObject CastShadows="true" Collides="true" FileIndex="10" Group="0" ID="444" Name="carpets_carpet04_1" Rotation="3.14159 1.5708 3.14159" Scale="2 2 2" Tag="" WorldPos="-25.25 -4 1" />
                 <StaticObject CastShadows="true" Collides="true" FileIndex="7" Group="0" ID="473" Name="ceiling_concave_worn_21" Rotation="3.14159 1.5708 3.14159" Scale="1 1 1" Tag="" WorldPos="-18.75 0 11.5" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="5" Group="0" ID="474" Name="ceiling_corner_concave_worn_19" Rotation="0 -0 0" Scale="1 1 1" Tag="" WorldPos="-22 0 -11.25" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="5" Group="0" ID="474" Name="ceiling_corner_concave_worn_19" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="-22 0 -11.25" />
                 <StaticObject CastShadows="true" Collides="true" FileIndex="5" Group="0" ID="475" Name="ceiling_corner_concave_worn_20" Rotation="3.14159 -1.5708 3.14159" Scale="1 1 1" Tag="" WorldPos="-22 0 -7.25" />
                 <StaticObject CastShadows="true" Collides="true" FileIndex="5" Group="0" ID="476" Name="ceiling_corner_concave_worn_21" Rotation="3.14159 1.5708 3.14159" Scale="1 1 1" Tag="" WorldPos="-30 0 -11.25" />
                 <StaticObject CastShadows="true" Collides="true" FileIndex="5" Group="0" ID="477" Name="ceiling_corner_concave_worn_22" Rotation="3.14159 -8.74228e-008 3.14159" Scale="1 1 1" Tag="" WorldPos="-30 0 -7.25" />
                 <StaticObject CastShadows="true" Collides="true" FileIndex="7" Group="0" ID="479" Name="ceiling_concave_worn_22" Rotation="3.14159 -8.74228e-008 3.14159" Scale="1 1 1" Tag="" WorldPos="-26 0 -5.25" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="7" Group="0" ID="480" Name="ceiling_concave_worn_23" Rotation="0 -0 0" Scale="1 1 1" Tag="" WorldPos="-26 0 -13.25" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="9" Group="0" ID="519" Name="carpets_carpet01_2" Rotation="0 -0 0" Scale="3.25 1 3.75" Tag="" WorldPos="-27.75 -4 -9.5" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="11" Group="0" ID="521" Name="wall_door_frame_plain_worn_1" Rotation="0 -0 0" Scale="1 1 1" Tag="" WorldPos="-26 -8 19" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="7" Group="0" ID="480" Name="ceiling_concave_worn_23" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="-26 0 -13.25" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="9" Group="0" ID="519" Name="carpets_carpet01_2" Rotation="0 0 0" Scale="3.25 1 3.75" Tag="" WorldPos="-27.75 -4 -9.5" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="11" Group="0" ID="521" Name="wall_door_frame_plain_worn_1" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="-26 -8 19" />
             </StaticObjects>
             <Primitives>
                 <Plane Active="true" AlignToWorldCoords="false" CastShadows="false" Collides="true" Corner1UV="0 8" Corner2UV="0 0" Corner3UV="16.5 0" Corner4UV="16.5 8" EndCorner="16.5 0 8" Group="0" ID="37" Material="D:/SteamLibrary/steamapps/steamapps/common/Amnesia The Dark Descent/static_objects/castlebase/castlebase_ceiling_worn.mat" Name="Plane" Rotation="0 0 0" Scale="1 1 1" StartCorner="0 0 0" Tag="" TextureAngle="0" TileAmount="1 1 1" TileOffset="0 0 0" WorldPos="-16.25 0 -5.5" />
@@ -259,7 +260,7 @@
                     </UserVariables>
                 </Entity>
                 <BoxLight Active="true" BlendFunc="0" CastShadows="false" DiffuseColor="0.25 0.25 0.25 1" FalloffMap="" FlickerActive="false" FlickerFade="false" FlickerOffColor="0 0 0 1" FlickerOffFadeMaxLength="0" FlickerOffFadeMinLength="0" FlickerOffMaxLength="0" FlickerOffMinLength="0" FlickerOffPS="" FlickerOffRadius="0" FlickerOffSound="" FlickerOnFadeMaxLength="0" FlickerOnFadeMinLength="0" FlickerOnMaxLength="0" FlickerOnMinLength="0" FlickerOnPS="" FlickerOnSound="" Gobo="" GoboAnimFrameTime="0" GoboAnimMode="None" Group="0" ID="217" Name="BoxLight_1" Radius="1" Rotation="0 -0 0" Scale="66.25 69 66" ShadowResolution="High" ShadowsAffectDynamic="true" ShadowsAffectStatic="true" Size="66.25 69 66" Tag="" WorldPos="-25.375 1.5 0.5" />
-                <Area Active="true" AreaType="PlayerStart" Group="0" ID="218" Mesh="" Name="PlayerStartArea_1" Rotation="3.14159 4.41074e-006 3.14159" Scale="1 1 1" Tag="" WorldPos="-22 -2 0.75">
+                <Area Active="true" AreaType="PlayerStart" Group="0" ID="218" Mesh="" Name="PlayerStartArea_1" Rotation="3.14159 4.41074e-006 3.14159" Scale="1 1 1" Tag="" WorldPos="-1.75 0.75 0.75">
                     <UserVariables />
                 </Area>
                 <Entity Active="true" FileIndex="1" Group="0" ID="219" Name="lantern_1" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="-2.25 0 1.75">
@@ -2497,6 +2498,24 @@
                         <Var Name="ShowStats" Value="true" />
                     </UserVariables>
                 </Entity>
+                <Entity Active="true" FileIndex="37" Group="0" ID="525" Name="servant_brute_1" Rotation="0 -0.261801 0" Scale="1 1 1" Tag="" WorldPos="-14.25 0 0.75">
+                    <UserVariables>
+                        <Var Name="CallbackFunc" Value="" />
+                        <Var Name="DisableTriggers" Value="false" />
+                        <Var Name="Hallucination" Value="false" />
+                        <Var Name="HallucinationEndDist" Value="3" />
+                    </UserVariables>
+                </Entity>
+                <Area Active="true" AreaType="Script" Group="0" ID="526" Mesh="" Name="PlayerStanding" Rotation="0 -0 0" Scale="0.5 3 2.75" Tag="" WorldPos="-7.25 1.5 -3.375">
+                    <UserVariables>
+                        <Var Name="PlayerLookAtCallback" Value="" />
+                        <Var Name="PlayerLookAtCallbackAutoRemove" Value="true" />
+                        <Var Name="PlayerInteractCallback" Value="" />
+                        <Var Name="PlayerInteractCallbackAutoRemove" Value="false" />
+                        <Var Name="ItemInteraction" Value="false" />
+                        <Var Name="MaxFocusDistance" Value="-1" />
+                    </UserVariables>
+                </Area>
             </Entities>
             <Misc />
             <StaticObjectCombos />
