@@ -1,0 +1,10 @@
+void OnStart()
+{
+    AddEntityCollideCallback("Player", "LevelChangeArea", "CollisionDependant", true, 0);
+}
+
+void CollisionDependant(string &in asParent, string &in asChild, int alState) {
+    if (asChild == "LevelChangeArea") {
+        ChangeMap("utr_04_mansion.map", "PlayerStartArea_1", "", "");
+    }
+}

@@ -5,13 +5,13 @@
             <Viewport CameraPosition="0 0 0" CameraTarget="1 1 1" CameraZoom="3.36272" GridHeight="0" GridPlane="2" Preset="0" RenderMode="1" ShowAxes="true" ShowGrid="true" UsingLTCam="true" />
             <Viewport CameraPosition="0 0 0" CameraTarget="1 1 1" CameraZoom="3.36272" GridHeight="0" GridPlane="0" Preset="1" RenderMode="1" ShowAxes="true" ShowGrid="true" UsingLTCam="true" />
             <Viewport CameraPosition="0 0 0" CameraTarget="1 1 1" CameraZoom="3.36272" GridHeight="0" GridPlane="1" Preset="2" RenderMode="1" ShowAxes="true" ShowGrid="true" UsingLTCam="true" />
-            <Viewport CameraPosition="-7.27651 14.2896 6.40441" CameraTarget="0.636941 -4.76837e-07 -5.69644" CameraZoom="0.9" GridHeight="0" GridPlane="1" Preset="3" RenderMode="0" ShowAxes="true" ShowGrid="true" UsingLTCam="true" />
+            <Viewport CameraPosition="-14.9133 28.0054 1.30679" CameraTarget="19.1167 -4.06838e-007 -22.3079" CameraZoom="0" GridHeight="0" GridPlane="1" Preset="3" RenderMode="0" ShowAxes="true" ShowGrid="true" UsingLTCam="true" />
         </ViewportConfig>
         <Groups>
             <Group ID="0" Name="None" Visible="true" />
         </Groups>
     </EditorSession>
-    <MapData FogActive="true" FogColor="1 1 1 1" FogCulling="true" FogEnd="20" FogFalloffExp="1" FogStart="0" GlobalDecalMaxTris="300" Name="" SkyBoxActive="true" SkyBoxColor="1 1 1 1" SkyBoxTexture="../../../../../../../">
+    <MapData FogActive="false" FogColor="1 1 1 1" FogCulling="true" FogEnd="20" FogFalloffExp="1" FogStart="0" GlobalDecalMaxTris="300" Name="" SkyBoxActive="true" SkyBoxColor="1 1 1 1" SkyBoxTexture="../../../../../../">
         <MapContents>
             <FileIndex_StaticObjects NumOfFiles="8">
                 <File Id="0" Path="static_objects/outside/tree/pine.dae" />
@@ -391,7 +391,7 @@
                 <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="473" Name="foliage_zimmarman_grass02_brown_2sided_45" Rotation="0 0.523599 0" Scale="1 1 1" Tag="" WorldPos="-10.25 0 -26.5" />
                 <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="474" Name="foliage_zimmarman_grass02_brown_2sided_46" Rotation="0 0.523599 0" Scale="1 1 1" Tag="" WorldPos="-16 0 -26.75" />
                 <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="475" Name="foliage_zimmarman_grass02_brown_2sided_47" Rotation="0 0.523599 0" Scale="1 1 1" Tag="" WorldPos="-14.25 0 -24" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="3" Group="0" ID="478" Name="house_zimmarman_fence_1" Rotation="3.14159 4.44253e-06 3.14159" Scale="1 1 1" Tag="" WorldPos="48.25 0 -8.25" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="3" Group="0" ID="478" Name="house_zimmarman_fence_1" Rotation="3.14159 4.44253e-006 3.14159" Scale="1 1 1" Tag="" WorldPos="48.25 0 -8.25" />
                 <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="505" Name="tree_pine_312" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="37 0 -10" />
                 <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="519" Name="foliage_zimmarman_grass02_brown_2sided_48" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="6 0 61.25" />
                 <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="520" Name="foliage_zimmarman_grass02_brown_2sided_49" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="10.5 0 61.25" />
@@ -453,147 +453,147 @@
                 <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="576" Name="foliage_zimmarman_grass02_brown_2sided_105" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="8 0 10" />
                 <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="577" Name="foliage_zimmarman_grass02_brown_2sided_106" Rotation="0 -1.0472 0" Scale="1 1 1" Tag="" WorldPos="12 0 7" />
                 <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="578" Name="foliage_zimmarman_grass02_brown_2sided_107" Rotation="0 1.0472 0" Scale="1 1 1" Tag="" WorldPos="12 0 10" />
-                <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="579" Name="foliage_zimmarman_grass02_brown_2sided_108" Rotation="0 1.19209e-07 0" Scale="1 1 1.25" Tag="" WorldPos="29 0 -3" />
-                <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="580" Name="foliage_zimmarman_grass02_brown_2sided_109" Rotation="0 1.19209e-07 0" Scale="1 1 1.25" Tag="" WorldPos="29 0 -3" />
+                <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="579" Name="foliage_zimmarman_grass02_brown_2sided_108" Rotation="0 1.19209e-007 0" Scale="1 1 1.25" Tag="" WorldPos="29 0 -3" />
+                <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="580" Name="foliage_zimmarman_grass02_brown_2sided_109" Rotation="0 1.19209e-007 0" Scale="1 1 1.25" Tag="" WorldPos="29 0 -3" />
                 <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="581" Name="foliage_zimmarman_grass02_brown_2sided_110" Rotation="0 0.523598 0" Scale="1 1 1" Tag="" WorldPos="31 0 -1" />
-                <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="582" Name="foliage_zimmarman_grass02_brown_2sided_111" Rotation="0 1.19209e-07 0" Scale="1 1 1.25" Tag="" WorldPos="33 0 -3" />
+                <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="582" Name="foliage_zimmarman_grass02_brown_2sided_111" Rotation="0 1.19209e-007 0" Scale="1 1 1.25" Tag="" WorldPos="33 0 -3" />
                 <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="583" Name="foliage_zimmarman_grass02_brown_2sided_112" Rotation="0 0.523598 0" Scale="1 1 1" Tag="" WorldPos="30.75 0 1.5" />
                 <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="584" Name="foliage_zimmarman_grass02_brown_2sided_113" Rotation="0 0.523598 0" Scale="1 1 1" Tag="" WorldPos="30.75 0 4" />
                 <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="585" Name="foliage_zimmarman_grass02_brown_2sided_114" Rotation="0 0.523598 0" Scale="1 1 1" Tag="" WorldPos="35.5 0 -1" />
                 <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="586" Name="foliage_zimmarman_grass02_brown_2sided_115" Rotation="0 0.523598 0" Scale="1 1 1" Tag="" WorldPos="35.5 0 1.5" />
-                <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="587" Name="foliage_zimmarman_grass02_brown_2sided_116" Rotation="0 1.19209e-07 0" Scale="1 1 1.25" Tag="" WorldPos="38 0 -3" />
+                <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="587" Name="foliage_zimmarman_grass02_brown_2sided_116" Rotation="0 1.19209e-007 0" Scale="1 1 1.25" Tag="" WorldPos="38 0 -3" />
                 <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="588" Name="foliage_zimmarman_grass02_brown_2sided_117" Rotation="0 0.523598 0" Scale="1 1 1" Tag="" WorldPos="35.25 0 4" />
                 <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="589" Name="foliage_zimmarman_grass02_brown_2sided_118" Rotation="0 -0.523598 0" Scale="1 1 1" Tag="" WorldPos="39.25 0 1" />
                 <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="590" Name="foliage_zimmarman_grass02_brown_2sided_119" Rotation="0 1.57079 0" Scale="1 1 1" Tag="" WorldPos="39.25 0 4" />
-                <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="591" Name="foliage_zimmarman_grass02_brown_2sided_120" Rotation="0 1.19209e-07 0" Scale="1 1 1.25" Tag="" WorldPos="29 0 -12.5" />
-                <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="592" Name="foliage_zimmarman_grass02_brown_2sided_121" Rotation="0 1.19209e-07 0" Scale="1 1 1.25" Tag="" WorldPos="29 0 -12.5" />
+                <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="591" Name="foliage_zimmarman_grass02_brown_2sided_120" Rotation="0 1.19209e-007 0" Scale="1 1 1.25" Tag="" WorldPos="29 0 -12.5" />
+                <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="592" Name="foliage_zimmarman_grass02_brown_2sided_121" Rotation="0 1.19209e-007 0" Scale="1 1 1.25" Tag="" WorldPos="29 0 -12.5" />
                 <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="593" Name="foliage_zimmarman_grass02_brown_2sided_122" Rotation="0 0.523598 0" Scale="1 1 1" Tag="" WorldPos="31 0 -10.5" />
-                <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="594" Name="foliage_zimmarman_grass02_brown_2sided_123" Rotation="0 1.19209e-07 0" Scale="1 1 1.25" Tag="" WorldPos="33 0 -12.5" />
+                <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="594" Name="foliage_zimmarman_grass02_brown_2sided_123" Rotation="0 1.19209e-007 0" Scale="1 1 1.25" Tag="" WorldPos="33 0 -12.5" />
                 <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="595" Name="foliage_zimmarman_grass02_brown_2sided_124" Rotation="0 0.523598 0" Scale="1 1 1" Tag="" WorldPos="30.75 0 -8" />
                 <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="596" Name="foliage_zimmarman_grass02_brown_2sided_125" Rotation="0 0.523598 0" Scale="1 1 1" Tag="" WorldPos="30.75 0 -5.5" />
                 <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="597" Name="foliage_zimmarman_grass02_brown_2sided_126" Rotation="0 0.523598 0" Scale="1 1 1" Tag="" WorldPos="35.5 0 -10.5" />
                 <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="598" Name="foliage_zimmarman_grass02_brown_2sided_127" Rotation="0 0.523598 0" Scale="1 1 1" Tag="" WorldPos="35.5 0 -8" />
-                <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="599" Name="foliage_zimmarman_grass02_brown_2sided_128" Rotation="0 1.19209e-07 0" Scale="1 1 1.25" Tag="" WorldPos="38 0 -12.5" />
+                <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="599" Name="foliage_zimmarman_grass02_brown_2sided_128" Rotation="0 1.19209e-007 0" Scale="1 1 1.25" Tag="" WorldPos="38 0 -12.5" />
                 <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="600" Name="foliage_zimmarman_grass02_brown_2sided_129" Rotation="0 0.523598 0" Scale="1 1 1" Tag="" WorldPos="35.25 0 -5.5" />
                 <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="601" Name="foliage_zimmarman_grass02_brown_2sided_130" Rotation="0 -0.523598 0" Scale="1 1 1" Tag="" WorldPos="39.25 0 -8.5" />
                 <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="602" Name="foliage_zimmarman_grass02_brown_2sided_131" Rotation="0 1.57079 0" Scale="1 1 1" Tag="" WorldPos="39.25 0 -5.5" />
-                <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="603" Name="foliage_zimmarman_grass02_brown_2sided_132" Rotation="0 1.19209e-07 0" Scale="1 1 1.25" Tag="" WorldPos="33.25 0 -21.25" />
-                <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="604" Name="foliage_zimmarman_grass02_brown_2sided_133" Rotation="0 1.19209e-07 0" Scale="1 1 1.25" Tag="" WorldPos="33.25 0 -21.25" />
+                <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="603" Name="foliage_zimmarman_grass02_brown_2sided_132" Rotation="0 1.19209e-007 0" Scale="1 1 1.25" Tag="" WorldPos="33.25 0 -21.25" />
+                <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="604" Name="foliage_zimmarman_grass02_brown_2sided_133" Rotation="0 1.19209e-007 0" Scale="1 1 1.25" Tag="" WorldPos="33.25 0 -21.25" />
                 <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="605" Name="foliage_zimmarman_grass02_brown_2sided_134" Rotation="0 0.523598 0" Scale="1 1 1" Tag="" WorldPos="35.25 0 -19.25" />
-                <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="606" Name="foliage_zimmarman_grass02_brown_2sided_135" Rotation="0 1.19209e-07 0" Scale="1 1 1.25" Tag="" WorldPos="37.25 0 -21.25" />
+                <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="606" Name="foliage_zimmarman_grass02_brown_2sided_135" Rotation="0 1.19209e-007 0" Scale="1 1 1.25" Tag="" WorldPos="37.25 0 -21.25" />
                 <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="607" Name="foliage_zimmarman_grass02_brown_2sided_136" Rotation="0 0.523598 0" Scale="1 1 1" Tag="" WorldPos="35 0 -16.75" />
                 <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="608" Name="foliage_zimmarman_grass02_brown_2sided_137" Rotation="0 0.523598 0" Scale="1 1 1" Tag="" WorldPos="35 0 -14.25" />
                 <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="609" Name="foliage_zimmarman_grass02_brown_2sided_138" Rotation="0 0.523598 0" Scale="1 1 1" Tag="" WorldPos="39.75 0 -19.25" />
                 <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="610" Name="foliage_zimmarman_grass02_brown_2sided_139" Rotation="0 0.523598 0" Scale="1 1 1" Tag="" WorldPos="39.75 0 -16.75" />
-                <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="611" Name="foliage_zimmarman_grass02_brown_2sided_140" Rotation="0 1.19209e-07 0" Scale="1 1 1.25" Tag="" WorldPos="42.25 0 -21.25" />
+                <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="611" Name="foliage_zimmarman_grass02_brown_2sided_140" Rotation="0 1.19209e-007 0" Scale="1 1 1.25" Tag="" WorldPos="42.25 0 -21.25" />
                 <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="612" Name="foliage_zimmarman_grass02_brown_2sided_141" Rotation="0 0.523598 0" Scale="1 1 1" Tag="" WorldPos="39.5 0 -14.25" />
                 <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="613" Name="foliage_zimmarman_grass02_brown_2sided_142" Rotation="0 -0.523598 0" Scale="1 1 1" Tag="" WorldPos="43.5 0 -17.25" />
                 <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="614" Name="foliage_zimmarman_grass02_brown_2sided_143" Rotation="0 1.57079 0" Scale="1 1 1" Tag="" WorldPos="43.5 0 -14.25" />
-                <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="615" Name="foliage_zimmarman_grass02_brown_2sided_144" Rotation="0 1.19209e-07 0" Scale="1 1 1.25" Tag="" WorldPos="43.75 0 -21.25" />
-                <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="616" Name="foliage_zimmarman_grass02_brown_2sided_145" Rotation="0 1.19209e-07 0" Scale="1 1 1.25" Tag="" WorldPos="43.75 0 -21.25" />
+                <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="615" Name="foliage_zimmarman_grass02_brown_2sided_144" Rotation="0 1.19209e-007 0" Scale="1 1 1.25" Tag="" WorldPos="43.75 0 -21.25" />
+                <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="616" Name="foliage_zimmarman_grass02_brown_2sided_145" Rotation="0 1.19209e-007 0" Scale="1 1 1.25" Tag="" WorldPos="43.75 0 -21.25" />
                 <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="617" Name="foliage_zimmarman_grass02_brown_2sided_146" Rotation="0 0.523598 0" Scale="1 1 1" Tag="" WorldPos="45.75 0 -19.25" />
-                <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="618" Name="foliage_zimmarman_grass02_brown_2sided_147" Rotation="0 1.19209e-07 0" Scale="1 1 1.25" Tag="" WorldPos="47.75 0 -21.25" />
+                <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="618" Name="foliage_zimmarman_grass02_brown_2sided_147" Rotation="0 1.19209e-007 0" Scale="1 1 1.25" Tag="" WorldPos="47.75 0 -21.25" />
                 <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="619" Name="foliage_zimmarman_grass02_brown_2sided_148" Rotation="0 0.523598 0" Scale="1 1 1" Tag="" WorldPos="45.5 0 -16.75" />
                 <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="620" Name="foliage_zimmarman_grass02_brown_2sided_149" Rotation="0 0.523598 0" Scale="1 1 1" Tag="" WorldPos="45.5 0 -14.25" />
                 <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="621" Name="foliage_zimmarman_grass02_brown_2sided_150" Rotation="0 0.523598 0" Scale="1 1 1" Tag="" WorldPos="50.25 0 -19.25" />
                 <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="622" Name="foliage_zimmarman_grass02_brown_2sided_151" Rotation="0 0.523598 0" Scale="1 1 1" Tag="" WorldPos="50.25 0 -16.75" />
-                <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="623" Name="foliage_zimmarman_grass02_brown_2sided_152" Rotation="0 1.19209e-07 0" Scale="1 1 1.25" Tag="" WorldPos="52.75 0 -21.25" />
+                <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="623" Name="foliage_zimmarman_grass02_brown_2sided_152" Rotation="0 1.19209e-007 0" Scale="1 1 1.25" Tag="" WorldPos="52.75 0 -21.25" />
                 <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="624" Name="foliage_zimmarman_grass02_brown_2sided_153" Rotation="0 0.523598 0" Scale="1 1 1" Tag="" WorldPos="50 0 -14.25" />
                 <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="625" Name="foliage_zimmarman_grass02_brown_2sided_154" Rotation="0 -0.523598 0" Scale="1 1 1" Tag="" WorldPos="54 0 -17.25" />
                 <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="626" Name="foliage_zimmarman_grass02_brown_2sided_155" Rotation="0 1.57079 0" Scale="1 1 1" Tag="" WorldPos="54 0 -14.25" />
-                <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="627" Name="foliage_zimmarman_grass02_brown_2sided_156" Rotation="0 1.19209e-07 0" Scale="1 1 1.25" Tag="" WorldPos="43.75 0 -10" />
-                <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="628" Name="foliage_zimmarman_grass02_brown_2sided_157" Rotation="0 1.19209e-07 0" Scale="1 1 1.25" Tag="" WorldPos="43.75 0 -10" />
+                <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="627" Name="foliage_zimmarman_grass02_brown_2sided_156" Rotation="0 1.19209e-007 0" Scale="1 1 1.25" Tag="" WorldPos="43.75 0 -10" />
+                <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="628" Name="foliage_zimmarman_grass02_brown_2sided_157" Rotation="0 1.19209e-007 0" Scale="1 1 1.25" Tag="" WorldPos="43.75 0 -10" />
                 <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="629" Name="foliage_zimmarman_grass02_brown_2sided_158" Rotation="0 0.523598 0" Scale="1 1 1" Tag="" WorldPos="45.75 0 -8" />
-                <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="630" Name="foliage_zimmarman_grass02_brown_2sided_159" Rotation="0 1.19209e-07 0" Scale="1 1 1.25" Tag="" WorldPos="47.75 0 -10" />
+                <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="630" Name="foliage_zimmarman_grass02_brown_2sided_159" Rotation="0 1.19209e-007 0" Scale="1 1 1.25" Tag="" WorldPos="47.75 0 -10" />
                 <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="631" Name="foliage_zimmarman_grass02_brown_2sided_160" Rotation="0 0.523598 0" Scale="1 1 1" Tag="" WorldPos="45.5 0 -5.5" />
                 <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="632" Name="foliage_zimmarman_grass02_brown_2sided_161" Rotation="0 0.523598 0" Scale="1 1 1" Tag="" WorldPos="45.5 0 -3" />
                 <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="633" Name="foliage_zimmarman_grass02_brown_2sided_162" Rotation="0 0.523598 0" Scale="1 1 1" Tag="" WorldPos="50.25 0 -8" />
                 <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="634" Name="foliage_zimmarman_grass02_brown_2sided_163" Rotation="0 0.523598 0" Scale="1 1 1" Tag="" WorldPos="50.25 0 -5.5" />
-                <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="635" Name="foliage_zimmarman_grass02_brown_2sided_164" Rotation="0 1.19209e-07 0" Scale="1 1 1.25" Tag="" WorldPos="52.75 0 -10" />
+                <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="635" Name="foliage_zimmarman_grass02_brown_2sided_164" Rotation="0 1.19209e-007 0" Scale="1 1 1.25" Tag="" WorldPos="52.75 0 -10" />
                 <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="636" Name="foliage_zimmarman_grass02_brown_2sided_165" Rotation="0 0.523598 0" Scale="1 1 1" Tag="" WorldPos="50 0 -3" />
                 <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="637" Name="foliage_zimmarman_grass02_brown_2sided_166" Rotation="0 -0.523598 0" Scale="1 1 1" Tag="" WorldPos="54 0 -6" />
                 <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="638" Name="foliage_zimmarman_grass02_brown_2sided_167" Rotation="0 1.57079 0" Scale="1 1 1" Tag="" WorldPos="54 0 -3" />
-                <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="639" Name="foliage_zimmarman_grass02_brown_2sided_168" Rotation="0 1.19209e-07 0" Scale="1 1 1.25" Tag="" WorldPos="43.75 0 -9.25" />
-                <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="640" Name="foliage_zimmarman_grass02_brown_2sided_169" Rotation="0 1.19209e-07 0" Scale="1 1 1.25" Tag="" WorldPos="43.75 0 -9.25" />
+                <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="639" Name="foliage_zimmarman_grass02_brown_2sided_168" Rotation="0 1.19209e-007 0" Scale="1 1 1.25" Tag="" WorldPos="43.75 0 -9.25" />
+                <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="640" Name="foliage_zimmarman_grass02_brown_2sided_169" Rotation="0 1.19209e-007 0" Scale="1 1 1.25" Tag="" WorldPos="43.75 0 -9.25" />
                 <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="641" Name="foliage_zimmarman_grass02_brown_2sided_170" Rotation="0 0.523598 0" Scale="1 1 1" Tag="" WorldPos="45.75 0 -7.25" />
-                <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="642" Name="foliage_zimmarman_grass02_brown_2sided_171" Rotation="0 1.19209e-07 0" Scale="1 1 1.25" Tag="" WorldPos="47.75 0 -9.25" />
+                <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="642" Name="foliage_zimmarman_grass02_brown_2sided_171" Rotation="0 1.19209e-007 0" Scale="1 1 1.25" Tag="" WorldPos="47.75 0 -9.25" />
                 <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="643" Name="foliage_zimmarman_grass02_brown_2sided_172" Rotation="0 0.523598 0" Scale="1 1 1" Tag="" WorldPos="45.5 0 -4.75" />
                 <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="644" Name="foliage_zimmarman_grass02_brown_2sided_173" Rotation="0 0.523598 0" Scale="1 1 1" Tag="" WorldPos="45.5 0 -2.25" />
                 <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="645" Name="foliage_zimmarman_grass02_brown_2sided_174" Rotation="0 0.523598 0" Scale="1 1 1" Tag="" WorldPos="50.25 0 -7.25" />
                 <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="646" Name="foliage_zimmarman_grass02_brown_2sided_175" Rotation="0 0.523598 0" Scale="1 1 1" Tag="" WorldPos="50.25 0 -4.75" />
-                <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="647" Name="foliage_zimmarman_grass02_brown_2sided_176" Rotation="0 1.19209e-07 0" Scale="1 1 1.25" Tag="" WorldPos="52.75 0 -9.25" />
+                <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="647" Name="foliage_zimmarman_grass02_brown_2sided_176" Rotation="0 1.19209e-007 0" Scale="1 1 1.25" Tag="" WorldPos="52.75 0 -9.25" />
                 <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="648" Name="foliage_zimmarman_grass02_brown_2sided_177" Rotation="0 0.523598 0" Scale="1 1 1" Tag="" WorldPos="50 0 -2.25" />
                 <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="649" Name="foliage_zimmarman_grass02_brown_2sided_178" Rotation="0 -0.523598 0" Scale="1 1 1" Tag="" WorldPos="54 0 -5.25" />
                 <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="650" Name="foliage_zimmarman_grass02_brown_2sided_179" Rotation="0 1.57079 0" Scale="1 1 1" Tag="" WorldPos="54 0 -2.25" />
-                <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="651" Name="foliage_zimmarman_grass02_brown_2sided_180" Rotation="0 1.19209e-07 0" Scale="1 1 1.25" Tag="" WorldPos="15 0 -38" />
-                <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="652" Name="foliage_zimmarman_grass02_brown_2sided_181" Rotation="0 1.19209e-07 0" Scale="1 1 1.25" Tag="" WorldPos="15 0 -38" />
+                <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="651" Name="foliage_zimmarman_grass02_brown_2sided_180" Rotation="0 1.19209e-007 0" Scale="1 1 1.25" Tag="" WorldPos="15 0 -38" />
+                <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="652" Name="foliage_zimmarman_grass02_brown_2sided_181" Rotation="0 1.19209e-007 0" Scale="1 1 1.25" Tag="" WorldPos="15 0 -38" />
                 <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="653" Name="foliage_zimmarman_grass02_brown_2sided_182" Rotation="0 0.523598 0" Scale="1 1 1" Tag="" WorldPos="17 0 -36" />
-                <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="654" Name="foliage_zimmarman_grass02_brown_2sided_183" Rotation="0 1.19209e-07 0" Scale="1 1 1.25" Tag="" WorldPos="19 0 -38" />
+                <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="654" Name="foliage_zimmarman_grass02_brown_2sided_183" Rotation="0 1.19209e-007 0" Scale="1 1 1.25" Tag="" WorldPos="19 0 -38" />
                 <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="655" Name="foliage_zimmarman_grass02_brown_2sided_184" Rotation="0 0.523598 0" Scale="1 1 1" Tag="" WorldPos="16.75 0 -33.5" />
                 <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="656" Name="foliage_zimmarman_grass02_brown_2sided_185" Rotation="0 0.523598 0" Scale="1 1 1" Tag="" WorldPos="16.75 0 -31" />
                 <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="657" Name="foliage_zimmarman_grass02_brown_2sided_186" Rotation="0 0.523598 0" Scale="1 1 1" Tag="" WorldPos="21.5 0 -36" />
                 <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="658" Name="foliage_zimmarman_grass02_brown_2sided_187" Rotation="0 0.523598 0" Scale="1 1 1" Tag="" WorldPos="21.5 0 -33.5" />
-                <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="659" Name="foliage_zimmarman_grass02_brown_2sided_188" Rotation="0 1.19209e-07 0" Scale="1 1 1.25" Tag="" WorldPos="24 0 -38" />
+                <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="659" Name="foliage_zimmarman_grass02_brown_2sided_188" Rotation="0 1.19209e-007 0" Scale="1 1 1.25" Tag="" WorldPos="24 0 -38" />
                 <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="660" Name="foliage_zimmarman_grass02_brown_2sided_189" Rotation="0 0.523598 0" Scale="1 1 1" Tag="" WorldPos="21.25 0 -31" />
                 <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="661" Name="foliage_zimmarman_grass02_brown_2sided_190" Rotation="0 -0.523598 0" Scale="1 1 1" Tag="" WorldPos="25.25 0 -34" />
                 <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="662" Name="foliage_zimmarman_grass02_brown_2sided_191" Rotation="0 1.57079 0" Scale="1 1 1" Tag="" WorldPos="25.25 0 -31" />
-                <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="663" Name="foliage_zimmarman_grass02_brown_2sided_192" Rotation="0 1.19209e-07 0" Scale="1 1 1.25" Tag="" WorldPos="7.5 0 -26" />
-                <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="664" Name="foliage_zimmarman_grass02_brown_2sided_193" Rotation="0 1.19209e-07 0" Scale="1 1 1.25" Tag="" WorldPos="7.5 0 -26" />
+                <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="663" Name="foliage_zimmarman_grass02_brown_2sided_192" Rotation="0 1.19209e-007 0" Scale="1 1 1.25" Tag="" WorldPos="7.5 0 -26" />
+                <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="664" Name="foliage_zimmarman_grass02_brown_2sided_193" Rotation="0 1.19209e-007 0" Scale="1 1 1.25" Tag="" WorldPos="7.5 0 -26" />
                 <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="665" Name="foliage_zimmarman_grass02_brown_2sided_194" Rotation="0 0.523598 0" Scale="1 1 1" Tag="" WorldPos="9.5 0 -24" />
-                <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="666" Name="foliage_zimmarman_grass02_brown_2sided_195" Rotation="0 1.19209e-07 0" Scale="1 1 1.25" Tag="" WorldPos="11.5 0 -26" />
+                <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="666" Name="foliage_zimmarman_grass02_brown_2sided_195" Rotation="0 1.19209e-007 0" Scale="1 1 1.25" Tag="" WorldPos="11.5 0 -26" />
                 <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="667" Name="foliage_zimmarman_grass02_brown_2sided_196" Rotation="0 0.523598 0" Scale="1 1 1" Tag="" WorldPos="9.25 0 -21.5" />
                 <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="668" Name="foliage_zimmarman_grass02_brown_2sided_197" Rotation="0 0.523598 0" Scale="1 1 1" Tag="" WorldPos="9.25 0 -19" />
                 <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="669" Name="foliage_zimmarman_grass02_brown_2sided_198" Rotation="0 0.523598 0" Scale="1 1 1" Tag="" WorldPos="14 0 -24" />
                 <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="670" Name="foliage_zimmarman_grass02_brown_2sided_199" Rotation="0 0.523598 0" Scale="1 1 1" Tag="" WorldPos="14 0 -21.5" />
-                <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="671" Name="foliage_zimmarman_grass02_brown_2sided_200" Rotation="0 1.19209e-07 0" Scale="1 1 1.25" Tag="" WorldPos="16.5 0 -26" />
+                <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="671" Name="foliage_zimmarman_grass02_brown_2sided_200" Rotation="0 1.19209e-007 0" Scale="1 1 1.25" Tag="" WorldPos="16.5 0 -26" />
                 <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="672" Name="foliage_zimmarman_grass02_brown_2sided_201" Rotation="0 0.523598 0" Scale="1 1 1" Tag="" WorldPos="13.75 0 -19" />
                 <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="673" Name="foliage_zimmarman_grass02_brown_2sided_202" Rotation="0 -0.523598 0" Scale="1 1 1" Tag="" WorldPos="17.75 0 -22" />
                 <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="674" Name="foliage_zimmarman_grass02_brown_2sided_203" Rotation="0 1.57079 0" Scale="1 1 1" Tag="" WorldPos="17.75 0 -19" />
-                <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="675" Name="foliage_zimmarman_grass02_brown_2sided_204" Rotation="0 1.19209e-07 0" Scale="1 1 1.25" Tag="" WorldPos="7.5 0 -47.5" />
-                <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="676" Name="foliage_zimmarman_grass02_brown_2sided_205" Rotation="0 1.19209e-07 0" Scale="1 1 1.25" Tag="" WorldPos="7.5 0 -47.5" />
+                <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="675" Name="foliage_zimmarman_grass02_brown_2sided_204" Rotation="0 1.19209e-007 0" Scale="1 1 1.25" Tag="" WorldPos="7.5 0 -47.5" />
+                <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="676" Name="foliage_zimmarman_grass02_brown_2sided_205" Rotation="0 1.19209e-007 0" Scale="1 1 1.25" Tag="" WorldPos="7.5 0 -47.5" />
                 <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="677" Name="foliage_zimmarman_grass02_brown_2sided_206" Rotation="0 0.523598 0" Scale="1 1 1" Tag="" WorldPos="9.5 0 -45.5" />
-                <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="678" Name="foliage_zimmarman_grass02_brown_2sided_207" Rotation="0 1.19209e-07 0" Scale="1 1 1.25" Tag="" WorldPos="11.5 0 -47.5" />
+                <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="678" Name="foliage_zimmarman_grass02_brown_2sided_207" Rotation="0 1.19209e-007 0" Scale="1 1 1.25" Tag="" WorldPos="11.5 0 -47.5" />
                 <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="679" Name="foliage_zimmarman_grass02_brown_2sided_208" Rotation="0 0.523598 0" Scale="1 1 1" Tag="" WorldPos="9.25 0 -43" />
                 <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="680" Name="foliage_zimmarman_grass02_brown_2sided_209" Rotation="0 0.523598 0" Scale="1 1 1" Tag="" WorldPos="9.25 0 -40.5" />
                 <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="681" Name="foliage_zimmarman_grass02_brown_2sided_210" Rotation="0 0.523598 0" Scale="1 1 1" Tag="" WorldPos="14 0 -45.5" />
                 <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="682" Name="foliage_zimmarman_grass02_brown_2sided_211" Rotation="0 0.523598 0" Scale="1 1 1" Tag="" WorldPos="14 0 -43" />
-                <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="683" Name="foliage_zimmarman_grass02_brown_2sided_212" Rotation="0 1.19209e-07 0" Scale="1 1 1.25" Tag="" WorldPos="16.5 0 -47.5" />
+                <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="683" Name="foliage_zimmarman_grass02_brown_2sided_212" Rotation="0 1.19209e-007 0" Scale="1 1 1.25" Tag="" WorldPos="16.5 0 -47.5" />
                 <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="684" Name="foliage_zimmarman_grass02_brown_2sided_213" Rotation="0 0.523598 0" Scale="1 1 1" Tag="" WorldPos="13.75 0 -40.5" />
                 <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="685" Name="foliage_zimmarman_grass02_brown_2sided_214" Rotation="0 -0.523598 0" Scale="1 1 1" Tag="" WorldPos="17.75 0 -43.5" />
                 <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="686" Name="foliage_zimmarman_grass02_brown_2sided_215" Rotation="0 1.57079 0" Scale="1 1 1" Tag="" WorldPos="17.75 0 -40.5" />
-                <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="687" Name="foliage_zimmarman_grass02_brown_2sided_216" Rotation="0 1.19209e-07 0" Scale="1 1 1.25" Tag="" WorldPos="19.5 0 -47.5" />
-                <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="688" Name="foliage_zimmarman_grass02_brown_2sided_217" Rotation="0 1.19209e-07 0" Scale="1 1 1.25" Tag="" WorldPos="19.5 0 -47.5" />
+                <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="687" Name="foliage_zimmarman_grass02_brown_2sided_216" Rotation="0 1.19209e-007 0" Scale="1 1 1.25" Tag="" WorldPos="19.5 0 -47.5" />
+                <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="688" Name="foliage_zimmarman_grass02_brown_2sided_217" Rotation="0 1.19209e-007 0" Scale="1 1 1.25" Tag="" WorldPos="19.5 0 -47.5" />
                 <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="689" Name="foliage_zimmarman_grass02_brown_2sided_218" Rotation="0 0.523598 0" Scale="1 1 1" Tag="" WorldPos="21.5 0 -45.5" />
-                <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="690" Name="foliage_zimmarman_grass02_brown_2sided_219" Rotation="0 1.19209e-07 0" Scale="1 1 1.25" Tag="" WorldPos="23.5 0 -47.5" />
+                <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="690" Name="foliage_zimmarman_grass02_brown_2sided_219" Rotation="0 1.19209e-007 0" Scale="1 1 1.25" Tag="" WorldPos="23.5 0 -47.5" />
                 <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="691" Name="foliage_zimmarman_grass02_brown_2sided_220" Rotation="0 0.523598 0" Scale="1 1 1" Tag="" WorldPos="21.25 0 -43" />
                 <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="692" Name="foliage_zimmarman_grass02_brown_2sided_221" Rotation="0 0.523598 0" Scale="1 1 1" Tag="" WorldPos="21.25 0 -40.5" />
                 <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="693" Name="foliage_zimmarman_grass02_brown_2sided_222" Rotation="0 0.523598 0" Scale="1 1 1" Tag="" WorldPos="26 0 -45.5" />
                 <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="694" Name="foliage_zimmarman_grass02_brown_2sided_223" Rotation="0 0.523598 0" Scale="1 1 1" Tag="" WorldPos="26 0 -43" />
-                <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="695" Name="foliage_zimmarman_grass02_brown_2sided_224" Rotation="0 1.19209e-07 0" Scale="1 1 1.25" Tag="" WorldPos="28.5 0 -47.5" />
+                <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="695" Name="foliage_zimmarman_grass02_brown_2sided_224" Rotation="0 1.19209e-007 0" Scale="1 1 1.25" Tag="" WorldPos="28.5 0 -47.5" />
                 <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="696" Name="foliage_zimmarman_grass02_brown_2sided_225" Rotation="0 0.523598 0" Scale="1 1 1" Tag="" WorldPos="25.75 0 -40.5" />
                 <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="697" Name="foliage_zimmarman_grass02_brown_2sided_226" Rotation="0 -0.523598 0" Scale="1 1 1" Tag="" WorldPos="29.75 0 -43.5" />
                 <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="698" Name="foliage_zimmarman_grass02_brown_2sided_227" Rotation="0 1.57079 0" Scale="1 1 1" Tag="" WorldPos="29.75 0 -40.5" />
-                <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="699" Name="foliage_zimmarman_grass02_brown_2sided_228" Rotation="0 1.19209e-07 0" Scale="1 1 1.25" Tag="" WorldPos="33 0 -47.5" />
-                <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="700" Name="foliage_zimmarman_grass02_brown_2sided_229" Rotation="0 1.19209e-07 0" Scale="1 1 1.25" Tag="" WorldPos="33 0 -47.5" />
+                <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="699" Name="foliage_zimmarman_grass02_brown_2sided_228" Rotation="0 1.19209e-007 0" Scale="1 1 1.25" Tag="" WorldPos="33 0 -47.5" />
+                <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="700" Name="foliage_zimmarman_grass02_brown_2sided_229" Rotation="0 1.19209e-007 0" Scale="1 1 1.25" Tag="" WorldPos="33 0 -47.5" />
                 <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="701" Name="foliage_zimmarman_grass02_brown_2sided_230" Rotation="0 0.523598 0" Scale="1 1 1" Tag="" WorldPos="35 0 -45.5" />
-                <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="702" Name="foliage_zimmarman_grass02_brown_2sided_231" Rotation="0 1.19209e-07 0" Scale="1 1 1.25" Tag="" WorldPos="37 0 -47.5" />
+                <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="702" Name="foliage_zimmarman_grass02_brown_2sided_231" Rotation="0 1.19209e-007 0" Scale="1 1 1.25" Tag="" WorldPos="37 0 -47.5" />
                 <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="703" Name="foliage_zimmarman_grass02_brown_2sided_232" Rotation="0 0.523598 0" Scale="1 1 1" Tag="" WorldPos="34.75 0 -43" />
                 <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="704" Name="foliage_zimmarman_grass02_brown_2sided_233" Rotation="0 0.523598 0" Scale="1 1 1" Tag="" WorldPos="34.75 0 -40.5" />
                 <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="705" Name="foliage_zimmarman_grass02_brown_2sided_234" Rotation="0 0.523598 0" Scale="1 1 1" Tag="" WorldPos="39.5 0 -45.5" />
                 <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="706" Name="foliage_zimmarman_grass02_brown_2sided_235" Rotation="0 0.523598 0" Scale="1 1 1" Tag="" WorldPos="39.5 0 -43" />
-                <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="707" Name="foliage_zimmarman_grass02_brown_2sided_236" Rotation="0 1.19209e-07 0" Scale="1 1 1.25" Tag="" WorldPos="42 0 -47.5" />
+                <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="707" Name="foliage_zimmarman_grass02_brown_2sided_236" Rotation="0 1.19209e-007 0" Scale="1 1 1.25" Tag="" WorldPos="42 0 -47.5" />
                 <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="708" Name="foliage_zimmarman_grass02_brown_2sided_237" Rotation="0 0.523598 0" Scale="1 1 1" Tag="" WorldPos="39.25 0 -40.5" />
                 <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="709" Name="foliage_zimmarman_grass02_brown_2sided_238" Rotation="0 -0.523598 0" Scale="1 1 1" Tag="" WorldPos="43.25 0 -43.5" />
                 <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="710" Name="foliage_zimmarman_grass02_brown_2sided_239" Rotation="0 1.57079 0" Scale="1 1 1" Tag="" WorldPos="43.25 0 -40.5" />
-                <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="711" Name="foliage_zimmarman_grass02_brown_2sided_240" Rotation="0 1.19209e-07 0" Scale="1 1 1.25" Tag="" WorldPos="33 0 -47.5" />
-                <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="712" Name="foliage_zimmarman_grass02_brown_2sided_241" Rotation="0 1.19209e-07 0" Scale="1 1 1.25" Tag="" WorldPos="33 0 -47.5" />
+                <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="711" Name="foliage_zimmarman_grass02_brown_2sided_240" Rotation="0 1.19209e-007 0" Scale="1 1 1.25" Tag="" WorldPos="33 0 -47.5" />
+                <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="712" Name="foliage_zimmarman_grass02_brown_2sided_241" Rotation="0 1.19209e-007 0" Scale="1 1 1.25" Tag="" WorldPos="33 0 -47.5" />
                 <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="713" Name="foliage_zimmarman_grass02_brown_2sided_242" Rotation="0 0.523598 0" Scale="1 1 1" Tag="" WorldPos="35 0 -45.5" />
-                <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="714" Name="foliage_zimmarman_grass02_brown_2sided_243" Rotation="0 1.19209e-07 0" Scale="1 1 1.25" Tag="" WorldPos="37 0 -47.5" />
+                <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="714" Name="foliage_zimmarman_grass02_brown_2sided_243" Rotation="0 1.19209e-007 0" Scale="1 1 1.25" Tag="" WorldPos="37 0 -47.5" />
                 <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="715" Name="foliage_zimmarman_grass02_brown_2sided_244" Rotation="0 0.523598 0" Scale="1 1 1" Tag="" WorldPos="34.75 0 -43" />
                 <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="716" Name="foliage_zimmarman_grass02_brown_2sided_245" Rotation="0 0.523598 0" Scale="1 1 1" Tag="" WorldPos="34.75 0 -40.5" />
                 <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="717" Name="foliage_zimmarman_grass02_brown_2sided_246" Rotation="0 0.523598 0" Scale="1 1 1" Tag="" WorldPos="39.5 0 -45.5" />
                 <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="718" Name="foliage_zimmarman_grass02_brown_2sided_247" Rotation="0 0.523598 0" Scale="1 1 1" Tag="" WorldPos="39.5 0 -43" />
-                <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="719" Name="foliage_zimmarman_grass02_brown_2sided_248" Rotation="0 1.19209e-07 0" Scale="1 1 1.25" Tag="" WorldPos="42 0 -47.5" />
+                <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="719" Name="foliage_zimmarman_grass02_brown_2sided_248" Rotation="0 1.19209e-007 0" Scale="1 1 1.25" Tag="" WorldPos="42 0 -47.5" />
                 <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="720" Name="foliage_zimmarman_grass02_brown_2sided_249" Rotation="0 0.523598 0" Scale="1 1 1" Tag="" WorldPos="39.25 0 -40.5" />
                 <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="721" Name="foliage_zimmarman_grass02_brown_2sided_250" Rotation="0 -0.523598 0" Scale="1 1 1" Tag="" WorldPos="43.25 0 -43.5" />
                 <StaticObject CastShadows="true" Collides="false" FileIndex="2" Group="0" ID="722" Name="foliage_zimmarman_grass02_brown_2sided_251" Rotation="0 1.57079 0" Scale="1 1 1" Tag="" WorldPos="43.25 0 -40.5" />
@@ -622,8 +622,8 @@
                 <StaticObject CastShadows="true" Collides="true" FileIndex="4" Group="0" ID="748" Name="ceiling_default_1" Rotation="-1.5708 0 1.57079" Scale="1 1 1" Tag="" WorldPos="8 1.75 -7.25" />
                 <StaticObject CastShadows="true" Collides="true" FileIndex="4" Group="0" ID="749" Name="ceiling_default_2" Rotation="1.57079 0 1.57079" Scale="1 1 1" Tag="" WorldPos="8 1.75 -7.25" />
                 <StaticObject CastShadows="true" Collides="true" FileIndex="4" Group="0" ID="750" Name="ceiling_default_3" Rotation="3.14158 0 1.57079" Scale="1 1 1" Tag="" WorldPos="6.5 1.75 -5.25" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="4" Group="0" ID="751" Name="ceiling_default_4" Rotation="-1.78814e-05 0 1.57079" Scale="1 1 1" Tag="" WorldPos="6.5 1.75 -5.25" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="4" Group="0" ID="752" Name="ceiling_default_5" Rotation="-8.9407e-06 0 1.57079" Scale="1 1 1" Tag="" WorldPos="10 1.75 -5" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="4" Group="0" ID="751" Name="ceiling_default_4" Rotation="-1.78814e-005 0 1.57079" Scale="1 1 1" Tag="" WorldPos="6.5 1.75 -5.25" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="4" Group="0" ID="752" Name="ceiling_default_5" Rotation="-8.9407e-006 0 1.57079" Scale="1 1 1" Tag="" WorldPos="10 1.75 -5" />
                 <StaticObject CastShadows="true" Collides="true" FileIndex="4" Group="0" ID="753" Name="ceiling_default_6" Rotation="3.14158 0 1.57079" Scale="1 1 1" Tag="" WorldPos="10 1.75 -5" />
                 <StaticObject CastShadows="true" Collides="true" FileIndex="5" Group="0" ID="754" Name="wall_welder_stone_1" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="6.25 0 -7.25" />
                 <StaticObject CastShadows="true" Collides="true" FileIndex="5" Group="0" ID="755" Name="wall_welder_stone_2" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="6.25 0 -3.25" />
@@ -1631,7 +1631,7 @@
                         <Var Name="VisionMaxSanity" Value="30" />
                     </UserVariables>
                 </Entity>
-                <Entity Active="true" FileIndex="5" Group="0" ID="1413" Name="wood_box01_6" Rotation="3.14159 8.74228e-08 3.14159" Scale="1 1 1" Tag="" WorldPos="8.48053 0.6 -6.50043">
+                <Entity Active="true" FileIndex="5" Group="0" ID="1413" Name="wood_box01_6" Rotation="3.14159 8.74228e-008 3.14159" Scale="1 1 1" Tag="" WorldPos="8.48053 0.6 -6.50043">
                     <UserVariables>
                         <Var Name="CastShadows" Value="true" />
                         <Var Name="StaticPhysics" Value="false" />
@@ -1794,6 +1794,16 @@
                         <Var Name="CustomSubItemTypeName" Value="" />
                     </UserVariables>
                 </Entity>
+                <Area Active="true" AreaType="Script" Group="0" ID="1427" Mesh="" Name="LevelChangeArea" Rotation="0 0.785397 0" Scale="3.75 22 19.75" Tag="" WorldPos="50.875 9.5 -48.5">
+                    <UserVariables>
+                        <Var Name="PlayerLookAtCallback" Value="" />
+                        <Var Name="PlayerLookAtCallbackAutoRemove" Value="true" />
+                        <Var Name="PlayerInteractCallback" Value="" />
+                        <Var Name="PlayerInteractCallbackAutoRemove" Value="false" />
+                        <Var Name="ItemInteraction" Value="false" />
+                        <Var Name="MaxFocusDistance" Value="-1" />
+                    </UserVariables>
+                </Area>
             </Entities>
             <Misc />
             <StaticObjectCombos />
