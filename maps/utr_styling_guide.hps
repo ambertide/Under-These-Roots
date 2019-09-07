@@ -1,0 +1,62 @@
+// ==================================================================
+// | This is a styling guide to make my own custom story code       |
+// | Self-consistent, if you stumble upon this, feel free to use    |
+// | The parts you found useful and logical.                        |
+// ==================================================================
+
+
+// This is a HPSDoc, documention comments come before the function.
+void OnStart() {
+    // Declare collusions, item uses, combinations and such here.
+    // Comments to be tabbed accordingly, with one space after to slashes.
+}
+
+
+// Two lines between functions groups, we entered the Dependants group.
+// Dependants are written in PascalCase. As they are closer to internal
+// AngelScript functions, given that they need specific signatures to work.
+// All collisions go to this function
+void CollisonDependant(string &in asParent, string &in asChild, int alState) {
+    if (asParent == "Player") {
+        if (asChild == "entity_one") {
+            // Entity names are snake case with lower case.
+        }
+    } else {
+        if (asChild == "area_one") {
+            // Area names are also snake case with lower case as
+            // They seem to inherit from entities and seem to pass
+            // At least somewhat as entities in code.
+        }
+    }
+}
+
+// One line between functions within a group.
+// All LookAts go here
+void LookDependant(string &in asEntity, int alState) {
+    if (asEntity == "pine_tree") {
+        if (alState == 1) {
+            // Do something
+        } else if (alState == 1) {
+            // Try to be as explicit as possible.
+        }
+    }
+}
+
+// All time dependants go there
+void TimerDependant(string &in asTimer) {
+    if (asTimer == "timerName") {
+        // Do something
+    } else if (asTimer == "timerNameOther") {
+        // Do something else
+    } else if (asTimer == "LoopTimerName") {
+        AddTimer("LoopTimerName", 5.5f, "TimerDependant");
+    } else if (asTimer == "FRAME_DEPENDANT_TIMER") {
+        AddTimer("FRAME_DEPENDANT_TIMER", 0, "TimerDependant");
+    }
+}
+
+
+// Custom functions come after dependants, they are written in camelCase.
+bool myFunction(string &in myString) {
+    // Do someting.
+}
