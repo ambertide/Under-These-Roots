@@ -1,3 +1,0 @@
-void Unlit(string &in asEntity) {
-    SetMessage("Messages", "L05CandlePickup", 2.5f);
-}

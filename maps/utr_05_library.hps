@@ -4,6 +4,10 @@ void OnStart()
     SetEntityVisible("servant_brute_1", false);
 }
 
+void asName(string &in asEntity, string &in asType) {
+
+}
+
 void PickUpCandles(string &in entity) {
     for (int i = 1; i < 4; i++)
     {

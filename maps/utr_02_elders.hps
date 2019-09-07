@@ -11,7 +11,7 @@ void OnStart()
     SetEntityCallbackFunc("lantern_1", "EntityCallback");
 }
 
-void EntityCallback(string &in asEntity, string&in type) {
+void EntityCallback(string &in asEntity, string &in asType) {
     if (asEntity == "lantern_1") {
         if (type == "OnPickup") {
             SetLightVisible("lantern_light", false);
