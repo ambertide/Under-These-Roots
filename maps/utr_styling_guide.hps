@@ -7,6 +7,7 @@
 
 // This is a HPSDoc, documention comments come before the function.
 void OnStart() {
+    SetLocalVarString("variable_name_snake_case", "asVal");
     // Declare collusions, item uses, combinations and such here.
     // Comments to be tabbed accordingly, with one space after to slashes.
 }

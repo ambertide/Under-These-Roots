@@ -5,17 +5,22 @@ void OnStart()
     SetLocalVarInt("tree_var", 0);
 }
 
-void standInterract(string &in asParent, string &in asChild, int alState) {
-    if (alState == 1) {
-        Unlit("candlestick_floor_3");
-        AddLocalVarInt("tree_var", 1);
-        treeFall();
-    } else {
-        AddLocalVarInt("tree_var", -1);
+
+void CollisionDependant(string &in asParent, string &in asChild, int alState) {
+    if (asParent == "Player") {
+        if (asChild == "stand_area") {
+            if (alState == 1) {
+                Unlit("candlestick_floor_3");
+                AddLocalVarInt("tree_var", 1);
+                treeFall();
+            } else {
+                AddLocalVarInt("tree_var", -1);
+            }
+        }
     }
 }
 
-void lookInterract(string &in asEntity, int alState) {
+void LookDependant(string &in asEntity, int alState) {
     if (asEntity == "look_area") {
         if (alState == 1) {
             AddLocalVarInt("tree_var", 1);
@@ -26,31 +31,33 @@ void lookInterract(string &in asEntity, int alState) {
     }
 }
 
-void treeFall () {
-    if (GetLocalVarInt("tree_var") == 2) {
-//        StartInsanityEvent("Stream_Monster_Roar03");
-        FadePlayerFOVMulTo(0.9f, 1.0f);
-        AddTimer("zoom_in", 2.0f, "lightingStruck");
-        PlaySoundAtEntity("monster_roar", "guardian_distant3.snt", "Player", 11.0f, false);
-//        AddTimer("lighting_bro", 6.0f, "lightingStruck");
-        StartScreenShake(0.005f, 6.0f, 0.5f, 0.5f);
-//        SetEntityActive("SpotLight_1", true);
-//        AddTimer("lighting_bro", 0.2f, "lightingStruck");
-        AddPropForce("falling_tree_1", 2000.0f, 0, 0, "asCoordSystem");
-        SetLocalVarInt("tree_var", 0);
-        RemoveEntityCollideCallback("Player", "stand_area");
-    }
-}
-
-void lightingStruck(string &in asTimer) {
+void TimerDependant(string &in asTimer) {
     if (asTimer == "lighting_bro") {
         StopCurrentInsanityEvent();
         FadeRadialBlurTo(0.0f, 0.22f);
     } else if (asTimer == "zoom_in") {
         FadePlayerFOVMulTo(1.1f, 1.0f);
-        AddTimer("normalise", 2.0f, "lightingStruck");
+        AddTimer("normalise", 2.0f, "TimerDependant");
         FadeRadialBlurTo(0.05f, 0.22f);
     } else if (asTimer == "normalise") {
         FadePlayerFOVMulTo(1.0f, 1.0f);
+    }
+}
+
+
+// Initiate the tree fall.
+void treeFall () {
+    if (GetLocalVarInt("tree_var") == 2) {
+//        StartInsanityEvent("Stream_Monster_Roar03");
+        FadePlayerFOVMulTo(0.9f, 1.0f);
+        AddTimer("zoom_in", 2.0f, "TimerDependant");
+        PlaySoundAtEntity("monster_roar", "guardian_distant3.snt", "Player", 11.0f, false);
+//        AddTimer("lighting_bro", 6.0f, "TimerDependant");
+        StartScreenShake(0.005f, 6.0f, 0.5f, 0.5f);
+//        SetEntityActive("SpotLight_1", true);
+//        AddTimer("lighting_bro", 0.2f, "TimerDependant");
+        AddPropForce("falling_tree_1", 2000.0f, 0, 0, "asCoordSystem");
+        SetLocalVarInt("tree_var", 0);
+        RemoveEntityCollideCallback("Player", "stand_area");
     }
 }
