@@ -536,7 +536,7 @@
                     <UserVariables>
                         <Var Name="PlayerLookAtCallback" Value="" />
                         <Var Name="PlayerLookAtCallbackAutoRemove" Value="true" />
-                        <Var Name="PlayerInteractCallback" Value="PickUpCandles" />
+                        <Var Name="PlayerInteractCallback" Value="PlayerInterractDependant" />
                         <Var Name="PlayerInteractCallbackAutoRemove" Value="true" />
                         <Var Name="ItemInteraction" Value="false" />
                         <Var Name="MaxFocusDistance" Value="-1" />

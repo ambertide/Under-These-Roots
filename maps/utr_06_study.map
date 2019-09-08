@@ -445,7 +445,7 @@
                 </Entity>
                 <Area Active="true" AreaType="Script" Group="0" ID="167" Mesh="" Name="look_area" Rotation="0 0 0" Scale="5.25 16.75 7.5" Tag="" WorldPos="-6.5 0 -15.5">
                     <UserVariables>
-                        <Var Name="PlayerLookAtCallback" Value="lookInterract" />
+                        <Var Name="PlayerLookAtCallback" Value="LookDependant" />
                         <Var Name="PlayerLookAtCallbackAutoRemove" Value="false" />
                         <Var Name="PlayerInteractCallback" Value="" />
                         <Var Name="PlayerInteractCallbackAutoRemove" Value="false" />
