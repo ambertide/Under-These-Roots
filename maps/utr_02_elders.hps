@@ -1,12 +1,12 @@
 void OnStart()
 {
-    AddEntityCollideCallback("Player", "PlayerPassOut_1", "PlayerPass", true, 0);
-    AddEntityCollideCallback("Player", "PlayerPassOut_2", "PlayerPass", true, 0);
-    AddEntityCollideCallback("Player", "MapChange", "PlayerPass", true, 0);
-	AddEntityCollideCallback("Player", "PlayerMonsterPass", "PlayerPass", false, 1);
-	AddEntityCollideCallback("Player", "CrouchArea", "PlayerPass", false, 1);
-	AddEntityCollideCallback("Player", "CrouchArea", "PlayerPass", false, 1);
-    AddEntityCollideCallback("Player", "Hint_Area", "PlayerPass", true, 0);
+    AddEntityCollideCallback("Player", "PlayerPassOut_1", "CollisionDependant", true, 0);
+    AddEntityCollideCallback("Player", "PlayerPassOut_2", "CollisionDependant", true, 0);
+    AddEntityCollideCallback("Player", "MapChange", "CollisionDependant", true, 0);
+	AddEntityCollideCallback("Player", "PlayerMonsterPass", "CollisionDependant", false, 1);
+	AddEntityCollideCallback("Player", "CrouchArea", "CollisionDependant", false, 1);
+	AddEntityCollideCallback("Player", "CrouchArea", "CollisionDependant", false, 1);
+    AddEntityCollideCallback("Player", "Hint_Area", "CollisionDependant", true, 0);
 	AddUseItemCallback("key_open_prison", "key_tomb_rusty_1", "prison_1", "ItemUse", true);
     SetEntityCallbackFunc("lantern_1", "EntityCallback");
 }
@@ -25,7 +25,7 @@ void ItemUse(string &in asItem, string &in asEntity) {
 	}
 }
 
-void PlayerPass(string &in asParent, string &in asChild, int alState) {
+void CollisionDependant(string &in asParent, string &in asChild, int alState) {
     if (asChild == "PlayerPassOut_1") {
         SetPlayerActive(false);
         GivePlayerDamage(25.0f, "BlodSplat", false, false);
