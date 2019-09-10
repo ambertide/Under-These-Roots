@@ -8,6 +8,8 @@ void MoveCamera(string &in asTimer) {
     } else {
         SetPlayerActive(true);
         FadeEnemyToSmoke("level_hub_1", false);
+        FadeOut(0.45f);
+        AddTimer(GetLocalVarString("NextScene"), 0.5f, "ChangeScene");
     }
 
 }
@@ -23,21 +25,26 @@ void MoveCameraDirectional(float xAdd, float yAdd, float zAdd, float timeFrame) 
     SetLocalVarFloat("zEnd", GetPlayerPosZ() + zAdd);
 }
 
-
+void ChangeScene(string &in asSceneName) {
+    TeleportPlayer(GetLocalVarString("NextScene"));
+    if (asSceneName == "DiningRoom") {
+        MoveCameraDirectional(10.0f, 0, 0, 3000.0f);
+    }
+}
 void OnStart() {
-    MoveCameraDirectional(-15.0f, 0.01f, 0.01f, 600.0f);
-    AddTimer("candles_first", 4.0f, "TimerDependant");
+    MoveCameraDirectional(-1.5f, 0.01f, 0.01f, 600.0f);
+    AddEntityCollideCallback("Player", "OpenDoorArea", "CollisionDependant", true, 0);
 }
 
 
 void TimerDependant(string &in asTimer) {
-    if (asTimer == "candles_first") {
-        SetLampLit("candlestick_wall_orange_4", false, true);
-        SetLampLit("candlestick_wall_orange_3", false, true);
-        AddTimer("candles_second", 1.5f, "TimerDependant");
-    } else if (asTimer == "candles_second") {
-        SetLampLit("candlestick_wall_orange_2", false, true);
-        SetLampLit("candlestick_wall_orange_5", false, true);
-        FadeOut(1.5f);
+    
+}
+
+void CollisionDependant(string &in asParent, string &in asChild, int alState) {
+    if (asChild == "OpenDoorArea") {
+        SetSwingDoorDisableAutoClose("mansion_1", true);
+        SetSwingDoorClosed("mansion_1", false, true);
+        AddPropForce("mansion_1", -5000.0f, 0, 0, "world");
     }
 }
