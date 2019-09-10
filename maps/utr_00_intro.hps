@@ -1,0 +1,43 @@
+// A special Timer signed function to move the camera
+// To check if the target is reached, we say (dEnd - dCurrent) * (dUnit) < -1.
+// As long as this returns true, it means the calculation should continue.
+void MoveCamera(string &in asTimer) {
+    SetPlayerPos(GetPlayerPosX() + GetLocalVarFloat("xUnit"), GetPlayerPosY() + GetLocalVarFloat("yUnit"), GetPlayerPosZ() + GetLocalVarFloat("zUnit"));
+    if (((GetPlayerPosX() - GetLocalVarFloat("xEnd")) * GetLocalVarFloat("xUnit")) < 0 && ((GetPlayerPosY() - GetLocalVarFloat("yEnd")) * GetLocalVarFloat("yUnit")) < 0 && ((GetPlayerPosZ() - GetLocalVarFloat("zEnd")) * GetLocalVarFloat("zUnit")) < 0) {
+        AddTimer("directional_move", 0, "MoveCamera");
+    } else {
+        SetPlayerActive(true);
+        FadeEnemyToSmoke("level_hub_1", false);
+    }
+
+}
+
+void MoveCameraDirectional(float xAdd, float yAdd, float zAdd, float timeFrame) {
+    SetPlayerActive(false);
+    SetLocalVarFloat("xUnit", (xAdd / timeFrame));
+    SetLocalVarFloat("yUnit", (yAdd / timeFrame));
+    SetLocalVarFloat("zUnit", (zAdd / timeFrame));
+    AddTimer("directional_move", 0, "MoveCamera");
+    SetLocalVarFloat("xEnd", GetPlayerPosX() + xAdd);
+    SetLocalVarFloat("yEnd", GetPlayerPosY() + yAdd);
+    SetLocalVarFloat("zEnd", GetPlayerPosZ() + zAdd);
+}
+
+
+void OnStart() {
+    MoveCameraDirectional(-15.0f, 0.01f, 0.01f, 600.0f);
+    AddTimer("candles_first", 4.0f, "TimerDependant");
+}
+
+
+void TimerDependant(string &in asTimer) {
+    if (asTimer == "candles_first") {
+        SetLampLit("candlestick_wall_orange_4", false, true);
+        SetLampLit("candlestick_wall_orange_3", false, true);
+        AddTimer("candles_second", 1.5f, "TimerDependant");
+    } else if (asTimer == "candles_second") {
+        SetLampLit("candlestick_wall_orange_2", false, true);
+        SetLampLit("candlestick_wall_orange_5", false, true);
+        FadeOut(1.5f);
+    }
+}
