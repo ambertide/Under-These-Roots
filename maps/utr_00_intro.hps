@@ -6,9 +6,11 @@ void MoveCamera(string &in asTimer) {
     if (((GetPlayerPosX() - GetLocalVarFloat("xEnd")) * GetLocalVarFloat("xUnit")) < 0 && ((GetPlayerPosY() - GetLocalVarFloat("yEnd")) * GetLocalVarFloat("yUnit")) < 0 && ((GetPlayerPosZ() - GetLocalVarFloat("zEnd")) * GetLocalVarFloat("zUnit")) < 0) {
         AddTimer("directional_move", 0, "MoveCamera");
     } else {
-        SetPlayerActive(true);
         FadeEnemyToSmoke("level_hub_1", false);
-        FadeOut(0.45f);
+        FadeOut(0.2f);
+        if (GetLocalVarString("NextScene") == "Finish") {
+            ChangeMap("utr_01_johnathan_home", "PlayerStartArea_1", "", "");
+        }
         AddTimer(GetLocalVarString("NextScene"), 0.5f, "ChangeScene");
     }
 
@@ -26,19 +28,35 @@ void MoveCameraDirectional(float xAdd, float yAdd, float zAdd, float timeFrame) 
 }
 
 void ChangeScene(string &in asSceneName) {
+    FadeIn(0.45f);
     TeleportPlayer(GetLocalVarString("NextScene"));
     if (asSceneName == "DiningRoom") {
-        MoveCameraDirectional(10.0f, 0, 0, 3000.0f);
+        MoveCameraDirectional(10.0f, 0.01f, 0.01f, 1000);
+        SetLocalVarString("NextScene", "LibraryCorridorClear");
+    } else if (asSceneName == "LibraryCorridorClear") {
+        MoveCameraDirectional(0.01f, 0.01f, 10.0f, 1000);
+        SetLocalVarString("NextScene", "Upstairs");
+    } else if (asSceneName == "Upstairs") {
+        MoveCameraDirectional(20.0f, 0.01f, 0.01f, 2000);
+        SetLocalVarString("NextScene", "Column");
+    } else if (asSceneName == "Column") {
+        MoveCameraDirectional(0.01f, 3.0f, 0.01f, 300);
+        SetLocalVarString("NextScene", "Door");
+    } else if (asSceneName == "Door") {
+        MoveCameraDirectional(-3.0f, 0.01f, -3.0f, 2828);
+        SetLocalVarString("NextScene", "Finish")
     }
 }
 void OnStart() {
-    MoveCameraDirectional(-1.5f, 0.01f, 0.01f, 600.0f);
+    SetEntityCustomFocusCrossHair("mansion_1", "");
+    MoveCameraDirectional(-1.5f, 0.01f, 0.01f, 150.0f);
+    SetLocalVarString("NextScene", "DiningRoom");
     AddEntityCollideCallback("Player", "OpenDoorArea", "CollisionDependant", true, 0);
 }
 
 
-void TimerDependant(string &in asTimer) {
-    
+void OnLeave() {
+    SetPlayerActive(true);
 }
 
 void CollisionDependant(string &in asParent, string &in asChild, int alState) {
