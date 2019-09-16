@@ -48,4 +48,16 @@
     <CATEGORY Name = "Hints">
         <Entry Name="utr_02_can_see_you">If you can see them, they can see you.</Entry>
     </CATEGORY>
+
+    <CATEGORY Name = "Subtitles">
+        <Entry Name = "utr_00_monolog_1">The dream always starts the same. In the darkness, before the house forms slowly, in front of me.</Entry>
+        <Entry Name = "utr_00_monolog_2">In my childhood home...</Entry>
+        <Entry Name = "utr_00_monolog_3">...Its doors opening me to enter.</Entry>
+        <Entry Name = "utr_00_monolog_4">I remember of the many dinners and luncheons we had, of the friends of my family being invited and receptions, however small I may be to remember, all the happy memories before she was gone.</Entry>
+        <Entry Name = "utr_00_monolog_5">And after she was gone, I remember how my mother and father spent their days in the library, leaving me alone in my grief.</Entry>
+        <Entry Name = "utr_00_monolog_6">...Not long after, they too were gone.</Entry>
+        <Entry Name = "utr_00_monolog_7">I remember standing in these halls, listening to butlers and the officials move around downstairs, too afraid to go down to face the truth.</Entry>
+        <Entry Name = "utr_00_monolog_8">But the dream always ends the same, I walk towards that one door, basement door that was kept locked after she died, and it waits for me, and it beats, like my heart.</Entry>
+        <Entry Name = "utr_00_monolog_9">In my dreams something calls me from the house of my childhood, and I dare not think about it.</Entry>
+    </CATEGORY>
 </LANGUAGE>

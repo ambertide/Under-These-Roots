@@ -2,22 +2,25 @@
 // To check if the target is reached, we say (dEnd - dCurrent) * (dUnit) < -1.
 // As long as this returns true, it means the calculation should continue.
 void MoveCamera(string &in asTimer) {
+    SetEntityPos("PlayerStand", GetEntityPosX("PlayerStand") + GetLocalVarFloat("xUnit"), GetEntityPosY("PlayerStand") + GetLocalVarFloat("yUnit") , GetEntityPosZ("PlayerStand") + GetLocalVarFloat("zUnit"));
     SetPlayerPos(GetPlayerPosX() + GetLocalVarFloat("xUnit"), GetPlayerPosY() + GetLocalVarFloat("yUnit"), GetPlayerPosZ() + GetLocalVarFloat("zUnit"));
     if (((GetPlayerPosX() - GetLocalVarFloat("xEnd")) * GetLocalVarFloat("xUnit")) < 0 && ((GetPlayerPosY() - GetLocalVarFloat("yEnd")) * GetLocalVarFloat("yUnit")) < 0 && ((GetPlayerPosZ() - GetLocalVarFloat("zEnd")) * GetLocalVarFloat("zUnit")) < 0) {
         AddTimer("directional_move", 0, "MoveCamera");
     } else {
-        FadeEnemyToSmoke("level_hub_1", false);
         FadeOut(0.2f);
-        if (GetLocalVarString("NextScene") == "Finish") {
-            ChangeMap("utr_01_johnathan_home", "PlayerStartArea_1", "", "");
+        if (GetLocalVarString("NextScene") == "Finish") 
+            {
+            AddEffectVoice("utr_00_monolog_-09", "", "Subtitles", "utr_00_monolog_9", false, "", 0, 0);
+            AddTimer("ChangeMapNow", 20.0f, "TimerDependant");
+        } else {
+            AddTimer(GetLocalVarString("NextScene"), 0.5f, "ChangeScene");
         }
-        AddTimer(GetLocalVarString("NextScene"), 0.5f, "ChangeScene");
     }
 
 }
 
 void MoveCameraDirectional(float xAdd, float yAdd, float zAdd, float timeFrame) {
-    SetPlayerActive(false);
+    SetEntityPos("PlayerStand", GetPlayerPosX(), GetPlayerPosY() - 1, GetPlayerPosZ());
     SetLocalVarFloat("xUnit", (xAdd / timeFrame));
     SetLocalVarFloat("yUnit", (yAdd / timeFrame));
     SetLocalVarFloat("zUnit", (zAdd / timeFrame));
@@ -31,32 +34,60 @@ void ChangeScene(string &in asSceneName) {
     FadeIn(0.45f);
     TeleportPlayer(GetLocalVarString("NextScene"));
     if (asSceneName == "DiningRoom") {
-        MoveCameraDirectional(10.0f, 0.01f, 0.01f, 1000);
-        SetLocalVarString("NextScene", "LibraryCorridorClear");
-    } else if (asSceneName == "LibraryCorridorClear") {
-        MoveCameraDirectional(0.01f, 0.01f, 10.0f, 1000);
+        AddEffectVoice("utr_00_monolog_-04", "utr_00_luncheon_effect", "Subtitles", "utr_00_monolog_4", false, "", 0, 0);
+        MoveCameraDirectional(7.0f, 0.01f, 0.01f, 700);
+        SetLocalVarString("NextScene", "LibraryCorridorClean");
+    } else if (asSceneName == "LibraryCorridorClean") {
+        AddEffectVoice("utr_00_monolog_-05", "utr_00_books_effect", "Subtitles", "utr_00_monolog_5", false, "", 0, 0);
+        AddEffectVoice("utr_00_monolog_-06", "", "Subtitles", "utr_00_monolog_6", false, "", 0, 0);
+        MoveCameraDirectional(0.01f, 0.01f, 6.0f, 600);
         SetLocalVarString("NextScene", "Upstairs");
     } else if (asSceneName == "Upstairs") {
-        MoveCameraDirectional(20.0f, 0.01f, 0.01f, 2000);
-        SetLocalVarString("NextScene", "Column");
+        AddEffectVoice("utr_00_monolog_-07", "utr_00_busy_people_walking", "Subtitles", "utr_00_monolog_7", false, "", 0, 0);
+        MoveCameraDirectional(9.0f, 0.01f, 0.01f, 900);
+        SetLocalVarString("NextScene", "Door");
     } else if (asSceneName == "Column") {
         MoveCameraDirectional(0.01f, 3.0f, 0.01f, 300);
         SetLocalVarString("NextScene", "Door");
     } else if (asSceneName == "Door") {
-        MoveCameraDirectional(-3.0f, 0.01f, -3.0f, 2828);
-        SetLocalVarString("NextScene", "Finish")
+        AddEffectVoice("utr_00_monolog_-08", "", "Subtitles", "utr_00_monolog_8", false, "", 0, 0);
+        MoveCameraDirectional(-4.0f, 0.01f, 0.01f, 700);
+        SetLocalVarString("NextScene", "Finish");
     }
 }
 void OnStart() {
+    SetPlayerActive(false);
+    FadeOut(0);
+    ShowPlayerCrossHairIcons(false);
     SetEntityCustomFocusCrossHair("mansion_1", "");
-    MoveCameraDirectional(-1.5f, 0.01f, 0.01f, 150.0f);
+    AddEffectVoice("utr_00_monolog_-01", "", "Subtitles", "utr_00_monolog_1", false, "", 0, 0);
+    AddTimer("Start", 7.0f, "TimerDependant");
     SetLocalVarString("NextScene", "DiningRoom");
     AddEntityCollideCallback("Player", "OpenDoorArea", "CollisionDependant", true, 0);
 }
 
 
 void OnLeave() {
+    StopMusic(0.2f, 1);
     SetPlayerActive(true);
+}
+
+
+void TimerDependant(string &in asTimer)
+{
+    if (asTimer == "Start") {
+        PlayMusic("keys-of-moon-lonesome-journey", false, 0.3f, 0.2f, 1, false);
+        FadeIn(0.1f);
+        AddEffectVoice("utr_00_monolog_-02", "", "Subtitles", "utr_00_monolog_2", false, "", 0, 0);
+        SetEffectVoiceOverCallback("StartWalking");
+    } else if (asTimer == "ChangeMapNow") {
+        ChangeMap("utr_01_johnathan_home", "PlayerStartArea_1", "", "");
+    }
+}
+
+void StartWalking(){
+    AddEffectVoice("utr_00_monolog_-03", "", "Subtitles", "utr_00_monolog_3", false, "", 0, 0);
+    MoveCameraDirectional(-1.5f, 0.01f, 0.01f, 150.0f);
 }
 
 void CollisionDependant(string &in asParent, string &in asChild, int alState) {
