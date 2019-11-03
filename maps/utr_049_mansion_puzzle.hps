@@ -4,6 +4,14 @@ void OnStart()
     SetLocalVarInt("BurnerCoal", 0);
     SetLeverStuckState("elevator_machine_coal_lever_1", -1, false);
     SetEntityConnectionStateChangeCallback("elevator_machine_coal_lever_1", "coalAttempt");
+    AddEntityCollideCallback("coal_1", "BurnerArea", "BurnerEnter", true, 0);
+    AddEntityCollideCallback("coal_2", "BurnerArea", "BurnerEnter", true, 0);
+    AddEntityCollideCallback("coal_3", "BurnerArea", "BurnerEnter", true, 0);
+    AddEntityCollideCallback("coal_4", "BurnerArea", "BurnerEnter", true, 0);
+    AddEntityCollideCallback("coal_5", "BurnerArea", "BurnerEnter", true, 0);
+
+
+
 }
 
 void BurnerComplete() {
@@ -17,17 +25,23 @@ void PipesComplete() {
 
 void BurnerEnter(string &in parent, string &in child, int state)
 {
-    if (parent == "BurnerArea") {
+    if (child == "BurnerArea") {
         AddLocalVarInt("BurnerCoal", 1);
+        SetLampLit("candlestick_floor_" + GetLocalVarInt("BurnerCoal"), false, true);
         if (GetLocalVarInt("BurnerCoal") == 5) {
             BurnerComplete();
         }
     }
 }
 
-void coalAttempt(string &in asName, string &in abDisabled) {
-    RotatePropToSpeed("elevator_machine_cog_small_2", 1, fSpeed2*3, 0, 0, -1, false, "");
-	RotatePropToSpeed("elevator_machine_cog_small_1", 1, fSpeed1*3, 0, 0, -1, false, "");
-	RotatePropToSpeed("elevator_machine_cog_small_3", 1, fSpeed2*3, 1, 0, 0, false, "");
-	RotatePropToSpeed("elevator_machine_cog_main_1", 1, fSpeed1, 1, 0, 0, false, "");
+void coalAttempt(string &in asName, int aIState) {
+    float fSpeed2 = 10.0f;
+    float fSpeed1 = 10.0f;
+    RotatePropToSpeed("elevator_machine_cog_small_2", 1, 6.0f, 0, 0, -1, false, "");
+	RotatePropToSpeed("elevator_machine_cog_small_1", 1, 6.0f, 0, 0, -1, false, "");
+	RotatePropToSpeed("elevator_machine_cog_small_3", 1, 6.0f, 1, 0, 0, false, "");
+	RotatePropToSpeed("elevator_machine_cog_main_1", 1, 2.0f, 1, 0, 0, false, "");
+    RotatePropToSpeed("elevator_cogwheel03_mounted_1", 1, 6.0f, 0, 0, -1, false, "");
+    RotatePropToSpeed("elevator_cogwheel03_mounted_2", 1, 6.0f, 0, 0, -1, false, "");
+    RotatePropToSpeed("elevator_cogwheel03_mounted_3", 1, 6.0f, 0, 0, -1, false, "");
 }
