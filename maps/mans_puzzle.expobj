@@ -1,0 +1,210 @@
+<Level>
+    <MapData FogActive="false" FogColor="1 1 1 1" FogCulling="true" FogEnd="20" FogFalloffExp="1" FogStart="0" GlobalDecalMaxTris="300" Name="" SkyBoxActive="false" SkyBoxColor="1 1 1 1" SkyBoxTexture="../../../../../../">
+        <MapContents>
+            <FileIndex_StaticObjects NumOfFiles="29">
+                <File Id="0" Path="static_objects/mansionbase/wall/default02.dae" />
+                <File Id="1" Path="static_objects/mansionbase/wall/door_way02.dae" />
+                <File Id="2" Path="static_objects/mansionbase/wall/door_frame.dae" />
+                <File Id="3" Path="static_objects/mansionbase/ceiling/corner_concave_short.dae" />
+                <File Id="4" Path="static_objects/mansionbase/ceiling/concave.dae" />
+                <File Id="5" Path="static_objects/mansionbase/stairs/default.dae" />
+                <File Id="6" Path="static_objects/mansionbase/stairs/welder.dae" />
+                <File Id="7" Path="static_objects/mansionbase/stairs/railing.dae" />
+                <File Id="8" Path="static_objects/castlebase/wall/door_way.dae" />
+                <File Id="9" Path="static_objects/mansionbase/wall/window02_large_yellow.dae" />
+                <File Id="10" Path="static_objects/mansionbase/wall/door_way.dae" />
+                <File Id="11" Path="static_objects/mansionbase/wall/default.dae" />
+                <File Id="12" Path="static_objects/mansionbase/wall/welder02_convex.dae" />
+                <File Id="13" Path="static_objects/mansionbase/wall/wall_stove.dae" />
+                <File Id="14" Path="static_objects/mansionbase/wall/window03_yellow.dae" />
+                <File Id="15" Path="static_objects/ornaments/carpets/carpet02.dae" />
+                <File Id="16" Path="static_objects/castlebase/wall/default.dae" />
+                <File Id="17" Path="static_objects/castlebase/wall/welder_convex.dae" />
+                <File Id="18" Path="static_objects/castlebase/wall/welder.dae" />
+                <File Id="19" Path="static_objects/mansionbase/wall/pillar02.dae" />
+                <File Id="20" Path="static_objects/ornaments/carpets/carpet01.dae" />
+                <File Id="21" Path="static_objects/ornaments/carpets/carpet03.dae" />
+                <File Id="22" Path="static_objects/ornaments/carpets/carpet04.dae" />
+                <File Id="23" Path="static_objects/ornaments/curtains/curtain01_open.dae" />
+                <File Id="24" Path="static_objects/mansionbase/wall/window_large_yellow.dae" />
+                <File Id="25" Path="static_objects/mansionbase/ceiling/corner_convex_short.dae" />
+                <File Id="26" Path="static_objects/mansionbase/wall/welder.dae" />
+                <File Id="27" Path="static_objects/mansionbase/wall/welder02_concave.dae" />
+                <File Id="28" Path="static_objects/ornaments/curtains/curtain01_closed.dae" />
+            </FileIndex_StaticObjects>
+            <FileIndex_Entities NumOfFiles="74">
+                <File Id="0" Path="entities/door/level_wood/level_wood.ent" />
+                <File Id="1" Path="entities/door/level_hub/level_hub.ent" />
+                <File Id="2" Path="entities/furniture/cabinet_nice/cabinet_nice.ent" />
+                <File Id="3" Path="entities/furniture/chest_of_drawers_nice/chest_of_drawers_nice.ent" />
+                <File Id="4" Path="entities/lamp/candlestick01/candlestick01.ent" />
+                <File Id="5" Path="entities/lamp/candlestick_floor/candlestick_floor.ent" />
+                <File Id="6" Path="entities/tool/wall_of_tools/wall_of_tools.ent" />
+                <File Id="7" Path="entities/ornament/book_open/book_open.ent" />
+                <File Id="8" Path="entities/bottle/wine02/wine02.ent" />
+                <File Id="9" Path="entities/cloth/shirts/shirt_hanging_white/shirt_hanging_white.ent" />
+                <File Id="10" Path="entities/container/barrel01/barrel01.ent" />
+                <File Id="11" Path="entities/container/wood_box01/wood_box01.ent" />
+                <File Id="12" Path="entities/equipment/broom/broom.ent" />
+                <File Id="13" Path="entities/ornament/paintings/painting02/painting02.ent" />
+                <File Id="14" Path="entities/ornament/cross_small_metal/cross_small_metal.ent" />
+                <File Id="15" Path="entities/door/mansion/mansion.ent" />
+                <File Id="16" Path="entities/furniture/table_metal/table_metal.ent" />
+                <File Id="17" Path="entities/furniture/stove_metal/stove_metal_rust.ent" />
+                <File Id="18" Path="entities/container/wood_box02/wood_box02.ent" />
+                <File Id="19" Path="entities/furniture/chair_wood02/chair_wood02.ent" />
+                <File Id="20" Path="entities/furniture/cabinet_metal/cabinet_metal.ent" />
+                <File Id="21" Path="entities/container/wood_box03/wood_box03.ent" />
+                <File Id="22" Path="entities/furniture/stool_wood/stool_wood.ent" />
+                <File Id="23" Path="entities/kitchen/plate/plate.ent" />
+                <File Id="24" Path="entities/kitchen/scewer_place/scewer_place.ent" />
+                <File Id="25" Path="entities/kitchen/fire_place/fire_place.ent" />
+                <File Id="26" Path="entities/kitchen/pot/pot.ent" />
+                <File Id="27" Path="entities/kitchen/butcher_knife/butcher_knife.ent" />
+                <File Id="28" Path="entities/storage/big_wine_barrel/big_wine_barrel.ent" />
+                <File Id="29" Path="entities/ptest/potato_sack/potato_sack_open.ent" />
+                <File Id="30" Path="entities/ptest/potato_sack/potato_sack_closed.ent" />
+                <File Id="31" Path="entities/furniture/bed_nice/bed_nice.ent" />
+                <File Id="32" Path="entities/furniture/work_desk/work_desk.ent" />
+                <File Id="33" Path="entities/furniture/work_desk/work_desk_door.ent" />
+                <File Id="34" Path="entities/furniture/chair_nice02/chair_nice02.ent" />
+                <File Id="35" Path="entities/furniture/sofa/sofa.ent" />
+                <File Id="36" Path="entities/desktop/deskpad/deskpad.ent" />
+                <File Id="37" Path="entities/desktop/ink_bottle/ink_bottle.ent" />
+                <File Id="38" Path="entities/desktop/paperpile01/paperpile01.ent" />
+                <File Id="39" Path="entities/lamp/candlestick02/candlestick02.ent" />
+                <File Id="40" Path="entities/ornament/paintings/painting03/painting03.ent" />
+                <File Id="41" Path="entities/ornament/paintings/painting04/painting04.ent" />
+                <File Id="42" Path="entities/furniture/cabinet_simple/cabinet_simple.ent" />
+                <File Id="43" Path="entities/furniture/display/display.ent" />
+                <File Id="44" Path="entities/door/castle/castle.ent" />
+                <File Id="45" Path="entities/special/elevator_machine/elevator_machine.ent" />
+                <File Id="46" Path="entities/special/control_room_pipes01-03/control_room_pipe02.ent" />
+                <File Id="47" Path="entities/special/control_room_pipes01-03/control_room_pipe03.ent" />
+                <File Id="48" Path="entities/special/cog_wheels_machinery/cog_wheels_machinery.ent" />
+                <File Id="49" Path="entities/special/barrier_machine/barrier_machine_cog.ent" />
+                <File Id="50" Path="entities/special/barrier_machine/barrier_machine.ent" />
+                <File Id="51" Path="entities/statues/armour_nice/armour_nice_complete.ent" />
+                <File Id="52" Path="entities/ornament/banners/banners01/banner_long01.ent" />
+                <File Id="53" Path="entities/ornament/shield02/shield02.ent" />
+                <File Id="54" Path="entities/ornament/shield01/shield01.ent" />
+                <File Id="55" Path="entities/furniture/table_nice_round/table_nice_round.ent" />
+                <File Id="56" Path="entities/statues/bust/bust.ent" />
+                <File Id="57" Path="entities/statues/eagle/eagle.ent" />
+                <File Id="58" Path="entities/lamp/candlestick_wall/candlestick_wall.ent" />
+                <File Id="59" Path="entities/ornament/banners/banners01/banner_short01.ent" />
+                <File Id="60" Path="entities/lamp/chandelier_large/chandelier_large.ent" />
+                <File Id="61" Path="entities/ornament/cross_small_wood/cross_small_wood.ent" />
+                <File Id="62" Path="entities/ornament/book_bible/book_bible.ent" />
+                <File Id="63" Path="entities/lamp/candle_floor/candle_floor_small.ent" />
+                <File Id="64" Path="entities/door/level_engine/level_engine.ent" />
+                <File Id="65" Path="entities/furniture/table_nice02/table_nice02.ent" />
+                <File Id="66" Path="entities/furniture/stove_front02/stove_front02.ent" />
+                <File Id="67" Path="entities/furniture/chair_nice01/chair_nice01.ent" />
+                <File Id="68" Path="entities/ornament/goblet/goblet.ent" />
+                <File Id="69" Path="entities/ornament/arabic_carafe/arabic_carafe.ent" />
+                <File Id="70" Path="entities/furniture/chest_of_drawers_simple/chest_of_drawers_simple.ent" />
+                <File Id="71" Path="entities/ornament/arabic_statue/arabic_statue.ent" />
+                <File Id="72" Path="entities/lamp/candlestick_tri/candlestick_tri.ent" />
+                <File Id="73" Path="entities/lamp/bonfire/bonfire.ent" />
+            </FileIndex_Entities>
+            <FileIndex_Decals NumOfFiles="0" />
+            <StaticObjects>
+                <StaticObject CastShadows="true" Collides="true" FileIndex="16" Group="0" ID="451" Name="wall_default_31" Rotation="0 -1.5708 0" Scale="1 1 1" Tag="" WorldPos="-8 6.5 -16" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="16" Group="0" ID="450" Name="wall_default_30" Rotation="0 -1.5708 0" Scale="1 1 1" Tag="" WorldPos="-8 6.5 -20" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="17" Group="0" ID="469" Name="wall_welder_convex_1" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="-11.75 6.5 -18.25" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="16" Group="0" ID="456" Name="wall_default_34" Rotation="0 3.49691e-007 0" Scale="1 1 1" Tag="" WorldPos="-13.75 6.5 -18" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="16" Group="0" ID="465" Name="wall_default_37" Rotation="3.14159 -6.75532e-007 3.14159" Scale="1 1 1" Tag="" WorldPos="-13.75 6.5 -18" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="16" Group="0" ID="449" Name="wall_default_29" Rotation="0 -1.5708 0" Scale="1 1 1" Tag="" WorldPos="-8 6.5 -24" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="16" Group="0" ID="455" Name="wall_default_33" Rotation="0 3.49691e-007 0" Scale="1 1 1" Tag="" WorldPos="-17.75 6.5 -18" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="16" Group="0" ID="464" Name="wall_default_36" Rotation="3.14159 -6.75532e-007 3.14159" Scale="1 1 1" Tag="" WorldPos="-17.75 6.5 -18" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="16" Group="0" ID="448" Name="wall_default_28" Rotation="0 1.74846e-007 0" Scale="1 1 1" Tag="" WorldPos="-10 6.5 -26" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="16" Group="0" ID="442" Name="wall_default_22" Rotation="3.14159 1.5708 3.14159" Scale="1 1 1" Tag="" WorldPos="-20 6.5 -12" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="16" Group="0" ID="443" Name="wall_default_23" Rotation="3.14159 1.5708 3.14159" Scale="1 1 1" Tag="" WorldPos="-20 6.5 -16" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="18" Group="0" ID="472" Name="wall_welder_1" Rotation="0 0.261799 0" Scale="1 1 1" Tag="" WorldPos="-19.75 6.5 -17.75" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="18" Group="0" ID="473" Name="wall_welder_2" Rotation="3.14159 1.0472 3.14159" Scale="1 1 1" Tag="" WorldPos="-19.75 6.5 -18.25" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="16" Group="0" ID="447" Name="wall_default_27" Rotation="0 1.74846e-007 0" Scale="1 1 1" Tag="" WorldPos="-14 6.5 -26" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="16" Group="0" ID="444" Name="wall_default_24" Rotation="3.14159 1.5708 3.14159" Scale="1 1 1" Tag="" WorldPos="-20 6.5 -20" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="16" Group="0" ID="445" Name="wall_default_25" Rotation="3.14159 1.5708 3.14159" Scale="1 1 1" Tag="" WorldPos="-20 6.5 -24" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="16" Group="0" ID="446" Name="wall_default_26" Rotation="0 1.74846e-007 0" Scale="1 1 1" Tag="" WorldPos="-18 6.5 -26.25" />
+            </StaticObjects>
+            <Primitives>
+                <Plane Active="true" AlignToWorldCoords="false" CastShadows="false" Collides="true" Corner1UV="0 17.75" Corner2UV="0 0" Corner3UV="13.25 0" Corner4UV="13.25 17.75" EndCorner="13.25 0 17.75" Group="0" ID="454" Material="D:/SteamLibrary/steamapps/steamapps/common/Amnesia The Dark Descent/static_objects/mansionbase/floor/mansionbase_floor_boards.mat" Name="Plane" Rotation="0 0 0" Scale="1 1 1" StartCorner="0 0 0" Tag="" TextureAngle="0" TileAmount="1 1 1" TileOffset="0 0 0" WorldPos="-20.5 6.5 -27.75" />
+            </Primitives>
+            <Decals />
+            <Entities>
+                <Entity Active="true" FileIndex="45" Group="0" ID="515" Name="elevator_machine_1" Rotation="3.14159 4.39483e-006 3.14159" Scale="1 1 1" Tag="" WorldPos="-15.25 6.5 -22">
+                    <UserVariables>
+                        <Var Name="CastShadows" Value="true" />
+                        <Var Name="IsAffectedByDecal" Value="true" />
+                    </UserVariables>
+                </Entity>
+                <Entity Active="true" FileIndex="50" Group="0" ID="497" Name="barrier_machine_1" Rotation="3.14159 -8.74228e-008 3.14159" Scale="1 1 1" Tag="" WorldPos="-19.25 6.5 -13">
+                    <UserVariables>
+                        <Var Name="CastShadows" Value="true" />
+                        <Var Name="IsAffectedByDecal" Value="true" />
+                    </UserVariables>
+                </Entity>
+                <Entity Active="true" FileIndex="48" Group="0" ID="502" Name="cog_wheels_machinery_1" Rotation="-1.5708 1.5708 3.14159" Scale="1 1 1" Tag="" WorldPos="-19.5 9 -16.25">
+                    <UserVariables>
+                        <Var Name="CastShadows" Value="true" />
+                        <Var Name="StaticPhysics" Value="false" />
+                        <Var Name="IsAffectedByDecal" Value="false" />
+                        <Var Name="CallbackFunc" Value="" />
+                        <Var Name="ConnectedProps" Value="" />
+                        <Var Name="ConnectionStateChangeCallback" Value="" />
+                        <Var Name="FullGameSave" Value="false" />
+                        <Var Name="PlayerLookAtCallback" Value="" />
+                        <Var Name="PlayerLookAtCallbackAutoRemove" Value="false" />
+                        <Var Name="PlayerInteractCallback" Value="" />
+                        <Var Name="PlayerInteractCallbackAutoRemove" Value="false" />
+                        <Var Name="ContainedItem" Value="None" />
+                        <Var Name="DisableBreakable" Value="false" />
+                        <Var Name="IsInsanityVision" Value="false" />
+                        <Var Name="VisionMaxSanity" Value="30" />
+                    </UserVariables>
+                </Entity>
+                <Entity Active="true" FileIndex="47" Group="0" ID="509" Name="control_room_pipe03_2" Rotation="-1.5708 -3.57746e-008 1.5708" Scale="1 1 1" Tag="" WorldPos="-20 9 -14.5">
+                    <UserVariables>
+                        <Var Name="CastShadows" Value="true" />
+                        <Var Name="StaticPhysics" Value="false" />
+                        <Var Name="IsAffectedByDecal" Value="false" />
+                        <Var Name="CallbackFunc" Value="" />
+                        <Var Name="ConnectedProps" Value="" />
+                        <Var Name="ConnectionStateChangeCallback" Value="" />
+                        <Var Name="FullGameSave" Value="false" />
+                        <Var Name="PlayerLookAtCallback" Value="" />
+                        <Var Name="PlayerLookAtCallbackAutoRemove" Value="false" />
+                        <Var Name="PlayerInteractCallback" Value="" />
+                        <Var Name="PlayerInteractCallbackAutoRemove" Value="false" />
+                        <Var Name="ContainedItem" Value="None" />
+                        <Var Name="DisableBreakable" Value="false" />
+                        <Var Name="IsInsanityVision" Value="false" />
+                        <Var Name="VisionMaxSanity" Value="30" />
+                    </UserVariables>
+                </Entity>
+                <Entity Active="true" FileIndex="46" Group="0" ID="508" Name="control_room_pipe02_1" Rotation="3.14159 1.5708 0.0963012" Scale="1 1 1" Tag="" WorldPos="-20 9.5 -13.25">
+                    <UserVariables>
+                        <Var Name="CastShadows" Value="true" />
+                        <Var Name="StaticPhysics" Value="false" />
+                        <Var Name="IsAffectedByDecal" Value="false" />
+                        <Var Name="CallbackFunc" Value="" />
+                        <Var Name="ConnectedProps" Value="" />
+                        <Var Name="ConnectionStateChangeCallback" Value="" />
+                        <Var Name="FullGameSave" Value="false" />
+                        <Var Name="PlayerLookAtCallback" Value="" />
+                        <Var Name="PlayerLookAtCallbackAutoRemove" Value="false" />
+                        <Var Name="PlayerInteractCallback" Value="" />
+                        <Var Name="PlayerInteractCallbackAutoRemove" Value="false" />
+                        <Var Name="ContainedItem" Value="None" />
+                        <Var Name="DisableBreakable" Value="false" />
+                        <Var Name="IsInsanityVision" Value="false" />
+                        <Var Name="VisionMaxSanity" Value="30" />
+                    </UserVariables>
+                </Entity>
+            </Entities>
+            <Misc />
+            <StaticObjectCombos />
+        </MapContents>
+    </MapData>
+</Level>

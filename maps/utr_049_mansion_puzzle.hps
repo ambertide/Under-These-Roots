@@ -1,0 +1,33 @@
+void OnStart()
+{
+    SetLocalVarInt("PuzzleComplete", 0);
+    SetLocalVarInt("BurnerCoal", 0);
+    SetLeverStuckState("elevator_machine_coal_lever_1", -1, false);
+    SetEntityConnectionStateChangeCallback("elevator_machine_coal_lever_1", "coalAttempt");
+}
+
+void BurnerComplete() {
+    AddLocalVarInt("PuzzleComplete", 1);
+    SetLeverStuckState("elevator_machine_coal_lever_1", 0, true);
+}
+
+void PipesComplete() {
+    AddLocalVarInt("PuzzleComplete", 1);
+}
+
+void BurnerEnter(string &in parent, string &in child, int state)
+{
+    if (parent == "BurnerArea") {
+        AddLocalVarInt("BurnerCoal", 1);
+        if (GetLocalVarInt("BurnerCoal") == 5) {
+            BurnerComplete();
+        }
+    }
+}
+
+void coalAttempt(string &in asName, string &in abDisabled) {
+    RotatePropToSpeed("elevator_machine_cog_small_2", 1, fSpeed2*3, 0, 0, -1, false, "");
+	RotatePropToSpeed("elevator_machine_cog_small_1", 1, fSpeed1*3, 0, 0, -1, false, "");
+	RotatePropToSpeed("elevator_machine_cog_small_3", 1, fSpeed2*3, 1, 0, 0, false, "");
+	RotatePropToSpeed("elevator_machine_cog_main_1", 1, fSpeed1, 1, 0, 0, false, "");
+}
